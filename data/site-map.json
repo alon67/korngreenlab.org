@@ -1,0 +1,109 @@
+{
+  "source": "https://www.korngreenlab.org/",
+  "generatedAt": "2026-06-02T14:59:38.295Z",
+  "dns": {
+    "customDomain": "www.korngreenlab.org",
+    "registrarAccessConfirmed": false,
+    "notes": "Confirm registrar and DNS access before GitHub Pages cutover."
+  },
+  "pages": [
+    {
+      "title": "Home",
+      "path": "/",
+      "url": "https://www.korngreenlab.org/",
+      "language": "en",
+      "priority": 1
+    },
+    {
+      "title": "Research",
+      "path": "/research",
+      "url": "https://www.korngreenlab.org/research",
+      "language": "en",
+      "priority": 0.9
+    },
+    {
+      "title": "Themes",
+      "path": "/themes",
+      "url": "https://www.korngreenlab.org/themes",
+      "language": "en",
+      "priority": 0.7
+    },
+    {
+      "title": "Resources",
+      "path": "/resources",
+      "url": "https://www.korngreenlab.org/resources",
+      "language": "en",
+      "priority": 0.7
+    },
+    {
+      "title": "Research Hebrew",
+      "path": "/research-hebrew",
+      "url": "https://www.korngreenlab.org/research-hebrew",
+      "language": "he",
+      "priority": 0.7
+    },
+    {
+      "title": "About",
+      "path": "/about1",
+      "url": "https://www.korngreenlab.org/about1",
+      "language": "en",
+      "priority": 0.6
+    },
+    {
+      "title": "Publications",
+      "path": "/publications",
+      "url": "https://www.korngreenlab.org/publications",
+      "language": "en",
+      "priority": 0.95
+    },
+    {
+      "title": "Lab Members",
+      "path": "/lab-members",
+      "url": "https://www.korngreenlab.org/lab-members",
+      "language": "en",
+      "priority": 0.8
+    },
+    {
+      "title": "People Copy",
+      "path": "/copy-of-lab-members",
+      "url": "https://www.korngreenlab.org/copy-of-lab-members",
+      "language": "en",
+      "priority": 0.5
+    },
+    {
+      "title": "Curriculum Vita",
+      "path": "/curriculum-vita",
+      "url": "https://www.korngreenlab.org/curriculum-vita",
+      "language": "en",
+      "priority": 0.7
+    },
+    {
+      "title": "Collaborators",
+      "path": "/collaborators",
+      "url": "https://www.korngreenlab.org/collaborators",
+      "language": "en",
+      "priority": 0.7
+    },
+    {
+      "title": "Positions",
+      "path": "/positions",
+      "url": "https://www.korngreenlab.org/positions",
+      "language": "en",
+      "priority": 0.7
+    },
+    {
+      "title": "Lab Pictures",
+      "path": "/lab-pictures",
+      "url": "https://www.korngreenlab.org/lab-pictures",
+      "language": "en",
+      "priority": 0.75
+    },
+    {
+      "title": "Contact",
+      "path": "/contact",
+      "url": "https://www.korngreenlab.org/contact",
+      "language": "en",
+      "priority": 0.7
+    }
+  ]
+}

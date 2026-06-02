@@ -1,0 +1,33 @@
+{
+  "title": "Positions",
+  "sourceTitle": "Positions",
+  "path": "/positions",
+  "sourceUrl": "https://www.korngreenlab.org/positions",
+  "language": "en",
+  "direction": "ltr",
+  "textLines": [
+    "Brain research is multidisiplinary!",
+    "We offer a warm and stimulating environment for PhD and M.Sc. students from any background:",
+    "Neuroscience, Biology, Chemistry, Computer Science, Physics, Engineering and many other fields.",
+    "Please apply to the following E-mail: alon.korngreen@biu.ac.il"
+  ],
+  "links": [
+    {
+      "text": "alon.korngreen@biu.ac.il",
+      "href": "mailto:alon.korngreen@biu.ac.il"
+    },
+    {
+      "text": "https://www.facebook.com/alon.korngreen",
+      "href": "https://www.facebook.com/alon.korngreen"
+    },
+    {
+      "text": "https://plus.google.com/+AlonKorngreen/posts",
+      "href": "https://plus.google.com/+AlonKorngreen/posts"
+    },
+    {
+      "text": "https://www.flickr.com/photos/photoloni/",
+      "href": "https://www.flickr.com/photos/photoloni/"
+    }
+  ],
+  "images": []
+}

@@ -1,0 +1,201 @@
+# Publications | korngreenlab
+
+Source: https://www.korngreenlab.org/publications
+Extracted: 2026-06-02T15:11:47.421Z
+
+## Visible Text
+
+Skip to Main Content
+
+THE KORNGREEN LAB
+
+Cellular and Computational Neurophysiology
+
+Home
+
+Research
+
+Publications
+
+People
+
+Contact
+
+EDITED BOOKS
+
+Korngreen, A. (2016) Advanced Patch-Clamp Analysis for Neuroscientists. Humana Press.
+
+JOURNAL ARTICLES
+
+Korngreen, A. and Priel, Z. (1994) Simultaneous measurement of intracellular calcium and ciliary beating. Biophys. J. 67, 377-380.
+
+Tarasiuk, A., Bar-Shimon, M., Gheber, L., Korngreen, A., Grossman, Y. and Priel, Z. (1995) Extracellular ATP induces hyperpolarization and motility stimulation of ciliary cells. Biophys. J. 68, 1163-1169.
+
+Alfahel, E., Korngreen, A., Parola, A.H. and Priel, Z. (1996) Purinergically induced membrane fluidization in ciliary cells: characterization and control by calcium and membrane potential. Biophys. J. 70, 1045-1053.
+
+Korngreen, A. and Priel, Z. (1996) Purinergic stimulation of rabbit ciliated airway epithelia: control by multiple calcium sources. J. Physiol. (Lond.) 497, 53-66.
+
+Korngreen, A., Gold’shtein, V. and Priel, Z. (1997) Realistic modeling of biphasic calcium transients in electrically nonexcitable cells. Biophys. J. 73, 659-673.
+
+Gheber, L., Korngreen, A. and Priel, Z. (1998) Effect of viscosity on metachrony in mucus propelling cilia. Cell Motil. Cytoskeleton 39, 9-20.
+
+Korngreen, A. and Priel, Z. (1998) Mucus transporting cilia: A model system for investigating calcium signaling in electrically inexcitable cells. In: Cilia, Mucus, and Mucociliary Interactions. Marcel Dekker, NY, pp. 49-58.
+
+Korngreen, A., Ma, W., Priel, Z. and Silberberg, S.D. (1998) Extracellular ATP directly gates a cation-selective channel in rabbit airway ciliated epithelial cells. J. Physiol. (Lond.) 508, 703-720.
+
+Weiyuan, M., Korngreen, A., Uzlaner, N., Priel, Z. and Silberberg, S.D. (1999) Extracellular Na+ regulates airway ciliary motility by inhibiting a P2X receptor. Nature 400, 894-897.
+
+Korngreen, A. and Sakmann, B. (2000) Voltage gated K+ channels in layer 5 neocortical pyramidal neurones from young rats: subtypes and gradients. J. Physiol. 525, 621-639.
+
+Silberberg, S.D., Korngreen, A., Ma, W., Uzlaner, N. and Priel, Z. (2001) Modulation of ciliary motility by Na+ In: Cilia and Mucus: From Development to respiratory defense. Marcel Dekker, NY, pp. 81-90.
+
+Gensler, S., Sander, A., Korngreen, A., Traina, G., Giese, G. and Witzemann, V. (2001). Acetylcholine receptor- and -subunits tagged with green fluorescent protein are incorporated at the neuromuscular junction in vivo. Eur. J. Biochem. 268, 2209-2217.
+
+Schaefer, A.T., Helmstaedter, M., Sakmann, B. and Korngreen, A. (2003) Correction of conductance measurements in non-space-clamped structures: 1. Voltage-gated K+ channels. Biophys. J. 84, 3508-3528.
+
+Korngreen, A., Kaiser, KMM., Zilberter Y. (2005) Subthreshold Inactivation of Voltage-gated K+ Channels Modulates Action Potentials in Neocortical Bitufted Interneurones J. Physiol. 562, 421-437.
+
+Peter, C., Korngreen, A. and Witzemann, V. (2005). Mutation of single murine acetylcholine receptor subunits reveals differential contribution of P121 to acetylcholine binding and to channel opening. Pflug. Arch. Eur. J. Physiol. 450, 178–184.
+
+Keren, N. Peled, N. and Korngreen A. (2005). Constraining compartmental models using multiple voltage-recordings and genetic algorithms. J. Neurophysiol. 94: 3730-3743
+
+Ma, W., Korngreen, A., Weil, S., Ben-Tal Cohen, E., Priel, A., Kuzin, L., Silberberg, SD. (2006). Pore properties and pharmacological features of the P2X receptor channel in airway ciliated cells. J. Physiol. 571: 503-517.
+
+Gurkiewicz, M., Korngreen, A. (2006) Recording, Analysis and Function of Dendritic Voltage-Gated Channels. Pflug. Arch. Eur. J. Physiol. 453: 283-292
+
+Schaefer, AT., Helmstaedter, M., Schmitt, AC., Bar-Yehuda, D., Almog, M., Ben-Porat, H., Sakmann, B. and Korngreen, A (2007) Dendritic voltage-gated K+ conductance gradient in neocortical pyramidal neurones. J. Physiol. 579: 737-752
+
+Michaelevski, I., Korngreen A., and Lotan, I. (2007) Interaction of syntaxin 1A with a presynaptic voltage-gated K+ channel: a possible mechanism for modulation of synaptic integration. Pflug. Arch. Eur. J. Physiol. 454:477-494
+
+Gurkiewicz, M., and Korngreen, A. (2007). A numerical approach to ion channel modelling using whole-cell voltage-clamp recordings and a genetic algorithm. PLoS Comp Biol 3(8): e169.
+
+Segev D., and Korngreen, A. (2007). Kinetics of two voltage-gated K+ conductances in substantia nigra dopaminergic neurons. Brain Res 1173: 27-35.
+
+Bar-Yehuda, D., and Korngreen, A. (2007). Cellular and network contributions to excitability of layer 5 neocortical pyramidal neurons in the rat PLoS ONE 2(11): e1209
+
+Hurwitz, I., Ophir, A., Korngreen, A., Koester, J., and Susswein AJ. (2008) Currents Contributing to Decision-Making in Neurons B31/B32 of Aplysia. J. Neurophysiol. 99: 814–830.
+
+Bar-Yehuda, D., and Korngreen, A. (2008). Space clamp problems when voltage clamping neurons expressing voltage-gated conductances. J. Neurophysiol 99: 1127–1136.
+
+Pomp O, Brokhman I, Ziegler L, Almog M, Korngreen A, Tavian M, Goldstein RS. (2008) PA6-induced human embryonic stem cell-derived neurospheres: a new source of human peripheral sensory neurons and neural crest cells. Brain Res. 1230:50-60.
+
+Bar-Yehuda D., Hana Ben-Porat, H., and Korngreen A. (2008) Dendritic excitability during increased synaptic activity in rat neocortical L5 pyramidal neurons European Journal of Neuroscience, 28, 2183–2194.
+
+Keren, N., Bar-Yehuda, D., and Korngreen, A. (2009) Experimentally guided modeling of dendritic excitability in rat neocortical pyramidal neurons. J. Physiol. 587: 1413-1437.
+
+Almog, M. and Korngreen, A. (2009) Characterization of voltage-gated Ca2+ channels in layer 5 neocortical pyramidal neurons from rats PLoS ONE, 4:e4841.
+
+Regev N, Degani-Katzav N, Korngreen A, Etzioni A, Siloni S, Alaimo A, Chikvashvili D, Villarroel A, Attali B, Lotan I, (2009) Selective Interaction of Syntaxin 1A with KCNQ2: Possible Implications for Specific Modulation of Presynaptic Activity. PLoS ONE 4(8): e6586.
+
+Bronfeld M, Belelovsky K, Erez Y, Bugaysen J, Korngreen A, Bar-Gad I. (2010) Bicuculline induced chorea manifests in focal rather than globalized abnormalities in the activation of the external and internal globus pallidus. J Neurophysiol. 104(6):3261-75.
+
+Bugaysen J, Bronfeld M, Tischler H, Bar-Gad I, Korngreen A. (2010) Electrophysiological characteristics of globus pallidus neurons. PLoS One 5(8): e12001.
+
+Tischler, H., Wolfus, S., Friedman, A., Perel, E., Pashut, T., Lavidor, M., Korngreen A., Yeshurun, Y, Bar-Gad, I. (2011) Mini-coil for magnetic stimulation in the behaving primate, J. Neurosci Methods. 15; 194(2): 242-51.
+
+Gurkiewicz M, Korngreen A, Waxman SG, Lampert A. (2011). Kinetic Modeling of Nav1.7 Provides Insight Into Erythromelalgia-associated F1449V Mutation. Journal of Neurophysioloy 105(4): 1546-57.
+
+Pashut, T., Wolfus, S. Friedman, A., Lavidor, M. Bar-Gad, I. Yeshurun, Y., and Korngreen A. (2011) Mechanisms of magnetic stimulation of central nervous system neurons. PLoS Computational Biology 7(3): e1002022
+
+Bugaysen J, Bar-Gad I and Korngreen A (2011). The impact of stimulation induced short-term synaptic plasticity on firing patterns in the globus pallidus of the rat. Frontiers in Systems Neuroscience 5:16.
+
+Berger, U., Korngreen, A., Bar-Gad, I., Friedman A., Wolfus, S., Yeshurun, Y., and Lavidor M. (2011) Magnetic stimulation intensity modulates motor inhibition. Neuroscience Letters. 504(2): 93-7.
+
+Ben-Shalom R, Aviv A Razon, B. and Korngreen A. (2012) Optimizing ion channel kinetics using a massively parallel genetic algorithm on a graphical processing unit. Journal of Neuroscience Methods. 15;206(2):183-94
+
+Tischler, H. Moran A, Belelovsky K, Bronfeld M, Korngreen A, Bar-Gad I. (2012) Changes in basal ganglia processing of cortical input following magnetic stimulation in Parkinsonism Neurobiology of disease 48, 464-473
+
+Ben-Shalom R, Liberman G, Korngreen A. (2013) Accelerating compartmental modeling on a graphical processing unit. Front Neuroinform.18;7:4.
+
+Bugaysen J, Bar-Gad I, Korngreen A. (2013) Continuous modulation of action potential firing by a unitary GABAergic connection in the globus pallidus in vitro. J Neurosci. 31;33(31):12805-9
+
+M Brody, and Korngreen. A. (2013) Simulating the effects of short-term synaptic plasticity on postsynaptic dynamics in the globus pallidus Front. Syst. Neurosci., 08 August 2013 7:40,1-11 | doi: 10.3389/fnsys.2013.00040
+
+Lavian H, Ben Porat H and Korngreen A (2013) High and low frequency stimulation of the subthalamic nucleus induce prolonged changes in subthalamic and globus pallidus neurons. Front. Syst. Neurosci. 7:73,1-8. doi: 10.3389/fnsys.2013.00073
+
+Tzachi Sabati; Bat-Sheva Galmidi; Alon Korngreen; Naomi Zurgil; Mordechai Deutsch J.Real-time monitoring of changes in plasma membrane potential via imaging of fluorescence resonance energy transfer at individual cell resolution in suspension Biomed. Opt. 18 (12), 126010 (December 16, 2013); 18. 126010-20
+
+Almog M, Korngreen A. (2014) A quantitative description of dendritic conductances and its application to dendritic excitation in layer 5 pyramidal neurons. J Neurosci. 2014 Jan 1;34(1):182-96.
+
+Pashut T, Magidov D, Ben-Porat H, Wolfus S, Friedman A, Perel E, Lavidor, M, Bar-Gad I, Yeshurun Y and Korngreen A (2014) Patch-clamp recordings of rat neurons from acute brain slices of the somatosensory cortex during magnetic stimulation. Front. Cell. Neurosci. 8:145. 1-12 doi: 10.3389/fncel.2014.0014
+
+Lavian H, Korngreen A. (2015). Inhibitory short-term plasticity modulates neuronal activity in the rat entopeduncular nucleus in vitro. Eur J Neurosci. 2015 May 25. doi: 10.1111/ejn.12965.
+
+Almog M, Korngreen A. (2016) Is realistic neuronal modeling realistic? J Neurophysiol. 116(5):2180-2209
+
+Korngreen A.(2017) Visualizing fundamental neuronal computation for life science students. Adv Physiol Educ.41(2):312-314
+
+Lavian H, Almog M, Madar R, Loewenstern Y, Bar-Gad I, Okun E, Korngreen A. (2017) Dopaminergic Modulation of Synaptic Integration and Firing Patterns in the Rat Entopeduncular Nucleus. J Neurosci.37(30):7177-7187
+
+M Almog, T Barkai, A Lampert, A Korngreen (2018) Voltage-gated sodium channels in neocortical pyramidal neurons display Cole-Moore activation kinetics Frontiers in Cellular Neuroscience 12, 187
+
+H Lavian, Y Loewenstern, R Madar, M Almog, I Bar-Gad, E Okun, A Korngreen (2018) Dopamine receptors in the rat entopeduncular nucleus Brain Structure and Function 223 (6), 2673-2684
+
+Mark Grobman, Tal Dalal, Hagar Lavian, Ronit Shmuel, Katya Belelovsky, Fuqiang Xu, Alon Korngreen, Rafi Haddad (2018) A mirror-symmetric excitatory link coordinates odor maps across olfactory bulbs and enables odor perceptual unity. Neuron 99 (4), 800-813
+
+L Gorodetski, R Zeira, H Lavian, A Korngreen (2018) Long‐term plasticity of glutamatergic input from the subthalamic nucleus to the entopeduncular nucleus European Journal of Neuroscience 48 (5), 2139-2151
+
+A Faynveitz, H Lavian, A Jacob, A Korngreen (2019) Proliferation of inhibitory input to the Substantia Nigra in Experimental Parkinsonism Frontiers in cellular neuroscience 13, 417
+
+H Lavian, A Korngreen (2019) Short-term depression shapes information transmission in a constitutively active GABAergic synapse Scientific reports 9 (1), 1-15
+
+A Matzner, L Gorodetski, A Korngreen, I Bar-Gad (2020) Dynamic input-dependent encoding of individual basal ganglia neurons Scientific reports 10 (1), 1-13
+
+BOOKS CHAPTERS
+
+Angelika Lampert, and Alon Korngreen, Markov Modeling of Ion Channels: Implications for Understanding Disease. In Kim T. Blackwell, editor: Progress in Molecular Biology and Translational Science, Vol. 123, Burlington: Academic Press, 2014, pp. 1-21
+
+SCIENTIFIC CORRESPONDENCE
+
+Korngreen, A. (2004) Noise in the foreground. J. Neurophysiol. 94, 2400.
+
+Korngreen, A. (2005). Peer-review system could gain from author feedback. Nature, 438 :282
+
+Bourne PE., Korngreen, A. (2006) Ten simple rules for reviewers, PLoS Comp Biol 2:973-974
+
+Gurkiewicz M, Korngreen A. (2009). Too much quantification hinders creativity. Science 323:1662-4.
+
+Gurkiewicz M, Iron D, Bar‐Gad I & Korngreen A (2009) Rise of The Appendage. Front. Neuroinform.doi:10.3389/neuro.11.032.2009
+
+Schiller J., Korngreen A., Polsky A., de Kock C.P.J. (2009) The multifaceted physiology of action potentials in neocortical pyramidal neurons. CellSciRev 6(2): 6 - 18.
+
+Ahmed A. Moustafa, Izhar Bar-Gad, Alon Korngreen and Hagai Bergman. (2014). Basal ganglia: physiological, behavioral, and computational studies. Front. Syst. Neurosci., | doi: 10.3389/fnsys.2014.00150, 1-4
+
+EDITORIAL COMMENTARIES ABOUT MY PAPERS
+
+Storm JF. (2000) K+ channels and their distribution in large cortical pyramidal neurons. J. Physiol. 525, 565-566
+
+Häusser M. (2003) Revealing the Properties of Dendritic Voltage-Gated Channels: A New Approach to the Space Clamp Problem. Biophys. J. 84, 3497–3498
+
+Roth, A. and Bahl, A. (2009) Divide et impera: optimizing compartmental models of neurons step by step. J. Physiol. 587, 1369-1370.
+
+## Links
+
+- [Home](https://www.korngreenlab.org/)
+- [Research](https://www.korngreenlab.org/research)
+- [Publications](https://www.korngreenlab.org/publications)
+- [People](https://www.korngreenlab.org/copy-of-lab-members)
+- [Contact](https://www.korngreenlab.org/contact)
+- [Publications](http://scholar.google.co.il/citations?user=9DUsX7MAAAAJ&hl=en&oi=ao)
+- [Korngreen, A. (2016) Advanced Patch-Clamp Analysis for Neuroscientists. Humana Press.](http://link.springer.com/book/10.1007/978-1-4939-3411-9)
+- [JOURNAL ARTICLES](http://scholar.google.co.il/citations?user=9DUsX7MAAAAJ&hl=en&oi=ao)
+- [Bugaysen J, Bar-Gad I, Korngreen A. (2013) Continuous modulation of action potential firing by a unitary GABAergic connection in the globus pallidus in vitro. J Neurosci. 31;33(31):12805-9](http://www.jneurosci.org/content/33/31/12805.long)
+- [M Brody, and Korngreen. A. (2013) Simulating the effects of short-term synaptic plasticity on postsynaptic dynamics in the globus pallidus Front. Syst. Neurosci., 08 August 2013 7:40,1-11 | doi: 10.3389/fnsys.2013.00040](http://journal.frontiersin.org/Journal/10.3389/fnsys.2013.00040/full)
+- [Lavian H, Ben Porat H and Korngreen A (2013) High and low frequency stimulation of the subthalamic nucleus induce prolonged changes in subthalamic and globus pallidus neurons. Front. Syst. Neurosci. 7:73,1-8. doi: 10.3389/fnsys.2013.00073](http://journal.frontiersin.org/Journal/10.3389/fnsys.2013.00073/full)
+- [Tzachi Sabati; Bat-Sheva Galmidi; Alon Korngreen; Naomi Zurgil; Mordechai Deutsch J.Real-time monitoring of changes in plasma membrane potential via imaging of fluorescence resonance energy transfer at individual cell resolution in suspension Biomed. Opt. 18 (12), 126010 (December 16, 2013); 18. 126010-20](http://biomedicaloptics.spiedigitallibrary.org/article.aspx?articleid=1790494)
+- [lmog M, Korngreen A. (2014) A quantitative description of dendritic conductances and its application to dendritic excitation in layer 5 pyramidal neurons. J Neurosci. 2014 Jan 1;34(1):182-96.](http://www.jneurosci.org/content/34/1/182.short)
+- [Pashut T, Magidov D, Ben-Porat H, Wolfus S, Friedman A, Perel E, Lavidor, M, Bar-Gad I, Yeshurun Y and Korngreen A (2014) Patch-clamp recordings of rat neurons from acute brain slices of the somatosensory cortex during magnetic stimulation. Front. Cell. Neurosci. 8:145. 1-12 doi: 10.3389/fncel.2014.0014](http://journal.frontiersin.org/Journal/10.3389/fncel.2014.00145/abstract)
+- [Lavian H, Korngreen A. (2015). Inhibitory short-term plasticity modulates neuronal activity in the rat entopeduncular nucleus in vitro. Eur J Neurosci. 2015 May 25. doi: 10.1111/ejn.12965.](https://onlinelibrary.wiley.com/doi/abs/10.1111/ejn.12965)
+- [Almog M, Korngreen A. (2016) Is realistic neuronal modeling realistic? J Neurophysiol. 116(5):2180-2209](https://www.physiology.org/doi/abs/10.1152/jn.00360.2016)
+- [Korngreen A.(2017) Visualizing fundamental neuronal computation for life science students.](https://www.physiology.org/doi/abs/10.1152/advan.00026.2017)
+- [Lavian H, Almog M, Madar R, Loewenstern Y, Bar-Gad I, Okun E, Korngreen A. (2017) Dopaminergic Modulation of Synaptic Integration and Firing Patterns in the Rat Entopeduncular Nucleus. J Neurosci.37(30):7177-7187](http://www.jneurosci.org/content/37/30/7177.long)
+- [M Almog, T Barkai, A Lampert, A Korngreen (2018) Voltage-gated sodium channels in neocortical pyramidal neurons display Cole-Moore activation kinetics Frontiers in Cellular Neuroscience 12, 187](https://www.frontiersin.org/articles/10.3389/fncel.2018.00187/full)
+- [H Lavian, Y Loewenstern, R Madar, M Almog, I Bar-Gad, E Okun, A Korngreen (2018) Dopamine receptors in the rat entopeduncular nucleus Brain Structure and Function 223 (6), 2673-2684](https://link.springer.com/article/10.1007/s00429-018-1657-6)
+- [Mark Grobman, Tal Dalal, Hagar Lavian, Ronit Shmuel, Katya Belelovsky, Fuqiang Xu, Alon Korngreen, Rafi Haddad (2018) A mirror-symmetric excitatory link coordinates odor maps across olfactory bulbs and enables odor perceptual unity. Neuron 99 (4), 800-813](https://www.sciencedirect.com/science/article/pii/S0896627318305865)
+- [L Gorodetski, R Zeira, H Lavian, A Korngreen (2018) Long‐term plasticity of glutamatergic input from the subthalamic nucleus to the entopeduncular nucleus European Journal of Neuroscience 48 (5), 2139-2151](https://onlinelibrary.wiley.com/doi/full/10.1111/ejn.14105)
+- [A Faynveitz, H Lavian, A Jacob, A Korngreen (2019) Proliferation of inhibitory input to the Substantia Nigra in Experimental Parkinsonism Frontiers in cellular neuroscience 13, 417](https://www.frontiersin.org/articles/10.3389/fncel.2019.00417/full)
+- [H Lavian, A Korngreen (2019) Short-term depression shapes information transmission in a constitutively active GABAergic synapse Scientific reports 9 (1), 1-15](https://www.nature.com/articles/s41598-019-54607-y)
+- [A Matzner, L Gorodetski, A Korngreen, I Bar-Gad (2020) Dynamic input-dependent encoding of individual basal ganglia neurons Scientific reports 10 (1), 1-13](https://www.nature.com/articles/s41598-020-62750-0)
+- [https://www.facebook.com/alon.korngreen](https://www.facebook.com/alon.korngreen)
+- [https://plus.google.com/+AlonKorngreen/posts](https://plus.google.com/+AlonKorngreen/posts)
+- [https://www.flickr.com/photos/photoloni/](https://www.flickr.com/photos/photoloni/)

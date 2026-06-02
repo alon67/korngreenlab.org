@@ -1,0 +1,61 @@
+---
+const {
+  title = "The Korngreen Lab",
+  description = "Cellular and Computational Neurophysiology",
+  language = "en",
+  direction = "ltr",
+} = Astro.props;
+
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const navItems = [
+  { href: "/", label: "Home" },
+  { href: "/research", label: "Research" },
+  { href: "/themes", label: "Themes" },
+  { href: "/resources", label: "Resources" },
+  { href: "/research-hebrew", label: "Hebrew" },
+  { href: "/publications", label: "Publications" },
+  { href: "/lab-members", label: "Lab Members" },
+  { href: "/copy-of-lab-members", label: "People" },
+  { href: "/curriculum-vita", label: "CV" },
+  { href: "/collaborators", label: "Collaborators" },
+  { href: "/positions", label: "Positions" },
+  { href: "/lab-pictures", label: "Pictures" },
+  { href: "/contact", label: "Contact" },
+];
+
+import "../styles/global.css";
+---
+
+<!doctype html>
+<html lang={language} dir={direction}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/">
+        <span class="brand-title">THE KORNGREEN LAB</span>
+        <span class="brand-subtitle">Cellular and Computational Neurophysiology</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        {navItems.map((item) => <a href={item.href}>{item.label}</a>)}
+      </nav>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <p>Bar-Ilan University</p>
+      <p><a href="mailto:alon.korngreen@biu.ac.il">alon.korngreen@biu.ac.il</a></p>
+    </footer>
+  </body>
+</html>

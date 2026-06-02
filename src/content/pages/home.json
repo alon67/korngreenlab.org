@@ -1,0 +1,62 @@
+{
+  "title": "Home",
+  "sourceTitle": "Home",
+  "path": "/",
+  "sourceUrl": "https://www.korngreenlab.org/",
+  "language": "en",
+  "direction": "ltr",
+  "textLines": [
+    "Alon Korngreen Neurophysiology Laboratory",
+    "alon.korngreen@biu.ac.il",
+    "RESEARCH INTERESTS",
+    "Our lab at Bar-Ilan University, Israel studies some of the basic yet still unresolved questions in neuroscience: How do neurons process information? What is the neuronal code at the cellular level? How does synaptic integration affect neuronal computation? We apply electrophysiology and optogenetics to study circuits in the basal ganglia that are affected in Parkinson's disease. We currently investigate the interplay between cannabinoids and dopamine in the basal ganglia."
+  ],
+  "links": [
+    {
+      "text": "alon.korngreen@biu.ac.il",
+      "href": "mailto:alon.korngreen@biu.ac.il"
+    },
+    {
+      "text": "http://www.jneurosci.org/content/34/1/182.short",
+      "href": "http://www.jneurosci.org/content/34/1/182.short"
+    },
+    {
+      "text": "https://www.linkedin.com/in/alonkorngreen/",
+      "href": "https://www.linkedin.com/in/alonkorngreen/"
+    },
+    {
+      "text": "https://www.facebook.com/alon.korngreen",
+      "href": "https://www.facebook.com/alon.korngreen"
+    },
+    {
+      "text": "https://twitter.com/AlonKorngreen",
+      "href": "https://twitter.com/AlonKorngreen"
+    },
+    {
+      "text": "https://www.youtube.com/c/AlonKorngreen/",
+      "href": "https://www.youtube.com/c/AlonKorngreen/"
+    }
+  ],
+  "images": [
+    {
+      "src": "home-002-ee27b6_8b6b6a858dbb4dceae0dc931f8c7473f.gif",
+      "alt": "Home",
+      "caption": ""
+    },
+    {
+      "src": "home-003-48a2a42b19814efaa824450f23e8a253.png",
+      "alt": "LinkedIn",
+      "caption": ""
+    },
+    {
+      "src": "home-005-9c4b521dd2404cd5a05ed6115f3a0dc8.png",
+      "alt": "Twitter",
+      "caption": ""
+    },
+    {
+      "src": "home-006-a1b09fe8b7f04378a9fe076748ad4a6a.png",
+      "alt": "YouTube",
+      "caption": ""
+    }
+  ]
+}

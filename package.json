@@ -1,0 +1,22 @@
+{
+  "name": "korngreenlab.org",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev",
+    "build": "ASTRO_TELEMETRY_DISABLED=1 astro build",
+    "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview",
+    "extract": "node scripts/extract-wix-content.mjs",
+    "populate": "node scripts/populate-site-content.mjs",
+    "validate:extraction": "node scripts/validate-extraction.mjs",
+    "validate:links": "node scripts/validate-links.mjs"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.6.0",
+    "@citation-js/core": "^0.7.21",
+    "@citation-js/plugin-bibtex": "^0.7.21",
+    "astro": "^5.16.4",
+    "playwright": "^1.57.0"
+  }
+}

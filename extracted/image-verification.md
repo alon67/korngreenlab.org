@@ -1,0 +1,336 @@
+# Image Extraction Verification
+
+Generated: 2026-06-02T15:32:39.014Z
+
+- PASS: extracted/assets/home-001-ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png
+  - page: /
+  - bytes: 30538
+  - dimensions: 1362 x 167 (png)
+- PASS: extracted/assets/home-002-ee27b6_8b6b6a858dbb4dceae0dc931f8c7473f.gif
+  - page: /
+  - bytes: 2016470
+  - dimensions: 677 x 1112 (gif)
+- PASS: extracted/assets/home-003-48a2a42b19814efaa824450f23e8a253.png
+  - page: /
+  - bytes: 2018
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/home-004-e316f544f9094143b9eac01f1f19e697.png
+  - page: /
+  - bytes: 1420
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/home-005-9c4b521dd2404cd5a05ed6115f3a0dc8.png
+  - page: /
+  - bytes: 2407
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/home-006-a1b09fe8b7f04378a9fe076748ad4a6a.png
+  - page: /
+  - bytes: 2977
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/research-001-ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png
+  - page: /research
+  - bytes: 30538
+  - dimensions: 1362 x 167 (png)
+- PASS: extracted/assets/research-002-7c9158607e5e8f1a97f44394700bad4f.png
+  - page: /research
+  - bytes: 29944
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/research-003-e9db6a0c3f1eef15bb394189590b36e8.png
+  - page: /research
+  - bytes: 33348
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/research-004-07a3db395397ce7688fb7fd0ce91266c.png
+  - page: /research
+  - bytes: 11757
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/themes-001-ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png
+  - page: /themes
+  - bytes: 30538
+  - dimensions: 1362 x 167 (png)
+- PASS: extracted/assets/themes-002-ee27b6_24f5f36e38f94ca590bc687fd6a36be8.gif
+  - page: /themes
+  - bytes: 5623598
+  - dimensions: 493 x 804 (gif)
+- PASS: extracted/assets/themes-003-ee27b6_8f24598c43c64ca0823584003db60904.jpg
+  - page: /themes
+  - bytes: 1764966
+  - dimensions: 1944 x 2592 (jpeg)
+- PASS: extracted/assets/themes-004-ee27b6_47be3a0ee5f54497bd2aba596eb83367.jpg
+  - page: /themes
+  - bytes: 1021893
+  - dimensions: 4718 x 1921 (jpeg)
+- PASS: extracted/assets/themes-005-ee27b6_a7e328fa0d594cbd83af0c0bb61411f6.jpg
+  - page: /themes
+  - bytes: 290039
+  - dimensions: 764 x 1084 (jpeg)
+- PASS: extracted/assets/themes-006-ee27b6_b9d050dd55a14e7cada7c71fe087cc40.jpg
+  - page: /themes
+  - bytes: 136270
+  - dimensions: 794 x 1126 (jpeg)
+- PASS: extracted/assets/themes-007-7c9158607e5e8f1a97f44394700bad4f.png
+  - page: /themes
+  - bytes: 29944
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/themes-008-e9db6a0c3f1eef15bb394189590b36e8.png
+  - page: /themes
+  - bytes: 33348
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/themes-009-07a3db395397ce7688fb7fd0ce91266c.png
+  - page: /themes
+  - bytes: 11757
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/resources-001-ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png
+  - page: /resources
+  - bytes: 30538
+  - dimensions: 1362 x 167 (png)
+- PASS: extracted/assets/resources-002-ee27b6_8fa286398cc74da68cb986a5cd7b60af.jpg
+  - page: /resources
+  - bytes: 3323003
+  - dimensions: 3889 x 5834 (jpeg)
+- PASS: extracted/assets/resources-003-ee27b6_8f24598c43c64ca0823584003db60904.jpg
+  - page: /resources
+  - bytes: 1764966
+  - dimensions: 1944 x 2592 (jpeg)
+- PASS: extracted/assets/resources-004-ee27b6_39ce6e109fea4068b353651425a4e307.gif
+  - page: /resources
+  - bytes: 4599105
+  - dimensions: 531 x 926 (gif)
+- PASS: extracted/assets/resources-005-ee27b6_a1120fa4fc8042fb942b49a693c0731e.jpg
+  - page: /resources
+  - bytes: 1405056
+  - dimensions: 5829 x 3276 (jpeg)
+- PASS: extracted/assets/resources-006-7c9158607e5e8f1a97f44394700bad4f.png
+  - page: /resources
+  - bytes: 29944
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/resources-007-e9db6a0c3f1eef15bb394189590b36e8.png
+  - page: /resources
+  - bytes: 33348
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/resources-008-07a3db395397ce7688fb7fd0ce91266c.png
+  - page: /resources
+  - bytes: 11757
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/research-hebrew-001-ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png
+  - page: /research-hebrew
+  - bytes: 30538
+  - dimensions: 1362 x 167 (png)
+- PASS: extracted/assets/research-hebrew-002-ee27b6_8b21c2089a1e40ab82c63f5ae2822dba.jpg
+  - page: /research-hebrew
+  - bytes: 3764082
+  - dimensions: 2559 x 1921 (jpeg)
+- PASS: extracted/assets/research-hebrew-003-7c9158607e5e8f1a97f44394700bad4f.png
+  - page: /research-hebrew
+  - bytes: 29944
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/research-hebrew-004-e9db6a0c3f1eef15bb394189590b36e8.png
+  - page: /research-hebrew
+  - bytes: 33348
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/research-hebrew-005-07a3db395397ce7688fb7fd0ce91266c.png
+  - page: /research-hebrew
+  - bytes: 11757
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/about1-001-ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png
+  - page: /about1
+  - bytes: 30538
+  - dimensions: 1362 x 167 (png)
+- PASS: extracted/assets/about1-002-7c9158607e5e8f1a97f44394700bad4f.png
+  - page: /about1
+  - bytes: 29944
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/about1-003-e9db6a0c3f1eef15bb394189590b36e8.png
+  - page: /about1
+  - bytes: 33348
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/about1-004-07a3db395397ce7688fb7fd0ce91266c.png
+  - page: /about1
+  - bytes: 11757
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/publications-001-ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png
+  - page: /publications
+  - bytes: 30538
+  - dimensions: 1362 x 167 (png)
+- PASS: extracted/assets/publications-002-ee27b6_e5ae7c0b757f47de9f84ee8f8a8caeb3.jpg
+  - page: /publications
+  - bytes: 1472897
+  - dimensions: 4300 x 1992 (jpeg)
+- PASS: extracted/assets/publications-003-7c9158607e5e8f1a97f44394700bad4f.png
+  - page: /publications
+  - bytes: 29944
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/publications-004-e9db6a0c3f1eef15bb394189590b36e8.png
+  - page: /publications
+  - bytes: 33348
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/publications-005-07a3db395397ce7688fb7fd0ce91266c.png
+  - page: /publications
+  - bytes: 11757
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/lab-members-001-ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png
+  - page: /lab-members
+  - bytes: 30538
+  - dimensions: 1362 x 167 (png)
+- PASS: extracted/assets/lab-members-002-ee27b6_67c4ed52ebd9442caa8603d1b770e054.jpg
+  - page: /lab-members
+  - bytes: 212340
+  - dimensions: 1204 x 1690 (jpeg)
+- PASS: extracted/assets/lab-members-003-ee27b6_ab6462b70fe54003ae80623ccaf3c3af.jpg
+  - page: /lab-members
+  - bytes: 51336
+  - dimensions: 382 x 382 (jpeg)
+- PASS: extracted/assets/lab-members-004-ee27b6_fbeee85b9ecf444399ee7556625459fd.jpg
+  - page: /lab-members
+  - bytes: 77364
+  - dimensions: 356 x 377 (jpeg)
+- PASS: extracted/assets/lab-members-005-ee27b6_edead52c00e34facb7a1f96867a84d2b.jpg
+  - page: /lab-members
+  - bytes: 75705
+  - dimensions: 480 x 637 (jpeg)
+- PASS: extracted/assets/lab-members-006-ee27b6_70dee4d9fbbc4cb79f31c65b033ce37d.jpg
+  - page: /lab-members
+  - bytes: 1478028
+  - dimensions: 2593 x 3390 (jpeg)
+- PASS: extracted/assets/lab-members-007-ee27b6_bdfce51d989f495d99b73b5019726feb.jpg
+  - page: /lab-members
+  - bytes: 1216383
+  - dimensions: 2556 x 2870 (jpeg)
+- PASS: extracted/assets/lab-members-008-ee27b6_bd2d8aa74bde48d98ed8a81b6749bf57.jpg
+  - page: /lab-members
+  - bytes: 1062997
+  - dimensions: 2537 x 3131 (jpeg)
+- PASS: extracted/assets/lab-members-009-7c9158607e5e8f1a97f44394700bad4f.png
+  - page: /lab-members
+  - bytes: 29944
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/lab-members-010-e9db6a0c3f1eef15bb394189590b36e8.png
+  - page: /lab-members
+  - bytes: 33348
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/lab-members-011-07a3db395397ce7688fb7fd0ce91266c.png
+  - page: /lab-members
+  - bytes: 11757
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/copy-of-lab-members-001-ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png
+  - page: /copy-of-lab-members
+  - bytes: 30538
+  - dimensions: 1362 x 167 (png)
+- PASS: extracted/assets/copy-of-lab-members-002-ee27b6_67c4ed52ebd9442caa8603d1b770e054.jpg
+  - page: /copy-of-lab-members
+  - bytes: 212340
+  - dimensions: 1204 x 1690 (jpeg)
+- PASS: extracted/assets/copy-of-lab-members-003-ee27b6_de001e8efcc9433e8eea34f7ff9a7475-mv2.png
+  - page: /copy-of-lab-members
+  - bytes: 446252
+  - dimensions: 359 x 640 (png)
+- PASS: extracted/assets/copy-of-lab-members-004-ee27b6_60b9e856ded04740ac8895c0aaf346cd-mv2.png
+  - page: /copy-of-lab-members
+  - bytes: 327084
+  - dimensions: 463 x 611 (png)
+- PASS: extracted/assets/copy-of-lab-members-005-ee27b6_6e5a19ef91a645e0927e0df557cb3aa0-mv2.jpg
+  - page: /copy-of-lab-members
+  - bytes: 62033
+  - dimensions: 582 x 1024 (jpeg)
+- PASS: extracted/assets/copy-of-lab-members-006-ee27b6_be02c83d41ad460fbd4d38985495ed3d-mv2.jpg
+  - page: /copy-of-lab-members
+  - bytes: 21049
+  - dimensions: 353 x 364 (jpeg)
+- PASS: extracted/assets/copy-of-lab-members-007-7c9158607e5e8f1a97f44394700bad4f.png
+  - page: /copy-of-lab-members
+  - bytes: 29944
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/copy-of-lab-members-008-e9db6a0c3f1eef15bb394189590b36e8.png
+  - page: /copy-of-lab-members
+  - bytes: 33348
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/copy-of-lab-members-009-07a3db395397ce7688fb7fd0ce91266c.png
+  - page: /copy-of-lab-members
+  - bytes: 11757
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/curriculum-vita-001-ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png
+  - page: /curriculum-vita
+  - bytes: 30538
+  - dimensions: 1362 x 167 (png)
+- PASS: extracted/assets/curriculum-vita-002-ee27b6_e3a47000899b47ef8b05444bf8adbb26.jpg
+  - page: /curriculum-vita
+  - bytes: 92415
+  - dimensions: 795 x 668 (jpeg)
+- PASS: extracted/assets/curriculum-vita-003-7c9158607e5e8f1a97f44394700bad4f.png
+  - page: /curriculum-vita
+  - bytes: 29944
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/curriculum-vita-004-e9db6a0c3f1eef15bb394189590b36e8.png
+  - page: /curriculum-vita
+  - bytes: 33348
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/curriculum-vita-005-07a3db395397ce7688fb7fd0ce91266c.png
+  - page: /curriculum-vita
+  - bytes: 11757
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/collaborators-001-ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png
+  - page: /collaborators
+  - bytes: 30538
+  - dimensions: 1362 x 167 (png)
+- PASS: extracted/assets/collaborators-002-7c9158607e5e8f1a97f44394700bad4f.png
+  - page: /collaborators
+  - bytes: 29944
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/collaborators-003-e9db6a0c3f1eef15bb394189590b36e8.png
+  - page: /collaborators
+  - bytes: 33348
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/collaborators-004-07a3db395397ce7688fb7fd0ce91266c.png
+  - page: /collaborators
+  - bytes: 11757
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/positions-001-ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png
+  - page: /positions
+  - bytes: 30538
+  - dimensions: 1362 x 167 (png)
+- PASS: extracted/assets/positions-002-7c9158607e5e8f1a97f44394700bad4f.png
+  - page: /positions
+  - bytes: 29944
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/positions-003-e9db6a0c3f1eef15bb394189590b36e8.png
+  - page: /positions
+  - bytes: 33348
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/positions-004-07a3db395397ce7688fb7fd0ce91266c.png
+  - page: /positions
+  - bytes: 11757
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/lab-pictures-001-ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png
+  - page: /lab-pictures
+  - bytes: 30538
+  - dimensions: 1362 x 167 (png)
+- PASS: extracted/assets/lab-pictures-002-7c9158607e5e8f1a97f44394700bad4f.png
+  - page: /lab-pictures
+  - bytes: 29944
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/lab-pictures-003-e9db6a0c3f1eef15bb394189590b36e8.png
+  - page: /lab-pictures
+  - bytes: 33348
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/lab-pictures-004-07a3db395397ce7688fb7fd0ce91266c.png
+  - page: /lab-pictures
+  - bytes: 11757
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/contact-001-ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png
+  - page: /contact
+  - bytes: 30538
+  - dimensions: 1362 x 167 (png)
+- PASS: extracted/assets/contact-002-ee27b6_7df738b6d44243fbbe719ab553b3b4a8.jpg
+  - page: /contact
+  - bytes: 11315
+  - dimensions: 276 x 182 (jpeg)
+- PASS: extracted/assets/contact-003-7c9158607e5e8f1a97f44394700bad4f.png
+  - page: /contact
+  - bytes: 29944
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/contact-004-e9db6a0c3f1eef15bb394189590b36e8.png
+  - page: /contact
+  - bytes: 33348
+  - dimensions: 200 x 200 (png)
+- PASS: extracted/assets/contact-005-07a3db395397ce7688fb7fd0ce91266c.png
+  - page: /contact
+  - bytes: 11757
+  - dimensions: 200 x 200 (png)

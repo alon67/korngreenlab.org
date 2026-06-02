@@ -1,0 +1,24 @@
+{
+  "title": "Lab Pictures",
+  "sourceTitle": "Lab Pictures",
+  "path": "/lab-pictures",
+  "sourceUrl": "https://www.korngreenlab.org/lab-pictures",
+  "language": "en",
+  "direction": "ltr",
+  "textLines": [],
+  "links": [
+    {
+      "text": "https://www.facebook.com/alon.korngreen",
+      "href": "https://www.facebook.com/alon.korngreen"
+    },
+    {
+      "text": "https://plus.google.com/+AlonKorngreen/posts",
+      "href": "https://plus.google.com/+AlonKorngreen/posts"
+    },
+    {
+      "text": "https://www.flickr.com/photos/photoloni/",
+      "href": "https://www.flickr.com/photos/photoloni/"
+    }
+  ],
+  "images": []
+}

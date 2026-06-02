@@ -1,0 +1,60 @@
+# Text Extraction Verification
+
+Generated: 2026-06-02T15:32:39.013Z
+
+- PASS: Home (/)
+  - characters: 647
+  - headings: 5
+  - links: 11
+- PASS: Research (/research)
+  - characters: 874
+  - headings: 4
+  - links: 10
+- PASS: Themes (/themes)
+  - characters: 4269
+  - headings: 7
+  - links: 19
+- PASS: Resources (/resources)
+  - characters: 974
+  - headings: 7
+  - links: 12
+- PASS: Research Hebrew (/research-hebrew)
+  - characters: 6262
+  - headings: 4
+  - links: 8
+- PASS: About (/about1)
+  - characters: 134
+  - headings: 3
+  - links: 8
+- PASS: Publications (/publications)
+  - characters: 13018
+  - headings: 3
+  - links: 28
+- PASS: Lab Members (/lab-members)
+  - characters: 1060
+  - headings: 7
+  - links: 17
+- PASS: People Copy (/copy-of-lab-members)
+  - characters: 1335
+  - headings: 14
+  - links: 18
+- PASS: Curriculum Vita (/curriculum-vita)
+  - characters: 709
+  - headings: 4
+  - links: 10
+- PASS: Collaborators (/collaborators)
+  - characters: 343
+  - headings: 4
+  - links: 11
+- PASS: Positions (/positions)
+  - characters: 420
+  - headings: 7
+  - links: 9
+- PASS: Lab Pictures (/lab-pictures)
+  - characters: 136
+  - headings: 3
+  - links: 8
+- PASS: Contact (/contact)
+  - characters: 418
+  - headings: 9
+  - links: 9

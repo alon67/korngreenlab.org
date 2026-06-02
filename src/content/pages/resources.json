@@ -1,0 +1,71 @@
+{
+  "title": "Resources",
+  "sourceTitle": "Resources",
+  "path": "/resources",
+  "sourceUrl": "https://www.korngreenlab.org/resources",
+  "language": "en",
+  "direction": "ltr",
+  "textLines": [
+    "PATCH-CLAMP SETUPS",
+    "We have three patch-clamp setups designed for measuring neuronal activity from acute brain slices. Our setups have the ability to simultaneously record from two synaptically connected neurons or from the soma and dendrite of the same neuron. We routinely record currents from ion channels, synaptic potentials, action potentials and all other parameters of single neurons and micro networks.",
+    "MODELING AND SOFTWARE DEVELOPMENT",
+    "We use several simulation tools in the lab.",
+    "For compartmental models we apply NEURON.",
+    "Fitting Markov chain models to voltage-clamp data is performed by our custom written software.",
+    "Code for high performance computing on graphics cards is developed using CUDA.",
+    "ANATOMICAL ANALYSIS",
+    "We investigate the morphology of individual neurons and small networks using the Neurolucida reconstruction system."
+  ],
+  "links": [
+    {
+      "text": "patch-clamp",
+      "href": "http://en.wikipedia.org/wiki/Patch_clamp"
+    },
+    {
+      "text": "NEURON",
+      "href": "http://neuron.yale.edu/neuron/"
+    },
+    {
+      "text": "CUDA",
+      "href": "http://www.nvidia.com/object/cuda_home_new.html"
+    },
+    {
+      "text": "Neurolucida",
+      "href": "http://www.mbfbioscience.com/neurolucida"
+    },
+    {
+      "text": "https://www.facebook.com/alon.korngreen",
+      "href": "https://www.facebook.com/alon.korngreen"
+    },
+    {
+      "text": "https://plus.google.com/+AlonKorngreen/posts",
+      "href": "https://plus.google.com/+AlonKorngreen/posts"
+    },
+    {
+      "text": "https://www.flickr.com/photos/photoloni/",
+      "href": "https://www.flickr.com/photos/photoloni/"
+    }
+  ],
+  "images": [
+    {
+      "src": "resources-002-ee27b6_8fa286398cc74da68cb986a5cd7b60af.jpg",
+      "alt": "Resources",
+      "caption": ""
+    },
+    {
+      "src": "resources-003-ee27b6_8f24598c43c64ca0823584003db60904.jpg",
+      "alt": "Resources",
+      "caption": ""
+    },
+    {
+      "src": "resources-004-ee27b6_39ce6e109fea4068b353651425a4e307.gif",
+      "alt": "Resources",
+      "caption": ""
+    },
+    {
+      "src": "resources-005-ee27b6_a1120fa4fc8042fb942b49a693c0731e.jpg",
+      "alt": "Resources",
+      "caption": ""
+    }
+  ]
+}

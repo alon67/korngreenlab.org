@@ -1,0 +1,832 @@
+[
+  {
+    "page": "/",
+    "pageTitle": "Home",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png/v1/fill/w_923,h_113,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "localFile": "extracted/assets/home-001-ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "alt": "",
+    "caption": "",
+    "bytes": 30538
+  },
+  {
+    "page": "/",
+    "pageTitle": "Home",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_8b6b6a858dbb4dceae0dc931f8c7473f.gif",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_8b6b6a858dbb4dceae0dc931f8c7473f.gif",
+    "localFile": "extracted/assets/home-002-ee27b6_8b6b6a858dbb4dceae0dc931f8c7473f.gif",
+    "alt": "",
+    "caption": "",
+    "bytes": 2016470
+  },
+  {
+    "page": "/",
+    "pageTitle": "Home",
+    "sourceUrl": "https://static.wixstatic.com/media/48a2a42b19814efaa824450f23e8a253.png/v1/fill/w_39,h_39,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/48a2a42b19814efaa824450f23e8a253.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/48a2a42b19814efaa824450f23e8a253.png",
+    "localFile": "extracted/assets/home-003-48a2a42b19814efaa824450f23e8a253.png",
+    "alt": "LinkedIn",
+    "caption": "",
+    "bytes": 2018
+  },
+  {
+    "page": "/",
+    "pageTitle": "Home",
+    "sourceUrl": "https://static.wixstatic.com/media/e316f544f9094143b9eac01f1f19e697.png/v1/fill/w_39,h_39,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e316f544f9094143b9eac01f1f19e697.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/e316f544f9094143b9eac01f1f19e697.png",
+    "localFile": "extracted/assets/home-004-e316f544f9094143b9eac01f1f19e697.png",
+    "alt": "Facebook",
+    "caption": "",
+    "bytes": 1420
+  },
+  {
+    "page": "/",
+    "pageTitle": "Home",
+    "sourceUrl": "https://static.wixstatic.com/media/9c4b521dd2404cd5a05ed6115f3a0dc8.png/v1/fill/w_39,h_39,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/9c4b521dd2404cd5a05ed6115f3a0dc8.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/9c4b521dd2404cd5a05ed6115f3a0dc8.png",
+    "localFile": "extracted/assets/home-005-9c4b521dd2404cd5a05ed6115f3a0dc8.png",
+    "alt": "Twitter",
+    "caption": "",
+    "bytes": 2407
+  },
+  {
+    "page": "/",
+    "pageTitle": "Home",
+    "sourceUrl": "https://static.wixstatic.com/media/a1b09fe8b7f04378a9fe076748ad4a6a.png/v1/fill/w_39,h_39,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a1b09fe8b7f04378a9fe076748ad4a6a.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/a1b09fe8b7f04378a9fe076748ad4a6a.png",
+    "localFile": "extracted/assets/home-006-a1b09fe8b7f04378a9fe076748ad4a6a.png",
+    "alt": "YouTube",
+    "caption": "",
+    "bytes": 2977
+  },
+  {
+    "page": "/research",
+    "pageTitle": "Research",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png/v1/fill/w_940,h_115,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "localFile": "extracted/assets/research-001-ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "alt": "",
+    "caption": "",
+    "bytes": 30538
+  },
+  {
+    "page": "/research",
+    "pageTitle": "Research",
+    "sourceUrl": "https://static.wixstatic.com/media/7c9158607e5e8f1a97f44394700bad4f.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/7c9158607e5e8f1a97f44394700bad4f.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/7c9158607e5e8f1a97f44394700bad4f.png",
+    "localFile": "extracted/assets/research-002-7c9158607e5e8f1a97f44394700bad4f.png",
+    "alt": "Facebook Long Shadow",
+    "caption": "",
+    "bytes": 29944
+  },
+  {
+    "page": "/research",
+    "pageTitle": "Research",
+    "sourceUrl": "https://static.wixstatic.com/media/e9db6a0c3f1eef15bb394189590b36e8.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e9db6a0c3f1eef15bb394189590b36e8.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/e9db6a0c3f1eef15bb394189590b36e8.png",
+    "localFile": "extracted/assets/research-003-e9db6a0c3f1eef15bb394189590b36e8.png",
+    "alt": "Google+ Long Shadow",
+    "caption": "",
+    "bytes": 33348
+  },
+  {
+    "page": "/research",
+    "pageTitle": "Research",
+    "sourceUrl": "https://static.wixstatic.com/media/07a3db395397ce7688fb7fd0ce91266c.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/07a3db395397ce7688fb7fd0ce91266c.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/07a3db395397ce7688fb7fd0ce91266c.png",
+    "localFile": "extracted/assets/research-004-07a3db395397ce7688fb7fd0ce91266c.png",
+    "alt": "Flickr Long Shadow",
+    "caption": "",
+    "bytes": 11757
+  },
+  {
+    "page": "/themes",
+    "pageTitle": "Themes",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png/v1/fill/w_940,h_115,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "localFile": "extracted/assets/themes-001-ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "alt": "",
+    "caption": "",
+    "bytes": 30538
+  },
+  {
+    "page": "/themes",
+    "pageTitle": "Themes",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_24f5f36e38f94ca590bc687fd6a36be8.gif",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_24f5f36e38f94ca590bc687fd6a36be8.gif",
+    "localFile": "extracted/assets/themes-002-ee27b6_24f5f36e38f94ca590bc687fd6a36be8.gif",
+    "alt": "",
+    "caption": "",
+    "bytes": 5623598
+  },
+  {
+    "page": "/themes",
+    "pageTitle": "Themes",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_8f24598c43c64ca0823584003db60904.jpg/v1/fill/w_208,h_277,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee27b6_8f24598c43c64ca0823584003db60904.jpg",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_8f24598c43c64ca0823584003db60904.jpg",
+    "localFile": "extracted/assets/themes-003-ee27b6_8f24598c43c64ca0823584003db60904.jpg",
+    "alt": "",
+    "caption": "",
+    "bytes": 1764966
+  },
+  {
+    "page": "/themes",
+    "pageTitle": "Themes",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_47be3a0ee5f54497bd2aba596eb83367.jpg/v1/fill/w_358,h_146,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee27b6_47be3a0ee5f54497bd2aba596eb83367.jpg",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_47be3a0ee5f54497bd2aba596eb83367.jpg",
+    "localFile": "extracted/assets/themes-004-ee27b6_47be3a0ee5f54497bd2aba596eb83367.jpg",
+    "alt": "",
+    "caption": "",
+    "bytes": 1021893
+  },
+  {
+    "page": "/themes",
+    "pageTitle": "Themes",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_a7e328fa0d594cbd83af0c0bb61411f6.jpg/v1/fill/w_208,h_295,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee27b6_a7e328fa0d594cbd83af0c0bb61411f6.jpg",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_a7e328fa0d594cbd83af0c0bb61411f6.jpg",
+    "localFile": "extracted/assets/themes-005-ee27b6_a7e328fa0d594cbd83af0c0bb61411f6.jpg",
+    "alt": "",
+    "caption": "",
+    "bytes": 290039
+  },
+  {
+    "page": "/themes",
+    "pageTitle": "Themes",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_b9d050dd55a14e7cada7c71fe087cc40.jpg/v1/fill/w_208,h_295,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee27b6_b9d050dd55a14e7cada7c71fe087cc40.jpg",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_b9d050dd55a14e7cada7c71fe087cc40.jpg",
+    "localFile": "extracted/assets/themes-006-ee27b6_b9d050dd55a14e7cada7c71fe087cc40.jpg",
+    "alt": "",
+    "caption": "",
+    "bytes": 136270
+  },
+  {
+    "page": "/themes",
+    "pageTitle": "Themes",
+    "sourceUrl": "https://static.wixstatic.com/media/7c9158607e5e8f1a97f44394700bad4f.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/7c9158607e5e8f1a97f44394700bad4f.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/7c9158607e5e8f1a97f44394700bad4f.png",
+    "localFile": "extracted/assets/themes-007-7c9158607e5e8f1a97f44394700bad4f.png",
+    "alt": "Facebook Long Shadow",
+    "caption": "",
+    "bytes": 29944
+  },
+  {
+    "page": "/themes",
+    "pageTitle": "Themes",
+    "sourceUrl": "https://static.wixstatic.com/media/e9db6a0c3f1eef15bb394189590b36e8.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e9db6a0c3f1eef15bb394189590b36e8.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/e9db6a0c3f1eef15bb394189590b36e8.png",
+    "localFile": "extracted/assets/themes-008-e9db6a0c3f1eef15bb394189590b36e8.png",
+    "alt": "Google+ Long Shadow",
+    "caption": "",
+    "bytes": 33348
+  },
+  {
+    "page": "/themes",
+    "pageTitle": "Themes",
+    "sourceUrl": "https://static.wixstatic.com/media/07a3db395397ce7688fb7fd0ce91266c.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/07a3db395397ce7688fb7fd0ce91266c.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/07a3db395397ce7688fb7fd0ce91266c.png",
+    "localFile": "extracted/assets/themes-009-07a3db395397ce7688fb7fd0ce91266c.png",
+    "alt": "Flickr Long Shadow",
+    "caption": "",
+    "bytes": 11757
+  },
+  {
+    "page": "/resources",
+    "pageTitle": "Resources",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png/v1/fill/w_940,h_115,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "localFile": "extracted/assets/resources-001-ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "alt": "",
+    "caption": "",
+    "bytes": 30538
+  },
+  {
+    "page": "/resources",
+    "pageTitle": "Resources",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_8fa286398cc74da68cb986a5cd7b60af.jpg/v1/fill/w_245,h_368,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee27b6_8fa286398cc74da68cb986a5cd7b60af.jpg",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_8fa286398cc74da68cb986a5cd7b60af.jpg",
+    "localFile": "extracted/assets/resources-002-ee27b6_8fa286398cc74da68cb986a5cd7b60af.jpg",
+    "alt": "",
+    "caption": "",
+    "bytes": 3323003
+  },
+  {
+    "page": "/resources",
+    "pageTitle": "Resources",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_8f24598c43c64ca0823584003db60904.jpg/v1/fill/w_246,h_328,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee27b6_8f24598c43c64ca0823584003db60904.jpg",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_8f24598c43c64ca0823584003db60904.jpg",
+    "localFile": "extracted/assets/resources-003-ee27b6_8f24598c43c64ca0823584003db60904.jpg",
+    "alt": "",
+    "caption": "",
+    "bytes": 1764966
+  },
+  {
+    "page": "/resources",
+    "pageTitle": "Resources",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_39ce6e109fea4068b353651425a4e307.gif",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_39ce6e109fea4068b353651425a4e307.gif",
+    "localFile": "extracted/assets/resources-004-ee27b6_39ce6e109fea4068b353651425a4e307.gif",
+    "alt": "",
+    "caption": "",
+    "bytes": 4599105
+  },
+  {
+    "page": "/resources",
+    "pageTitle": "Resources",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_a1120fa4fc8042fb942b49a693c0731e.jpg/v1/fill/w_520,h_292,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee27b6_a1120fa4fc8042fb942b49a693c0731e.jpg",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_a1120fa4fc8042fb942b49a693c0731e.jpg",
+    "localFile": "extracted/assets/resources-005-ee27b6_a1120fa4fc8042fb942b49a693c0731e.jpg",
+    "alt": "",
+    "caption": "",
+    "bytes": 1405056
+  },
+  {
+    "page": "/resources",
+    "pageTitle": "Resources",
+    "sourceUrl": "https://static.wixstatic.com/media/7c9158607e5e8f1a97f44394700bad4f.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/7c9158607e5e8f1a97f44394700bad4f.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/7c9158607e5e8f1a97f44394700bad4f.png",
+    "localFile": "extracted/assets/resources-006-7c9158607e5e8f1a97f44394700bad4f.png",
+    "alt": "Facebook Long Shadow",
+    "caption": "",
+    "bytes": 29944
+  },
+  {
+    "page": "/resources",
+    "pageTitle": "Resources",
+    "sourceUrl": "https://static.wixstatic.com/media/e9db6a0c3f1eef15bb394189590b36e8.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e9db6a0c3f1eef15bb394189590b36e8.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/e9db6a0c3f1eef15bb394189590b36e8.png",
+    "localFile": "extracted/assets/resources-007-e9db6a0c3f1eef15bb394189590b36e8.png",
+    "alt": "Google+ Long Shadow",
+    "caption": "",
+    "bytes": 33348
+  },
+  {
+    "page": "/resources",
+    "pageTitle": "Resources",
+    "sourceUrl": "https://static.wixstatic.com/media/07a3db395397ce7688fb7fd0ce91266c.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/07a3db395397ce7688fb7fd0ce91266c.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/07a3db395397ce7688fb7fd0ce91266c.png",
+    "localFile": "extracted/assets/resources-008-07a3db395397ce7688fb7fd0ce91266c.png",
+    "alt": "Flickr Long Shadow",
+    "caption": "",
+    "bytes": 11757
+  },
+  {
+    "page": "/research-hebrew",
+    "pageTitle": "Research Hebrew",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png/v1/fill/w_940,h_115,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "localFile": "extracted/assets/research-hebrew-001-ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "alt": "",
+    "caption": "",
+    "bytes": 30538
+  },
+  {
+    "page": "/research-hebrew",
+    "pageTitle": "Research Hebrew",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_8b21c2089a1e40ab82c63f5ae2822dba.jpg/v1/fill/w_484,h_363,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee27b6_8b21c2089a1e40ab82c63f5ae2822dba.jpg",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_8b21c2089a1e40ab82c63f5ae2822dba.jpg",
+    "localFile": "extracted/assets/research-hebrew-002-ee27b6_8b21c2089a1e40ab82c63f5ae2822dba.jpg",
+    "alt": "",
+    "caption": "",
+    "bytes": 3764082
+  },
+  {
+    "page": "/research-hebrew",
+    "pageTitle": "Research Hebrew",
+    "sourceUrl": "https://static.wixstatic.com/media/7c9158607e5e8f1a97f44394700bad4f.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/7c9158607e5e8f1a97f44394700bad4f.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/7c9158607e5e8f1a97f44394700bad4f.png",
+    "localFile": "extracted/assets/research-hebrew-003-7c9158607e5e8f1a97f44394700bad4f.png",
+    "alt": "Facebook Long Shadow",
+    "caption": "",
+    "bytes": 29944
+  },
+  {
+    "page": "/research-hebrew",
+    "pageTitle": "Research Hebrew",
+    "sourceUrl": "https://static.wixstatic.com/media/e9db6a0c3f1eef15bb394189590b36e8.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e9db6a0c3f1eef15bb394189590b36e8.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/e9db6a0c3f1eef15bb394189590b36e8.png",
+    "localFile": "extracted/assets/research-hebrew-004-e9db6a0c3f1eef15bb394189590b36e8.png",
+    "alt": "Google+ Long Shadow",
+    "caption": "",
+    "bytes": 33348
+  },
+  {
+    "page": "/research-hebrew",
+    "pageTitle": "Research Hebrew",
+    "sourceUrl": "https://static.wixstatic.com/media/07a3db395397ce7688fb7fd0ce91266c.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/07a3db395397ce7688fb7fd0ce91266c.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/07a3db395397ce7688fb7fd0ce91266c.png",
+    "localFile": "extracted/assets/research-hebrew-005-07a3db395397ce7688fb7fd0ce91266c.png",
+    "alt": "Flickr Long Shadow",
+    "caption": "",
+    "bytes": 11757
+  },
+  {
+    "page": "/about1",
+    "pageTitle": "About",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png/v1/fill/w_940,h_115,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "localFile": "extracted/assets/about1-001-ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "alt": "",
+    "caption": "",
+    "bytes": 30538
+  },
+  {
+    "page": "/about1",
+    "pageTitle": "About",
+    "sourceUrl": "https://static.wixstatic.com/media/7c9158607e5e8f1a97f44394700bad4f.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/7c9158607e5e8f1a97f44394700bad4f.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/7c9158607e5e8f1a97f44394700bad4f.png",
+    "localFile": "extracted/assets/about1-002-7c9158607e5e8f1a97f44394700bad4f.png",
+    "alt": "Facebook Long Shadow",
+    "caption": "",
+    "bytes": 29944
+  },
+  {
+    "page": "/about1",
+    "pageTitle": "About",
+    "sourceUrl": "https://static.wixstatic.com/media/e9db6a0c3f1eef15bb394189590b36e8.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e9db6a0c3f1eef15bb394189590b36e8.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/e9db6a0c3f1eef15bb394189590b36e8.png",
+    "localFile": "extracted/assets/about1-003-e9db6a0c3f1eef15bb394189590b36e8.png",
+    "alt": "Google+ Long Shadow",
+    "caption": "",
+    "bytes": 33348
+  },
+  {
+    "page": "/about1",
+    "pageTitle": "About",
+    "sourceUrl": "https://static.wixstatic.com/media/07a3db395397ce7688fb7fd0ce91266c.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/07a3db395397ce7688fb7fd0ce91266c.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/07a3db395397ce7688fb7fd0ce91266c.png",
+    "localFile": "extracted/assets/about1-004-07a3db395397ce7688fb7fd0ce91266c.png",
+    "alt": "Flickr Long Shadow",
+    "caption": "",
+    "bytes": 11757
+  },
+  {
+    "page": "/publications",
+    "pageTitle": "Publications",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png/v1/fill/w_940,h_115,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "localFile": "extracted/assets/publications-001-ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "alt": "",
+    "caption": "",
+    "bytes": 30538
+  },
+  {
+    "page": "/publications",
+    "pageTitle": "Publications",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_e5ae7c0b757f47de9f84ee8f8a8caeb3.jpg/v1/fill/w_600,h_278,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee27b6_e5ae7c0b757f47de9f84ee8f8a8caeb3.jpg",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_e5ae7c0b757f47de9f84ee8f8a8caeb3.jpg",
+    "localFile": "extracted/assets/publications-002-ee27b6_e5ae7c0b757f47de9f84ee8f8a8caeb3.jpg",
+    "alt": "",
+    "caption": "",
+    "bytes": 1472897
+  },
+  {
+    "page": "/publications",
+    "pageTitle": "Publications",
+    "sourceUrl": "https://static.wixstatic.com/media/7c9158607e5e8f1a97f44394700bad4f.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/7c9158607e5e8f1a97f44394700bad4f.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/7c9158607e5e8f1a97f44394700bad4f.png",
+    "localFile": "extracted/assets/publications-003-7c9158607e5e8f1a97f44394700bad4f.png",
+    "alt": "Facebook Long Shadow",
+    "caption": "",
+    "bytes": 29944
+  },
+  {
+    "page": "/publications",
+    "pageTitle": "Publications",
+    "sourceUrl": "https://static.wixstatic.com/media/e9db6a0c3f1eef15bb394189590b36e8.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e9db6a0c3f1eef15bb394189590b36e8.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/e9db6a0c3f1eef15bb394189590b36e8.png",
+    "localFile": "extracted/assets/publications-004-e9db6a0c3f1eef15bb394189590b36e8.png",
+    "alt": "Google+ Long Shadow",
+    "caption": "",
+    "bytes": 33348
+  },
+  {
+    "page": "/publications",
+    "pageTitle": "Publications",
+    "sourceUrl": "https://static.wixstatic.com/media/07a3db395397ce7688fb7fd0ce91266c.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/07a3db395397ce7688fb7fd0ce91266c.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/07a3db395397ce7688fb7fd0ce91266c.png",
+    "localFile": "extracted/assets/publications-005-07a3db395397ce7688fb7fd0ce91266c.png",
+    "alt": "Flickr Long Shadow",
+    "caption": "",
+    "bytes": 11757
+  },
+  {
+    "page": "/lab-members",
+    "pageTitle": "Lab Members",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png/v1/fill/w_940,h_115,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "localFile": "extracted/assets/lab-members-001-ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "alt": "",
+    "caption": "",
+    "bytes": 30538
+  },
+  {
+    "page": "/lab-members",
+    "pageTitle": "Lab Members",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_67c4ed52ebd9442caa8603d1b770e054.jpg/v1/fill/w_91,h_128,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee27b6_67c4ed52ebd9442caa8603d1b770e054.jpg",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_67c4ed52ebd9442caa8603d1b770e054.jpg",
+    "localFile": "extracted/assets/lab-members-002-ee27b6_67c4ed52ebd9442caa8603d1b770e054.jpg",
+    "alt": "",
+    "caption": "",
+    "bytes": 212340
+  },
+  {
+    "page": "/lab-members",
+    "pageTitle": "Lab Members",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_ab6462b70fe54003ae80623ccaf3c3af.jpg/v1/fill/w_96,h_96,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee27b6_ab6462b70fe54003ae80623ccaf3c3af.jpg",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_ab6462b70fe54003ae80623ccaf3c3af.jpg",
+    "localFile": "extracted/assets/lab-members-003-ee27b6_ab6462b70fe54003ae80623ccaf3c3af.jpg",
+    "alt": "",
+    "caption": "",
+    "bytes": 51336
+  },
+  {
+    "page": "/lab-members",
+    "pageTitle": "Lab Members",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_fbeee85b9ecf444399ee7556625459fd.jpg/v1/fill/w_96,h_102,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee27b6_fbeee85b9ecf444399ee7556625459fd.jpg",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_fbeee85b9ecf444399ee7556625459fd.jpg",
+    "localFile": "extracted/assets/lab-members-004-ee27b6_fbeee85b9ecf444399ee7556625459fd.jpg",
+    "alt": "",
+    "caption": "",
+    "bytes": 77364
+  },
+  {
+    "page": "/lab-members",
+    "pageTitle": "Lab Members",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_edead52c00e34facb7a1f96867a84d2b.jpg/v1/fill/w_96,h_127,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee27b6_edead52c00e34facb7a1f96867a84d2b.jpg",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_edead52c00e34facb7a1f96867a84d2b.jpg",
+    "localFile": "extracted/assets/lab-members-005-ee27b6_edead52c00e34facb7a1f96867a84d2b.jpg",
+    "alt": "",
+    "caption": "",
+    "bytes": 75705
+  },
+  {
+    "page": "/lab-members",
+    "pageTitle": "Lab Members",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_70dee4d9fbbc4cb79f31c65b033ce37d.jpg/v1/fill/w_88,h_115,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee27b6_70dee4d9fbbc4cb79f31c65b033ce37d.jpg",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_70dee4d9fbbc4cb79f31c65b033ce37d.jpg",
+    "localFile": "extracted/assets/lab-members-006-ee27b6_70dee4d9fbbc4cb79f31c65b033ce37d.jpg",
+    "alt": "",
+    "caption": "",
+    "bytes": 1478028
+  },
+  {
+    "page": "/lab-members",
+    "pageTitle": "Lab Members",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_bdfce51d989f495d99b73b5019726feb.jpg/v1/fill/w_87,h_98,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee27b6_bdfce51d989f495d99b73b5019726feb.jpg",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_bdfce51d989f495d99b73b5019726feb.jpg",
+    "localFile": "extracted/assets/lab-members-007-ee27b6_bdfce51d989f495d99b73b5019726feb.jpg",
+    "alt": "",
+    "caption": "",
+    "bytes": 1216383
+  },
+  {
+    "page": "/lab-members",
+    "pageTitle": "Lab Members",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_bd2d8aa74bde48d98ed8a81b6749bf57.jpg/v1/fill/w_88,h_109,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee27b6_bd2d8aa74bde48d98ed8a81b6749bf57.jpg",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_bd2d8aa74bde48d98ed8a81b6749bf57.jpg",
+    "localFile": "extracted/assets/lab-members-008-ee27b6_bd2d8aa74bde48d98ed8a81b6749bf57.jpg",
+    "alt": "",
+    "caption": "",
+    "bytes": 1062997
+  },
+  {
+    "page": "/lab-members",
+    "pageTitle": "Lab Members",
+    "sourceUrl": "https://static.wixstatic.com/media/7c9158607e5e8f1a97f44394700bad4f.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/7c9158607e5e8f1a97f44394700bad4f.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/7c9158607e5e8f1a97f44394700bad4f.png",
+    "localFile": "extracted/assets/lab-members-009-7c9158607e5e8f1a97f44394700bad4f.png",
+    "alt": "Facebook Long Shadow",
+    "caption": "",
+    "bytes": 29944
+  },
+  {
+    "page": "/lab-members",
+    "pageTitle": "Lab Members",
+    "sourceUrl": "https://static.wixstatic.com/media/e9db6a0c3f1eef15bb394189590b36e8.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e9db6a0c3f1eef15bb394189590b36e8.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/e9db6a0c3f1eef15bb394189590b36e8.png",
+    "localFile": "extracted/assets/lab-members-010-e9db6a0c3f1eef15bb394189590b36e8.png",
+    "alt": "Google+ Long Shadow",
+    "caption": "",
+    "bytes": 33348
+  },
+  {
+    "page": "/lab-members",
+    "pageTitle": "Lab Members",
+    "sourceUrl": "https://static.wixstatic.com/media/07a3db395397ce7688fb7fd0ce91266c.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/07a3db395397ce7688fb7fd0ce91266c.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/07a3db395397ce7688fb7fd0ce91266c.png",
+    "localFile": "extracted/assets/lab-members-011-07a3db395397ce7688fb7fd0ce91266c.png",
+    "alt": "Flickr Long Shadow",
+    "caption": "",
+    "bytes": 11757
+  },
+  {
+    "page": "/copy-of-lab-members",
+    "pageTitle": "People Copy",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png/v1/fill/w_940,h_115,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "localFile": "extracted/assets/copy-of-lab-members-001-ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "alt": "",
+    "caption": "",
+    "bytes": 30538
+  },
+  {
+    "page": "/copy-of-lab-members",
+    "pageTitle": "People Copy",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_67c4ed52ebd9442caa8603d1b770e054.jpg/v1/fill/w_77,h_108,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee27b6_67c4ed52ebd9442caa8603d1b770e054.jpg",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_67c4ed52ebd9442caa8603d1b770e054.jpg",
+    "localFile": "extracted/assets/copy-of-lab-members-002-ee27b6_67c4ed52ebd9442caa8603d1b770e054.jpg",
+    "alt": "",
+    "caption": "",
+    "bytes": 212340
+  },
+  {
+    "page": "/copy-of-lab-members",
+    "pageTitle": "People Copy",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_de001e8efcc9433e8eea34f7ff9a7475~mv2.png/v1/crop/x_0,y_137,w_359,h_503/fill/w_73,h_109,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/nurit.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_de001e8efcc9433e8eea34f7ff9a7475~mv2.png",
+    "localFile": "extracted/assets/copy-of-lab-members-003-ee27b6_de001e8efcc9433e8eea34f7ff9a7475-mv2.png",
+    "alt": "nurit.png",
+    "caption": "",
+    "bytes": 446252
+  },
+  {
+    "page": "/copy-of-lab-members",
+    "pageTitle": "People Copy",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_60b9e856ded04740ac8895c0aaf346cd~mv2.png/v1/crop/x_21,y_0,w_421,h_611/fill/w_79,h_122,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/afeef3.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_60b9e856ded04740ac8895c0aaf346cd~mv2.png",
+    "localFile": "extracted/assets/copy-of-lab-members-004-ee27b6_60b9e856ded04740ac8895c0aaf346cd-mv2.png",
+    "alt": "afeef3.png",
+    "caption": "",
+    "bytes": 327084
+  },
+  {
+    "page": "/copy-of-lab-members",
+    "pageTitle": "People Copy",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_6e5a19ef91a645e0927e0df557cb3aa0~mv2.jpg/v1/crop/x_0,y_130,w_582,h_764/fill/w_85,h_117,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/chirly.jpg",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_6e5a19ef91a645e0927e0df557cb3aa0~mv2.jpg",
+    "localFile": "extracted/assets/copy-of-lab-members-005-ee27b6_6e5a19ef91a645e0927e0df557cb3aa0-mv2.jpg",
+    "alt": "chirly.jpg",
+    "caption": "",
+    "bytes": 62033
+  },
+  {
+    "page": "/copy-of-lab-members",
+    "pageTitle": "People Copy",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_be02c83d41ad460fbd4d38985495ed3d~mv2.jpg/v1/fill/w_79,h_80,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/PHOTO-2020-07-13-12-44-17.jpg",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_be02c83d41ad460fbd4d38985495ed3d~mv2.jpg",
+    "localFile": "extracted/assets/copy-of-lab-members-006-ee27b6_be02c83d41ad460fbd4d38985495ed3d-mv2.jpg",
+    "alt": "PHOTO-2020-07-13-12-44-17.jpg",
+    "caption": "",
+    "bytes": 21049
+  },
+  {
+    "page": "/copy-of-lab-members",
+    "pageTitle": "People Copy",
+    "sourceUrl": "https://static.wixstatic.com/media/7c9158607e5e8f1a97f44394700bad4f.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/7c9158607e5e8f1a97f44394700bad4f.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/7c9158607e5e8f1a97f44394700bad4f.png",
+    "localFile": "extracted/assets/copy-of-lab-members-007-7c9158607e5e8f1a97f44394700bad4f.png",
+    "alt": "Facebook Long Shadow",
+    "caption": "",
+    "bytes": 29944
+  },
+  {
+    "page": "/copy-of-lab-members",
+    "pageTitle": "People Copy",
+    "sourceUrl": "https://static.wixstatic.com/media/e9db6a0c3f1eef15bb394189590b36e8.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e9db6a0c3f1eef15bb394189590b36e8.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/e9db6a0c3f1eef15bb394189590b36e8.png",
+    "localFile": "extracted/assets/copy-of-lab-members-008-e9db6a0c3f1eef15bb394189590b36e8.png",
+    "alt": "Google+ Long Shadow",
+    "caption": "",
+    "bytes": 33348
+  },
+  {
+    "page": "/copy-of-lab-members",
+    "pageTitle": "People Copy",
+    "sourceUrl": "https://static.wixstatic.com/media/07a3db395397ce7688fb7fd0ce91266c.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/07a3db395397ce7688fb7fd0ce91266c.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/07a3db395397ce7688fb7fd0ce91266c.png",
+    "localFile": "extracted/assets/copy-of-lab-members-009-07a3db395397ce7688fb7fd0ce91266c.png",
+    "alt": "Flickr Long Shadow",
+    "caption": "",
+    "bytes": 11757
+  },
+  {
+    "page": "/curriculum-vita",
+    "pageTitle": "Curriculum Vita",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png/v1/fill/w_940,h_115,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "localFile": "extracted/assets/curriculum-vita-001-ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "alt": "",
+    "caption": "",
+    "bytes": 30538
+  },
+  {
+    "page": "/curriculum-vita",
+    "pageTitle": "Curriculum Vita",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_e3a47000899b47ef8b05444bf8adbb26.jpg/v1/fill/w_341,h_287,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee27b6_e3a47000899b47ef8b05444bf8adbb26.jpg",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_e3a47000899b47ef8b05444bf8adbb26.jpg",
+    "localFile": "extracted/assets/curriculum-vita-002-ee27b6_e3a47000899b47ef8b05444bf8adbb26.jpg",
+    "alt": "",
+    "caption": "",
+    "bytes": 92415
+  },
+  {
+    "page": "/curriculum-vita",
+    "pageTitle": "Curriculum Vita",
+    "sourceUrl": "https://static.wixstatic.com/media/7c9158607e5e8f1a97f44394700bad4f.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/7c9158607e5e8f1a97f44394700bad4f.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/7c9158607e5e8f1a97f44394700bad4f.png",
+    "localFile": "extracted/assets/curriculum-vita-003-7c9158607e5e8f1a97f44394700bad4f.png",
+    "alt": "Facebook Long Shadow",
+    "caption": "",
+    "bytes": 29944
+  },
+  {
+    "page": "/curriculum-vita",
+    "pageTitle": "Curriculum Vita",
+    "sourceUrl": "https://static.wixstatic.com/media/e9db6a0c3f1eef15bb394189590b36e8.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e9db6a0c3f1eef15bb394189590b36e8.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/e9db6a0c3f1eef15bb394189590b36e8.png",
+    "localFile": "extracted/assets/curriculum-vita-004-e9db6a0c3f1eef15bb394189590b36e8.png",
+    "alt": "Google+ Long Shadow",
+    "caption": "",
+    "bytes": 33348
+  },
+  {
+    "page": "/curriculum-vita",
+    "pageTitle": "Curriculum Vita",
+    "sourceUrl": "https://static.wixstatic.com/media/07a3db395397ce7688fb7fd0ce91266c.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/07a3db395397ce7688fb7fd0ce91266c.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/07a3db395397ce7688fb7fd0ce91266c.png",
+    "localFile": "extracted/assets/curriculum-vita-005-07a3db395397ce7688fb7fd0ce91266c.png",
+    "alt": "Flickr Long Shadow",
+    "caption": "",
+    "bytes": 11757
+  },
+  {
+    "page": "/collaborators",
+    "pageTitle": "Collaborators",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png/v1/fill/w_940,h_115,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "localFile": "extracted/assets/collaborators-001-ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "alt": "",
+    "caption": "",
+    "bytes": 30538
+  },
+  {
+    "page": "/collaborators",
+    "pageTitle": "Collaborators",
+    "sourceUrl": "https://static.wixstatic.com/media/7c9158607e5e8f1a97f44394700bad4f.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/7c9158607e5e8f1a97f44394700bad4f.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/7c9158607e5e8f1a97f44394700bad4f.png",
+    "localFile": "extracted/assets/collaborators-002-7c9158607e5e8f1a97f44394700bad4f.png",
+    "alt": "Facebook Long Shadow",
+    "caption": "",
+    "bytes": 29944
+  },
+  {
+    "page": "/collaborators",
+    "pageTitle": "Collaborators",
+    "sourceUrl": "https://static.wixstatic.com/media/e9db6a0c3f1eef15bb394189590b36e8.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e9db6a0c3f1eef15bb394189590b36e8.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/e9db6a0c3f1eef15bb394189590b36e8.png",
+    "localFile": "extracted/assets/collaborators-003-e9db6a0c3f1eef15bb394189590b36e8.png",
+    "alt": "Google+ Long Shadow",
+    "caption": "",
+    "bytes": 33348
+  },
+  {
+    "page": "/collaborators",
+    "pageTitle": "Collaborators",
+    "sourceUrl": "https://static.wixstatic.com/media/07a3db395397ce7688fb7fd0ce91266c.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/07a3db395397ce7688fb7fd0ce91266c.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/07a3db395397ce7688fb7fd0ce91266c.png",
+    "localFile": "extracted/assets/collaborators-004-07a3db395397ce7688fb7fd0ce91266c.png",
+    "alt": "Flickr Long Shadow",
+    "caption": "",
+    "bytes": 11757
+  },
+  {
+    "page": "/positions",
+    "pageTitle": "Positions",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png/v1/fill/w_940,h_115,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "localFile": "extracted/assets/positions-001-ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "alt": "",
+    "caption": "",
+    "bytes": 30538
+  },
+  {
+    "page": "/positions",
+    "pageTitle": "Positions",
+    "sourceUrl": "https://static.wixstatic.com/media/7c9158607e5e8f1a97f44394700bad4f.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/7c9158607e5e8f1a97f44394700bad4f.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/7c9158607e5e8f1a97f44394700bad4f.png",
+    "localFile": "extracted/assets/positions-002-7c9158607e5e8f1a97f44394700bad4f.png",
+    "alt": "Facebook Long Shadow",
+    "caption": "",
+    "bytes": 29944
+  },
+  {
+    "page": "/positions",
+    "pageTitle": "Positions",
+    "sourceUrl": "https://static.wixstatic.com/media/e9db6a0c3f1eef15bb394189590b36e8.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e9db6a0c3f1eef15bb394189590b36e8.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/e9db6a0c3f1eef15bb394189590b36e8.png",
+    "localFile": "extracted/assets/positions-003-e9db6a0c3f1eef15bb394189590b36e8.png",
+    "alt": "Google+ Long Shadow",
+    "caption": "",
+    "bytes": 33348
+  },
+  {
+    "page": "/positions",
+    "pageTitle": "Positions",
+    "sourceUrl": "https://static.wixstatic.com/media/07a3db395397ce7688fb7fd0ce91266c.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/07a3db395397ce7688fb7fd0ce91266c.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/07a3db395397ce7688fb7fd0ce91266c.png",
+    "localFile": "extracted/assets/positions-004-07a3db395397ce7688fb7fd0ce91266c.png",
+    "alt": "Flickr Long Shadow",
+    "caption": "",
+    "bytes": 11757
+  },
+  {
+    "page": "/lab-pictures",
+    "pageTitle": "Lab Pictures",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png/v1/fill/w_940,h_115,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "localFile": "extracted/assets/lab-pictures-001-ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "alt": "",
+    "caption": "",
+    "bytes": 30538
+  },
+  {
+    "page": "/lab-pictures",
+    "pageTitle": "Lab Pictures",
+    "sourceUrl": "https://static.wixstatic.com/media/7c9158607e5e8f1a97f44394700bad4f.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/7c9158607e5e8f1a97f44394700bad4f.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/7c9158607e5e8f1a97f44394700bad4f.png",
+    "localFile": "extracted/assets/lab-pictures-002-7c9158607e5e8f1a97f44394700bad4f.png",
+    "alt": "Facebook Long Shadow",
+    "caption": "",
+    "bytes": 29944
+  },
+  {
+    "page": "/lab-pictures",
+    "pageTitle": "Lab Pictures",
+    "sourceUrl": "https://static.wixstatic.com/media/e9db6a0c3f1eef15bb394189590b36e8.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e9db6a0c3f1eef15bb394189590b36e8.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/e9db6a0c3f1eef15bb394189590b36e8.png",
+    "localFile": "extracted/assets/lab-pictures-003-e9db6a0c3f1eef15bb394189590b36e8.png",
+    "alt": "Google+ Long Shadow",
+    "caption": "",
+    "bytes": 33348
+  },
+  {
+    "page": "/lab-pictures",
+    "pageTitle": "Lab Pictures",
+    "sourceUrl": "https://static.wixstatic.com/media/07a3db395397ce7688fb7fd0ce91266c.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/07a3db395397ce7688fb7fd0ce91266c.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/07a3db395397ce7688fb7fd0ce91266c.png",
+    "localFile": "extracted/assets/lab-pictures-004-07a3db395397ce7688fb7fd0ce91266c.png",
+    "alt": "Flickr Long Shadow",
+    "caption": "",
+    "bytes": 11757
+  },
+  {
+    "page": "/contact",
+    "pageTitle": "Contact",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png/v1/fill/w_940,h_115,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "localFile": "extracted/assets/contact-001-ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png",
+    "alt": "",
+    "caption": "",
+    "bytes": 30538
+  },
+  {
+    "page": "/contact",
+    "pageTitle": "Contact",
+    "sourceUrl": "https://static.wixstatic.com/media/ee27b6_7df738b6d44243fbbe719ab553b3b4a8.jpg/v1/fill/w_367,h_242,al_c,lg_1,q_80,enc_avif,quality_auto/ee27b6_7df738b6d44243fbbe719ab553b3b4a8.jpg",
+    "normalizedUrl": "https://static.wixstatic.com/media/ee27b6_7df738b6d44243fbbe719ab553b3b4a8.jpg",
+    "localFile": "extracted/assets/contact-002-ee27b6_7df738b6d44243fbbe719ab553b3b4a8.jpg",
+    "alt": "",
+    "caption": "",
+    "bytes": 11315
+  },
+  {
+    "page": "/contact",
+    "pageTitle": "Contact",
+    "sourceUrl": "https://static.wixstatic.com/media/7c9158607e5e8f1a97f44394700bad4f.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/7c9158607e5e8f1a97f44394700bad4f.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/7c9158607e5e8f1a97f44394700bad4f.png",
+    "localFile": "extracted/assets/contact-003-7c9158607e5e8f1a97f44394700bad4f.png",
+    "alt": "Facebook Long Shadow",
+    "caption": "",
+    "bytes": 29944
+  },
+  {
+    "page": "/contact",
+    "pageTitle": "Contact",
+    "sourceUrl": "https://static.wixstatic.com/media/e9db6a0c3f1eef15bb394189590b36e8.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e9db6a0c3f1eef15bb394189590b36e8.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/e9db6a0c3f1eef15bb394189590b36e8.png",
+    "localFile": "extracted/assets/contact-004-e9db6a0c3f1eef15bb394189590b36e8.png",
+    "alt": "Google+ Long Shadow",
+    "caption": "",
+    "bytes": 33348
+  },
+  {
+    "page": "/contact",
+    "pageTitle": "Contact",
+    "sourceUrl": "https://static.wixstatic.com/media/07a3db395397ce7688fb7fd0ce91266c.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/07a3db395397ce7688fb7fd0ce91266c.png",
+    "normalizedUrl": "https://static.wixstatic.com/media/07a3db395397ce7688fb7fd0ce91266c.png",
+    "localFile": "extracted/assets/contact-005-07a3db395397ce7688fb7fd0ce91266c.png",
+    "alt": "Flickr Long Shadow",
+    "caption": "",
+    "bytes": 11757
+  }
+]

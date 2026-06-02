@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.korngreenlab.org/sitemap-index.xml
+

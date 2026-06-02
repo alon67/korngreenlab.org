@@ -1,0 +1,53 @@
+{
+  "title": "Curriculum Vita",
+  "sourceTitle": "Curriculum Vita",
+  "path": "/curriculum-vita",
+  "sourceUrl": "https://www.korngreenlab.org/curriculum-vita",
+  "language": "en",
+  "direction": "ltr",
+  "textLines": [
+    "Prof. Alon Korngrren",
+    "Academic Background",
+    "1993-1997 Ben-Gurion University, Ph.D. Biophysics",
+    "1991-1993 Ben-Gurion University, M.Sc. Biophysics",
+    "1988-1991 Ben-Gurion University, B.Sc. Chemistry",
+    "Previous Employment",
+    "2018- Bar-Ilan University, Professor",
+    "2012-2018 Bar-Ilan University, Associate Professor",
+    "2007-2012 Bar-Ilan University, Senior Lecturer in Neurophysiology",
+    "2001-2007 Bar-Ilan University, Lecturer in Neurophysiology",
+    "1997-2001 Department of Cell Physiology, Max-Planck Institute for Medical",
+    "Research, Heidelberg, Germany, PostDoc",
+    "My ResearchGate Profile",
+    "My Google Scholar Profile"
+  ],
+  "links": [
+    {
+      "text": "My ResearchGate Profile",
+      "href": "https://www.researchgate.net/profile/Alon_Korngreen"
+    },
+    {
+      "text": "My Google Scholar Profile",
+      "href": "http://scholar.google.co.il/citations?user=9DUsX7MAAAAJ&hl=en&oi=ao"
+    },
+    {
+      "text": "https://www.facebook.com/alon.korngreen",
+      "href": "https://www.facebook.com/alon.korngreen"
+    },
+    {
+      "text": "https://plus.google.com/+AlonKorngreen/posts",
+      "href": "https://plus.google.com/+AlonKorngreen/posts"
+    },
+    {
+      "text": "https://www.flickr.com/photos/photoloni/",
+      "href": "https://www.flickr.com/photos/photoloni/"
+    }
+  ],
+  "images": [
+    {
+      "src": "curriculum-vita-002-ee27b6_e3a47000899b47ef8b05444bf8adbb26.jpg",
+      "alt": "Curriculum Vita",
+      "caption": ""
+    }
+  ]
+}

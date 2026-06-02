@@ -1,0 +1,153 @@
+---
+import { Image } from "astro:assets";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const { page } = Astro.props;
+const images = import.meta.glob("../assets/extracted/*", { eager: true });
+
+function imageModule(fileName) {
+  return images[`../assets/extracted/${fileName}`]?.default;
+}
+
+function isHeading(line) {
+  if (line.length > 80) return false;
+  if (/^E-mail:/i.test(line)) return false;
+  if (/^[A-Z0-9 .,&'’:+-]+$/.test(line) && /[A-Z]/.test(line)) return true;
+  return [
+    "Themes",
+    "Lab Members",
+    "Current Lab Members",
+    "Former Lab Members",
+    "Positions",
+    "Collaborators",
+    "Curriculum Vita",
+    "Research",
+    "Contact",
+  ].includes(line);
+}
+
+function emailParts(line) {
+  const match = line.match(/[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/i);
+  if (!match) return null;
+  return {
+    before: line.slice(0, match.index),
+    email: match[0],
+    after: line.slice((match.index || 0) + match[0].length),
+  };
+}
+
+function urlParts(line) {
+  const match = line.match(/https?:\/\/\S+/);
+  if (!match) return null;
+  return {
+    before: line.slice(0, match.index),
+    url: match[0],
+    after: line.slice((match.index || 0) + match[0].length),
+  };
+}
+
+function linkForLine(line) {
+  return page.links.find((link) => link.text === line || link.text.includes(line) || line.includes(link.text));
+}
+
+const publicationSections = [];
+if (page.path === "/publications") {
+  let current = null;
+  for (const line of page.textLines) {
+    if (isHeading(line)) {
+      current = { heading: line, items: [] };
+      publicationSections.push(current);
+    } else if (current) {
+      current.items.push(line);
+    }
+  }
+}
+
+const rendered = [];
+for (const line of page.textLines) {
+  rendered.push({ type: isHeading(line) ? "heading" : "paragraph", text: line });
+}
+---
+
+<BaseLayout
+  title={`${page.title} | The Korngreen Lab`}
+  description="Cellular and Computational Neurophysiology"
+  language={page.language}
+  direction={page.direction}
+>
+  <section class="page-header">
+    <h1>{page.title}</h1>
+  </section>
+
+  {page.images.length > 0 && (
+    <section class="media-strip" aria-label={`${page.title} images`}>
+      {page.images.slice(0, 6).map((image) => {
+        const source = imageModule(image.src);
+        return source ? (
+          <figure>
+            <Image src={source} alt={image.alt} width={360} densities={[1, 2]} />
+            {image.caption && <figcaption>{image.caption}</figcaption>}
+          </figure>
+        ) : null;
+      })}
+    </section>
+  )}
+
+  {page.path === "/lab-pictures" && (
+    <aside class="review-note">
+      <h2>Review note</h2>
+      <p>The Wix-rendered page exposed only navigation and social links during extraction. If this page should contain a photo gallery, the source may need to be the linked Flickr collection or another media archive.</p>
+    </aside>
+  )}
+
+  {page.path === "/publications" ? (
+    <article class="publication-list">
+      {publicationSections.map((section) => (
+        <section>
+          <h2>{section.heading}</h2>
+          <ol>
+            {section.items.map((item) => {
+              const linked = linkForLine(item);
+              return (
+                <li>
+                  {linked ? <a href={linked.href}><span dir="auto" class="bidi-isolate">{item}</span></a> : <span dir="auto" class="bidi-isolate">{item}</span>}
+                </li>
+              );
+            })}
+          </ol>
+        </section>
+      ))}
+    </article>
+  ) : (
+    <article class="extracted-content">
+      {rendered.map((item) => {
+        const email = item.type === "paragraph" ? emailParts(item.text) : null;
+        const url = item.type === "paragraph" ? urlParts(item.text) : null;
+        return item.type === "heading" ? (
+          <h2><span dir="auto" class="bidi-isolate">{item.text}</span></h2>
+        ) : (
+          <p>
+            {email ? (
+              <span dir="auto" class="bidi-isolate">{email.before}<a href={`mailto:${email.email}`}>{email.email}</a>{email.after}</span>
+            ) : url ? (
+              <span dir="auto" class="bidi-isolate">{url.before}<a href={url.url}>{url.url}</a>{url.after}</span>
+            ) : (
+              <span dir="auto" class="bidi-isolate">{item.text}</span>
+            )}
+          </p>
+        );
+      })}
+    </article>
+  )}
+
+  {page.links.length > 0 && (
+    <section class="related-links">
+      <h2>Links</h2>
+      <ul>
+        {page.links.map((link) => (
+          <li><a href={link.href}>{link.text}</a></li>
+        ))}
+      </ul>
+    </section>
+  )}
+</BaseLayout>
