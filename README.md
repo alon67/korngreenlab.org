@@ -32,3 +32,5 @@ See [LOCAL_REVIEW_GUIDE.md](LOCAL_REVIEW_GUIDE.md) for the local review checklis
 - `src/content/` is the source used by the Astro site.
 - `src/assets/` stores optimized site images.
 - `public/` stores passthrough files such as `CNAME`, favicons, and downloads.
+
+The current People page content comes from the Wix `/copy-of-lab-members` extraction and is rendered locally at `/lab-members`. The old `/copy-of-lab-members` route redirects to `/lab-members`.

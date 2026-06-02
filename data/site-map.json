@@ -57,18 +57,21 @@
       "priority": 0.95
     },
     {
-      "title": "Lab Members",
+      "title": "People",
       "path": "/lab-members",
       "url": "https://www.korngreenlab.org/lab-members",
       "language": "en",
-      "priority": 0.8
+      "priority": 0.8,
+      "notes": "Runtime page uses current people content extracted from /copy-of-lab-members; this URL is retained for extraction audit."
     },
     {
-      "title": "People Copy",
+      "title": "Legacy Lab Members",
       "path": "/copy-of-lab-members",
       "url": "https://www.korngreenlab.org/copy-of-lab-members",
       "language": "en",
-      "priority": 0.5
+      "priority": 0.1,
+      "redirectTo": "/lab-members",
+      "notes": "Legacy Wix URL retained as a redirect."
     },
     {
       "title": "Curriculum Vita",
