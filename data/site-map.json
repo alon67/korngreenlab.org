@@ -26,14 +26,20 @@
       "path": "/themes",
       "url": "https://www.korngreenlab.org/themes",
       "language": "en",
-      "priority": 0.7
+      "priority": 0.1,
+      "active": false,
+      "redirectTo": "/research",
+      "notes": "Removed from active site at user request; retained in extraction archive."
     },
     {
       "title": "Resources",
       "path": "/resources",
       "url": "https://www.korngreenlab.org/resources",
       "language": "en",
-      "priority": 0.7
+      "priority": 0.1,
+      "active": false,
+      "redirectTo": "/research",
+      "notes": "Removed from active site at user request; retained in extraction archive."
     },
     {
       "title": "Research Hebrew",
@@ -85,21 +91,30 @@
       "path": "/collaborators",
       "url": "https://www.korngreenlab.org/collaborators",
       "language": "en",
-      "priority": 0.7
+      "priority": 0.1,
+      "active": false,
+      "redirectTo": "/",
+      "notes": "Removed from active site at user request; retained in extraction archive."
     },
     {
       "title": "Positions",
       "path": "/positions",
       "url": "https://www.korngreenlab.org/positions",
       "language": "en",
-      "priority": 0.7
+      "priority": 0.1,
+      "active": false,
+      "redirectTo": "/contact",
+      "notes": "Removed from active site at user request; retained in extraction archive."
     },
     {
       "title": "Lab Pictures",
       "path": "/lab-pictures",
       "url": "https://www.korngreenlab.org/lab-pictures",
       "language": "en",
-      "priority": 0.75
+      "priority": 0.1,
+      "active": false,
+      "redirectTo": "/",
+      "notes": "Removed from active site at user request; retained in extraction archive."
     },
     {
       "title": "Contact",

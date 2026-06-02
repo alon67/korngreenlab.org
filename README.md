@@ -34,3 +34,5 @@ See [LOCAL_REVIEW_GUIDE.md](LOCAL_REVIEW_GUIDE.md) for the local review checklis
 - `public/` stores passthrough files such as `CNAME`, favicons, and downloads.
 
 The current People page content comes from the Wix `/copy-of-lab-members` extraction and is rendered locally at `/lab-members`. The old `/copy-of-lab-members` route redirects to `/lab-members`.
+
+The extracted archive still contains Themes, Resources, Collaborators, Positions, and Lab Pictures, but those sections are no longer active site pages.
