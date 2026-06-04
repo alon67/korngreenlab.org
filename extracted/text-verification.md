@@ -1,6 +1,6 @@
 # Text Extraction Verification
 
-Generated: 2026-06-02T15:32:39.013Z
+Generated: 2026-06-04T08:46:15.635Z
 
 - PASS: Home (/)
   - characters: 647
@@ -30,11 +30,11 @@ Generated: 2026-06-02T15:32:39.013Z
   - characters: 13018
   - headings: 3
   - links: 28
-- PASS: Lab Members (/lab-members)
+- PASS: People (/lab-members)
   - characters: 1060
   - headings: 7
   - links: 17
-- PASS: People Copy (/copy-of-lab-members)
+- PASS: Legacy Lab Members (/copy-of-lab-members)
   - characters: 1335
   - headings: 14
   - links: 18

@@ -5,6 +5,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 const imageModules = import.meta.glob("../assets/gallery/wix-gallery/*.{jpg,jpeg,png,JPG,JPEG,PNG}", {
   eager: true,
 });
+const excludedImages = new Set(["AP_background.png"]);
 
 function labelFromPath(path) {
   const fileName = path.split("/").pop() || "Gallery image";
@@ -16,6 +17,7 @@ function labelFromPath(path) {
 }
 
 const images = Object.entries(imageModules)
+  .filter(([path]) => !excludedImages.has(path.split("/").pop() || ""))
   .map(([path, module]) => {
     const source = module.default;
     return {
