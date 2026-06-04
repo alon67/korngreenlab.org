@@ -32,7 +32,7 @@ The local site has passed user inspection and has been pushed to GitHub:
 
 - Repository: `https://github.com/alon67/korngreenlab.org`
 - Pages source: GitHub Actions
-- Current Pages URL: `http://www.korngreenlab.org/`
+- GitHub Pages custom-domain URL: `http://www.korngreenlab.org/` (DNS may still point to Wix until cutover)
 - Temporary GitHub Pages URL: `https://alon67.github.io/korngreenlab.org/`
 - Custom domain configured in GitHub Pages: `www.korngreenlab.org`
 
