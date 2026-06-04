@@ -28,15 +28,15 @@ See [LOCAL_REVIEW_GUIDE.md](LOCAL_REVIEW_GUIDE.md) for the local review checklis
 
 ## Deployment
 
-The local site has passed user inspection and can proceed to GitHub setup. Deployment is configured through GitHub Actions in `.github/workflows/deploy.yml`.
+The local site has passed user inspection and has been pushed to GitHub:
 
-Before the first public deployment:
+- Repository: `https://github.com/alon67/korngreenlab.org`
+- Pages source: GitHub Actions
+- Current Pages URL: `http://www.korngreenlab.org/`
+- Temporary GitHub Pages URL: `https://alon67.github.io/korngreenlab.org/`
+- Custom domain configured in GitHub Pages: `www.korngreenlab.org`
 
-1. Create the GitHub repository and push `main`.
-2. In GitHub, set Pages source to GitHub Actions.
-3. Confirm `public/CNAME` contains `www.korngreenlab.org`.
-4. Wait for the Pages workflow to finish.
-5. Review the deployed GitHub Pages site before changing Wix/DNS records.
+GitHub Pages HTTPS enforcement is still pending certificate provisioning. DNS cutover from Wix should happen only after reviewing the deployed GitHub Pages site and confirming the DNS records are ready.
 
 ## Content Sources
 

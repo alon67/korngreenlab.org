@@ -403,10 +403,10 @@ Common site elements:
 
 **Acceptance criteria:**
 
-- [ ] GitHub remote is configured as `origin`.
-- [ ] Default branch is pushed.
-- [ ] Repository visibility is selected intentionally: public for GitHub Pages simplicity, private only if Pages support is confirmed for the account plan.
-- [ ] The pushed version matches the user-approved local build.
+- [x] GitHub remote is configured as `origin`.
+- [x] Default branch is pushed.
+- [x] Repository visibility is selected intentionally: public for GitHub Pages simplicity, private only if Pages support is confirmed for the account plan.
+- [x] The pushed version matches the user-approved local build.
 
 **Suggested commands:**
 
@@ -416,8 +416,8 @@ gh repo create korngreenlab.org --public --source=. --remote=origin --push
 
 **Verification:**
 
-- [ ] GitHub repository opens in the browser.
-- [ ] Remote branch matches local branch.
+- [x] GitHub repository opens in the browser.
+- [x] Remote branch matches local branch.
 
 **Dependencies:** Task 13
 
@@ -429,18 +429,18 @@ gh repo create korngreenlab.org --public --source=. --remote=origin --push
 
 **Acceptance criteria:**
 
-- [ ] `.github/workflows/deploy.yml` builds on pushes to the default branch.
-- [ ] GitHub Pages source is set to GitHub Actions.
-- [ ] Workflow uses the pinned Node version and `npm ci`.
-- [ ] `public/CNAME` contains the intended custom domain before the first Pages deployment.
-- [ ] Astro `site` is confirmed to match the final custom domain configured earlier in Task 6.
-- [ ] The build avoids a temporary project-page `base` path unless the user intentionally defers custom-domain setup.
-- [ ] The deployed site loads successfully at the GitHub Pages URL.
+- [x] `.github/workflows/deploy.yml` builds on pushes to the default branch.
+- [x] GitHub Pages source is set to GitHub Actions.
+- [x] Workflow uses the pinned Node version and `npm ci`.
+- [x] `public/CNAME` contains the intended custom domain before the first Pages deployment.
+- [x] Astro `site` is confirmed to match the final custom domain configured earlier in Task 6.
+- [x] The build avoids a temporary project-page `base` path unless the user intentionally defers custom-domain setup.
+- [x] The deployed site loads successfully at the GitHub Pages URL.
 - [ ] GitHub Pages HTTPS enforcement is enabled after certificate provisioning.
 
 **Verification:**
 
-- [ ] GitHub Actions deployment succeeds.
+- [x] GitHub Actions deployment succeeds.
 - [ ] Deployed pages match local build output.
 - [ ] Internal links and image paths work at the custom domain root.
 
@@ -497,9 +497,9 @@ gh repo create korngreenlab.org --public --source=. --remote=origin --push
 
 ### Checkpoint D: After Phase 4
 
-- [ ] GitHub repository exists and has a clean default branch.
-- [ ] GitHub Pages deployment succeeds.
-- [ ] Custom domain is either configured or explicitly deferred.
+- [x] GitHub repository exists and has a clean default branch.
+- [x] GitHub Pages deployment succeeds.
+- [x] Custom domain is either configured or explicitly deferred.
 - [ ] HTTPS is enforced after certificate provisioning.
 
 ## Risks and Mitigations
