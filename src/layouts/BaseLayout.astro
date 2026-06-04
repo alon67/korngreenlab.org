@@ -1,4 +1,12 @@
 ---
+import { Image } from "astro:assets";
+import mastheadBanner from "../assets/extracted/home-001-ee27b6_0aa619b4bedb4c449a01ddd6c6a19106.png";
+import linkedInIcon from "../assets/extracted/home-003-48a2a42b19814efaa824450f23e8a253.png";
+import facebookIcon from "../assets/extracted/home-004-e316f544f9094143b9eac01f1f19e697.png";
+import twitterIcon from "../assets/extracted/home-005-9c4b521dd2404cd5a05ed6115f3a0dc8.png";
+import youtubeIcon from "../assets/extracted/home-006-a1b09fe8b7f04378a9fe076748ad4a6a.png";
+import "../styles/global.css";
+
 const {
   title = "The Korngreen Lab",
   description = "Cellular and Computational Neurophysiology",
@@ -9,15 +17,19 @@ const {
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const navItems = [
   { href: "/", label: "Home" },
-  { href: "/research", label: "Research" },
-  { href: "/research-hebrew", label: "Hebrew" },
   { href: "/publications", label: "Publications" },
   { href: "/lab-members", label: "People" },
+  { href: "/gallery", label: "Gallery" },
   { href: "/curriculum-vita", label: "CV" },
   { href: "/contact", label: "Contact" },
 ];
 
-import "../styles/global.css";
+const socialLinks = [
+  { href: "https://www.linkedin.com/in/alonkorngreen/", label: "LinkedIn", icon: linkedInIcon },
+  { href: "https://www.facebook.com/alon.korngreen", label: "Facebook", icon: facebookIcon },
+  { href: "https://twitter.com/AlonKorngreen", label: "Twitter", icon: twitterIcon },
+  { href: "https://www.youtube.com/c/AlonKorngreen/", label: "YouTube", icon: youtubeIcon },
+];
 ---
 
 <!doctype html>
@@ -36,10 +48,15 @@ import "../styles/global.css";
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="/">
-        <span class="brand-title">THE KORNGREEN LAB</span>
-        <span class="brand-subtitle">Cellular and Computational Neurophysiology</span>
-      </a>
+      <div class="masthead-image" aria-hidden="true">
+        <Image src={mastheadBanner} alt="" width={1362} height={167} densities={[1, 2]} />
+      </div>
+      <div class="identity-bar">
+        <a class="brand" href="/">
+          <span class="brand-title">THE KORNGREEN LAB</span>
+          <span class="brand-subtitle">Cellular and Computational Neurophysiology</span>
+        </a>
+      </div>
       <nav class="site-nav" aria-label="Primary navigation">
         {navItems.map((item) => <a href={item.href}>{item.label}</a>)}
       </nav>
@@ -48,8 +65,18 @@ import "../styles/global.css";
       <slot />
     </main>
     <footer class="site-footer">
-      <p>Bar-Ilan University</p>
-      <p><a href="mailto:alon.korngreen@biu.ac.il">alon.korngreen@biu.ac.il</a></p>
+      <div>
+        <p>The Korngreen Lab</p>
+        <p>Bar-Ilan University</p>
+        <p><a href="mailto:alon.korngreen@biu.ac.il">alon.korngreen@biu.ac.il</a></p>
+      </div>
+      <nav class="social-links" aria-label="Social links">
+        {socialLinks.map((item) => (
+          <a href={item.href} aria-label={item.label}>
+            <Image src={item.icon} alt="" width={24} height={24} />
+          </a>
+        ))}
+      </nav>
     </footer>
   </body>
 </html>

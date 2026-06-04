@@ -50,6 +50,31 @@ function linkForLine(line) {
   return page.links.find((link) => link.text === line || link.text.includes(line) || line.includes(link.text));
 }
 
+function isSocialImage(image) {
+  return ["LinkedIn", "Facebook", "Twitter", "YouTube", "Facebook Long Shadow", "Google+ Long Shadow", "Flickr Long Shadow"].includes(image.alt);
+}
+
+function isUtilityLink(link) {
+  return (
+    link.href.startsWith("mailto:") ||
+    /facebook\.com|plus\.google\.com|twitter\.com|youtube\.com|linkedin\.com|flickr\.com/i.test(link.href)
+  );
+}
+
+const contentImages = page.images.filter((image) => !isSocialImage(image));
+const featureImage = contentImages[0];
+const supportingImages = contentImages.slice(1, 6);
+const relatedLinks = page.links.filter((link) => !isUtilityLink(link));
+const pagesWithoutRelatedLinks = ["/publications", "/lab-members", "/copy-of-lab-members"];
+const showRelatedLinks = !pagesWithoutRelatedLinks.includes(page.path) && relatedLinks.length > 0;
+const pageVisualClass = {
+  "/": "page-visual page-visual-home",
+  "/publications": "page-visual page-visual-wide",
+  "/lab-members": "page-visual page-visual-people",
+  "/copy-of-lab-members": "page-visual page-visual-people",
+  "/contact": "page-visual page-visual-contact",
+}[page.path] || "page-visual";
+
 const publicationSections = [];
 if (page.path === "/publications") {
   let current = null;
@@ -75,17 +100,27 @@ for (const line of page.textLines) {
   language={page.language}
   direction={page.direction}
 >
-  <section class="page-header">
-    <h1>{page.title}</h1>
-  </section>
+  {featureImage && (
+    <section class={pageVisualClass} aria-label={`${page.title} featured image`}>
+      {(() => {
+        const source = imageModule(featureImage.src);
+        return source ? (
+          <figure>
+            <Image src={source} alt={featureImage.alt} width={920} densities={[1, 2]} />
+            {featureImage.caption && <figcaption>{featureImage.caption}</figcaption>}
+          </figure>
+        ) : null;
+      })()}
+    </section>
+  )}
 
-  {page.images.length > 0 && (
-    <section class="media-strip" aria-label={`${page.title} images`}>
-      {page.images.slice(0, 6).map((image) => {
+  {supportingImages.length > 0 && (
+    <section class="media-strip" aria-label={`${page.title} supporting images`}>
+      {supportingImages.map((image) => {
         const source = imageModule(image.src);
         return source ? (
           <figure>
-            <Image src={source} alt={image.alt} width={360} densities={[1, 2]} />
+            <Image src={source} alt={image.alt} width={280} densities={[1, 2]} />
             {image.caption && <figcaption>{image.caption}</figcaption>}
           </figure>
         ) : null;
@@ -140,11 +175,11 @@ for (const line of page.textLines) {
     </article>
   )}
 
-  {page.links.length > 0 && (
+  {showRelatedLinks && (
     <section class="related-links">
       <h2>Links</h2>
       <ul>
-        {page.links.map((link) => (
+        {relatedLinks.map((link) => (
           <li><a href={link.href}>{link.text}</a></li>
         ))}
       </ul>

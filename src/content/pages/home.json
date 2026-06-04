@@ -6,20 +6,13 @@
   "language": "en",
   "direction": "ltr",
   "textLines": [
-    "Alon Korngreen Neurophysiology Laboratory",
-    "alon.korngreen@biu.ac.il",
     "RESEARCH INTERESTS",
-    "Our lab at Bar-Ilan University, Israel studies some of the basic yet still unresolved questions in neuroscience: How do neurons process information? What is the neuronal code at the cellular level? How does synaptic integration affect neuronal computation? We apply electrophysiology and optogenetics to study circuits in the basal ganglia that are affected in Parkinson's disease. We currently investigate the interplay between cannabinoids and dopamine in the basal ganglia."
+    "We study some of the basic yet still unresolved questions in neuroscience: How do neurons process information? What is the neuronal code at the cellular level? How does synaptic integration affect neuronal computation? How do neurons turn the activity of their molecular parts into computation? Understanding this—single-neuron computation—is the overarching goal of our lab. Answering it demands models we can trust, yet most neural models are built by compressing rich, variable measurements into a single best fit, hiding the very uncertainty that ought to be part of the scientific claim.",
+    "The pathway we are currently pursuing is to generate reference-grade models of neuronal excitability: descriptions of ion channels and neurons that explicitly propagate their measurement uncertainty. Instead of one representative model, we treat the data as defining a constrained family of possibilities and ask which mechanistic claims that family genuinely supports.",
+    "To do this, we combine patch-clamp electrophysiology, in heterologous expression systems and in brain slices, with computational tools: sensitivity analysis to map where uncertainty lives, model-form and protocol design driven by identifiability, and covariance-aware parameter ensembles. We have demonstrated this framework across the field's foundational models, from single channels to action-potential generation.",
+    "Our immediate goal is a set of certified, openly documented channel standards and a theory for composing them, since channels reshape one another when they share a membrane, charting a credible path toward trustworthy models of cortical neurons."
   ],
   "links": [
-    {
-      "text": "alon.korngreen@biu.ac.il",
-      "href": "mailto:alon.korngreen@biu.ac.il"
-    },
-    {
-      "text": "http://www.jneurosci.org/content/34/1/182.short",
-      "href": "http://www.jneurosci.org/content/34/1/182.short"
-    },
     {
       "text": "https://www.linkedin.com/in/alonkorngreen/",
       "href": "https://www.linkedin.com/in/alonkorngreen/"

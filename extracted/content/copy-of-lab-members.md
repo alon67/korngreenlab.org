@@ -63,13 +63,11 @@ M.Sc Sudent
 
 chirly.levy@icloud.com
 
-Gal Rubin
 
-M.Sc Student
 
-galrubin231@gmail.com
 
 FORMER LAB MEMBERS
+Gal Rubin (M.Sc. 2021)
 
 Lilach Gorodetzki (PhD 2019)
 

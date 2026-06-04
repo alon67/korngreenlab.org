@@ -1,0 +1,48 @@
+---
+import { Image } from "astro:assets";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const imageModules = import.meta.glob("../assets/gallery/wix-gallery/*.{jpg,jpeg,png,JPG,JPEG,PNG}", {
+  eager: true,
+});
+
+function labelFromPath(path) {
+  const fileName = path.split("/").pop() || "Gallery image";
+  return fileName
+    .replace(/\.[^.]+$/, "")
+    .replace(/[_-]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+const images = Object.entries(imageModules)
+  .map(([path, module]) => {
+    const source = module.default;
+    return {
+      alt: labelFromPath(path),
+      height: source.height,
+      source,
+      width: source.width,
+    };
+  })
+  .sort((a, b) => a.alt.localeCompare(b.alt, undefined, { numeric: true }));
+---
+
+<BaseLayout title="Gallery | The Korngreen Lab" description="Gallery images from The Korngreen Lab">
+  <section class="gallery-page" aria-label="Lab gallery">
+    <div class="gallery-grid">
+      {images.map((image) => (
+        <figure class="gallery-item">
+          <Image
+            src={image.source}
+            alt={image.alt}
+            width={Math.min(image.width, 900)}
+            densities={[1, 2]}
+            loading="lazy"
+            decoding="async"
+          />
+        </figure>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

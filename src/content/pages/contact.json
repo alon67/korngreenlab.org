@@ -6,7 +6,6 @@
   "language": "en",
   "direction": "ltr",
   "textLines": [
-    "Get in touch",
     "The Korngreen Lab",
     "The Leslie and Susan Gonda Brain Research Center",
     "Building 901, rooms: 509 (lab), 510 (Alon), 516 (students)",
@@ -14,13 +13,7 @@
     "Ramat-Gan, 5290002",
     "ISRAEL",
     "E-mail: alon.korngreen@biu.ac.il",
-    "Tel: +972-3-5318224/7156",
-    "Fax: +972-3-5352184",
-    "Name",
-    "Email",
-    "Subject",
-    "Message",
-    "Send"
+    "Tel: +972-3-5318224/7156"
   ],
   "links": [
     {

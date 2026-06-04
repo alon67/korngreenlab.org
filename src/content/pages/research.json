@@ -6,19 +6,9 @@
   "language": "en",
   "direction": "ltr",
   "textLines": [
-    "We study some of the basic yet still unresolved questions in neuroscience: How do neurons process information? What is the neuronal code at the cellular level? How does synaptic integration affect neuronal computation? To address these questions we combine electrophysiology of neurons in acute brain slices with techniques in computational neuroscience. Over the past decade we have developed several computational techniques aiming at constraining numerical models for complex cortical neurons. Thus, our research has aspects from computer science, neuronal computation, biophysics and neurophysiology. We are currently working on two primary projects that investigate various aspects of the general questions we are interested in.",
-    "Themes",
-    "Resources"
+    "We study some of the basic yet still unresolved questions in neuroscience: How do neurons process information? What is the neuronal code at the cellular level? How does synaptic integration affect neuronal computation? To address these questions we combine electrophysiology of neurons in acute brain slices with techniques in computational neuroscience. Over the past decade we have developed several computational techniques aiming at constraining numerical models for complex cortical neurons. Thus, our research has aspects from computer science, neuronal computation, biophysics and neurophysiology. We are currently working on two primary projects that investigate various aspects of the general questions we are interested in."
   ],
   "links": [
-    {
-      "text": "Themes",
-      "href": "/themes"
-    },
-    {
-      "text": "Resources",
-      "href": "/resources"
-    },
     {
       "text": "https://www.facebook.com/alon.korngreen",
       "href": "https://www.facebook.com/alon.korngreen"

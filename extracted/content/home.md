@@ -23,7 +23,7 @@ Contact
 
 RESEARCH INTERESTS
 
-Our lab at Bar-Ilan University, Israel studies some of the basic yet still unresolved questions in neuroscience: How do neurons process information? What is the neuronal code at the cellular level? How does synaptic integration affect neuronal computation? We apply electrophysiology and optogenetics to study circuits in the basal ganglia that are affected in Parkinson's disease. We currently investigate the interplay between cannabinoids and dopamine in the basal ganglia.
+Our lab at Bar-Ilan University, Israel studies some of the basic yet still unresolved questions in neuroscience: How do neurons process information? What is the neuronal code at the cellular level? How does synaptic integration affect neuronal computation? 
 
 ## Links
 
