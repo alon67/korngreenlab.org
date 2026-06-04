@@ -26,6 +26,18 @@ The local preview usually runs at `http://localhost:4321/`.
 
 See [LOCAL_REVIEW_GUIDE.md](LOCAL_REVIEW_GUIDE.md) for the local review checklist, editing locations, and known review items.
 
+## Deployment
+
+The local site has passed user inspection and can proceed to GitHub setup. Deployment is configured through GitHub Actions in `.github/workflows/deploy.yml`.
+
+Before the first public deployment:
+
+1. Create the GitHub repository and push `main`.
+2. In GitHub, set Pages source to GitHub Actions.
+3. Confirm `public/CNAME` contains `www.korngreenlab.org`.
+4. Wait for the Pages workflow to finish.
+5. Review the deployed GitHub Pages site before changing Wix/DNS records.
+
 ## Content Sources
 
 - `extracted/` is the local audit archive from Wix.
