@@ -26,6 +26,10 @@ The local preview usually runs at `http://localhost:4321/`.
 
 See [LOCAL_REVIEW_GUIDE.md](LOCAL_REVIEW_GUIDE.md) for the local review checklist, editing locations, and known review items.
 
+## Reusable Migration Plan
+
+See [GENERIC_WIX_TO_GITHUB_MIGRATION_PLAN.md](GENERIC_WIX_TO_GITHUB_MIGRATION_PLAN.md) for a site-agnostic Wix-to-GitHub Pages migration plan that can be reused for other Wix sites.
+
 ## Deployment
 
 The local site has passed user inspection and has been pushed to GitHub:

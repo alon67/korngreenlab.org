@@ -100,6 +100,27 @@ Common site elements:
 - Pin the Node version in `.nvmrc`, commit `package-lock.json`, and use `npm ci` in GitHub Actions.
 - Deploy using GitHub Pages through GitHub Actions only after user local editing and approval.
 - Configure the custom domain from the first GitHub Pages deploy so the Astro build can use root-relative paths consistently and avoid a temporary project-page base path.
+- Treat the extracted Wix site as source material, not a visual design ceiling. Rebuild the site as a clean static academic site while preserving recognizable design signals from the original Wix site.
+- Use the extracted masthead/banner artwork, centered lab identity, refined navigation, and social footer to keep continuity with the old site.
+- Use restrained academic typography: centered page width, uppercase section headings, clean spacing, readable publication lists, image bands where appropriate, and responsive gallery layout for mixed image sizes.
+- Remove migrated Wix content that the user explicitly retires from the public navigation while preserving audit copies in `extracted/`.
+- Use local browser review and user-selected page comments as part of the migration workflow. User text edits, hidden sections, and gallery removals are migration requirements, not postscript cleanup.
+
+## Implementation Instructions Added During Migration
+
+These instructions were added during implementation and should be treated as first-class requirements for this project and any repeat migration:
+
+- The user reviews and edits the local site after extraction and functional construction, before publication.
+- Every extracted text and image source is verified locally before relying on it in the rebuilt site.
+- The rebuilt site should not blindly reproduce Wix layout clutter. It should transfer useful visual identity while improving readability, spacing, responsive behavior, and content hierarchy.
+- Navigation should include only approved live sections. Removed or hidden sections should either redirect, be excluded from navigation, or remain as non-public archive routes as explicitly decided.
+- Page-level titles duplicated by navigation should be removed when they add visual noise.
+- Gallery images should render from a local project folder and be easy for the user to add to or remove from before publication.
+- Generated pages must be tested locally with `npm run build`, link validation, extraction validation, and browser inspection.
+- GitHub repository creation and GitHub Pages deployment happen only after explicit user approval of the local site.
+- DNS cutover happens only after the GitHub Pages deployment succeeds.
+- HTTPS enforcement is enabled only after GitHub approves the domain certificate.
+- Wix decommissioning is a separate final stage. Keep Wix DNS, domain registration, and email-related services until their ownership and replacement are verified.
 
 ## Phase 1: Capture and Audit Existing Wix Content
 
@@ -248,15 +269,21 @@ Common site elements:
 **Acceptance criteria:**
 
 - [ ] Header includes the lab name and subtitle.
-- [ ] Navigation includes the full page tree.
+- [ ] Header uses the extracted masthead/banner artwork where it improves continuity with the old site.
+- [ ] Lab identity is centered and visually prominent without using a marketing-style hero.
+- [ ] Navigation includes only approved public sections.
+- [ ] Retired Wix sections are hidden from navigation or redirected according to user approval.
+- [ ] Footer preserves approved contact and social-media affordances.
 - [ ] Layout works on desktop and mobile.
 - [ ] Hebrew page supports `dir="rtl"`.
 - [ ] Mixed Hebrew/English content uses `dir="auto"` on inline text or `unicode-bidi: isolate` where needed so English names, DOIs, and punctuation render correctly.
+- [ ] Page-level duplicate titles below the navigation are removed unless the page needs a unique heading for clarity.
 
 **Verification:**
 
 - [ ] Browser check at desktop and mobile viewport sizes.
 - [ ] Keyboard navigation works through the menu.
+- [ ] Check that no visible text or navigation items wrap awkwardly or overlap on narrow viewports.
 
 **Dependencies:** Task 6
 
@@ -272,11 +299,16 @@ Common site elements:
 - [ ] Internal links work.
 - [ ] External links open correctly.
 - [ ] Contact page has a working email link.
+- [ ] User-approved copy changes are applied after extraction rather than overwritten by automated regeneration.
+- [ ] User-retired content sections are removed from live pages even if they exist in the extracted archive.
+- [ ] Images are placed intentionally, not merely dumped in extraction order.
+- [ ] The home page presents the approved current research description.
 
 **Verification:**
 
 - [ ] Compare rendered local pages against the live Wix pages.
 - [ ] Run link validation.
+- [ ] User reviews each major page in the local browser and marks required repairs before GitHub publication.
 
 **Dependencies:** Tasks 4, 6, 7
 
@@ -293,6 +325,8 @@ Common site elements:
 - [ ] Publication numbering, sorting, and section counts are generated from records rather than manually maintained paragraphs.
 - [ ] DOI, publisher, journal, year, author, title, and URL fields are preserved where available.
 - [ ] Publication pages include citation metadata suitable for indexing where practical.
+- [ ] Newer user-supplied publications and book chapters are merged after extraction and numbering remains correct.
+- [ ] Non-publication extracted link blocks are removed when the user retires them.
 
 **Verification:**
 
@@ -316,11 +350,17 @@ Common site elements:
 - [ ] Images use local files from `src/assets/` and meaningful alt text.
 - [ ] Gallery page remains performant despite many images.
 - [ ] Astro emits optimized responsive image variants for gallery and content images.
+- [ ] People-page images are removed if the user decides the page should be text-only.
+- [ ] Outdated people sources are not used when a current replacement page exists.
+- [ ] User-supplied gallery folders are supported so additional images can be added without re-crawling Wix.
+- [ ] Individual gallery images can be excluded without deleting the source file.
+- [ ] Mixed image sizes and orientations render in a balanced responsive gallery.
 
 **Verification:**
 
 - [ ] Compare people list and gallery captions against Wix.
 - [ ] Check lazy-loading and image sizing in browser.
+- [ ] Confirm the gallery updates after adding images to the local gallery folder.
 
 **Dependencies:** Tasks 5, 6, 7
 
@@ -338,6 +378,8 @@ Common site elements:
 - [ ] OpenGraph metadata exists for major pages.
 - [ ] Publication pages include academic citation metadata where practical.
 - [ ] Astro's generated `_astro/` assets are present in `dist/`.
+- [ ] `robots.txt` references the final custom-domain sitemap.
+- [ ] No `.nojekyll` workaround is required when deploying through GitHub Actions artifacts.
 
 **Verification:**
 
@@ -361,6 +403,8 @@ Common site elements:
 - [ ] Content files are organized so the user can edit text, people, publications, and gallery metadata without touching layout code for normal content changes.
 - [ ] The handoff documentation is tool-agnostic and does not depend on a specific agent.
 - [ ] No GitHub repository is created and no GitHub Pages deployment is configured before user approval.
+- [ ] A local browser review checklist records approved pages and pending repairs.
+- [ ] User browser comments and requested removals are applied before publication.
 
 **Verification:**
 
@@ -436,13 +480,13 @@ gh repo create korngreenlab.org --public --source=. --remote=origin --push
 - [x] Astro `site` is confirmed to match the final custom domain configured earlier in Task 6.
 - [x] The build avoids a temporary project-page `base` path unless the user intentionally defers custom-domain setup.
 - [x] The deployed site loads successfully at the GitHub Pages URL.
-- [ ] GitHub Pages HTTPS enforcement is enabled after certificate provisioning.
+- [x] GitHub Pages HTTPS enforcement is enabled after certificate provisioning.
 
 **Verification:**
 
 - [x] GitHub Actions deployment succeeds.
-- [ ] Deployed pages match local build output.
-- [ ] Internal links and image paths work at the custom domain root.
+- [x] Deployed pages match local build output.
+- [x] Internal links and image paths work at the custom domain root.
 
 **Dependencies:** Task 14
 
@@ -454,19 +498,41 @@ gh repo create korngreenlab.org --public --source=. --remote=origin --push
 
 **Acceptance criteria:**
 
-- [ ] Apex domain uses GitHub Pages A records, and AAAA records are added if IPv6 is desired.
-- [ ] `www` uses a CNAME to the GitHub Pages host if both domains should work.
-- [ ] HTTPS certificate is active in GitHub Pages.
-- [ ] Wix site remains untouched until the GitHub site is approved.
+- [x] Apex domain uses GitHub Pages A records; optional AAAA records are documented but not required.
+- [x] `www` uses a CNAME to the GitHub Pages host if both domains should work.
+- [x] HTTPS certificate is active in GitHub Pages.
+- [x] Wix site remains untouched until the GitHub site is approved.
 
 **Verification:**
 
-- [ ] `https://www.korngreenlab.org/` resolves to GitHub Pages after DNS propagation.
-- [ ] Key old URLs still work.
+- [x] `https://www.korngreenlab.org/` resolves to GitHub Pages after DNS propagation.
+- [x] Key old URLs still work.
 
 **Dependencies:** Task 15
 
 **Estimated scope:** Small, but DNS propagation may take hours.
+
+### Task 17: Decommission Wix Safely
+
+**Description:** Decommission the old Wix website only after the GitHub site is live, DNS resolves to GitHub Pages, and HTTPS is enforced.
+
+**Acceptance criteria:**
+
+- [ ] Wix remains available as DNS manager if the domain still uses Wix name servers.
+- [ ] Domain registration, MX records, mailbox subscriptions, and app subscriptions are identified before canceling anything.
+- [ ] The old Wix site is unpublished before deleting or canceling the site plan.
+- [ ] Wix website plan cancellation is separated from domain and email cancellation.
+- [ ] The old mobile Wix CNAME such as `m.korngreenlab.org` is removed only if confirmed unused.
+
+**Verification:**
+
+- [ ] `https://www.korngreenlab.org/` still opens the GitHub Pages site after Wix unpublishing.
+- [ ] Email still works after any Wix plan changes.
+- [ ] DNS records remain under an active DNS manager.
+
+**Dependencies:** Task 16
+
+**Estimated scope:** Small, but depends on Wix account billing and domain ownership details.
 
 ## Checkpoints
 
@@ -500,7 +566,14 @@ gh repo create korngreenlab.org --public --source=. --remote=origin --push
 - [x] GitHub repository exists and has a clean default branch.
 - [x] GitHub Pages deployment succeeds.
 - [x] Custom domain is either configured or explicitly deferred.
-- [ ] HTTPS is enforced after certificate provisioning.
+- [x] HTTPS is enforced after certificate provisioning.
+
+### Checkpoint E: After Wix Decommissioning
+
+- [ ] Old Wix site is unpublished or canceled according to the user's billing decision.
+- [ ] DNS remains active and points to GitHub Pages.
+- [ ] Domain registration and email services are confirmed active.
+- [ ] The GitHub repository is the source of truth for future website edits.
 
 ## Risks and Mitigations
 
@@ -514,6 +587,8 @@ gh repo create korngreenlab.org --public --source=. --remote=origin --push
 | DNS cutover breaks existing site | Downtime | Confirm registrar access in Phase 1; deploy and review GitHub Pages first; change DNS only after approval |
 | Hidden Wix pages are missed | Incomplete migration | Check sitemap.xml, navigation, search results, and live page links |
 | Node dependencies rot over time | Future build failures | Pin Node, commit lockfile, use `npm ci`, and keep content schemas strict |
+| Rebuilt site keeps Wix visual clutter | Poor readability | Transfer only useful design signals and perform local browser review with user-requested repairs |
+| Wix cancellation disrupts domain or email | Site or email outage | Decommission Wix website plan separately from DNS, domain registration, and email services |
 
 ## Recommended First Implementation Session
 
@@ -527,10 +602,12 @@ gh repo create korngreenlab.org --public --source=. --remote=origin --push
 
 ## Definition of Done
 
-- All current public Wix pages are represented in the GitHub project.
+- All approved public Wix pages are represented in the GitHub project, and retired pages are documented or redirected.
 - All required images and files are local to the repository or intentionally linked externally.
 - Publications are stored as BibTeX or CSL-JSON and render correctly.
 - The site builds locally and deploys through GitHub Pages.
 - The user edits and tests the local site before it is pushed to GitHub or deployed.
 - The deployed GitHub Pages site is reviewed before DNS is changed.
 - The migration can be repeated from scripts if the Wix site content changes before final cutover.
+- The final live domain resolves to GitHub Pages with HTTPS enforced.
+- Wix website decommissioning is either complete or explicitly deferred with domain, DNS, and email ownership documented.
