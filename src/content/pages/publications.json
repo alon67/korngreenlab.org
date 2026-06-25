@@ -73,6 +73,7 @@
     "S Kriegeskorte, R Bott, M Hampl, A Korngreen, R Hausmann, A Lampert (2023) Cold and warmth intensify pain-linked sodium channel gating effects and persistent currents. Journal of General Physiology 155 (9), e202213312.",
     "A Korngreen (2025) Sensitivity analysis of voltage-gated ion channel models. bioRxiv, 2025.08.05.668838.",
     "A Korngreen (2026) Neuronal excitability and parameter variability in the Hodgkin-Huxley model. bioRxiv, 2025.12.30.696982.",
+    "A Korngreen (2026) Toward Reference-Grade neuron models. Communications Biology 9, 860.",
     "BOOKS CHAPTERS",
     "Angelika Lampert, and Alon Korngreen, Markov Modeling of Ion Channels: Implications for Understanding Disease. In Kim T. Blackwell, editor: Progress in Molecular Biology and Translational Science, Vol. 123, Burlington: Academic Press, 2014, pp. 1-21",
     "A Korngreen, T Nevian, J Schiller. Patching Dendrites. In The Handbook of Electrophysiology: A Practical Guide for Neurophysiologists.",
@@ -165,6 +166,10 @@
     {
       "text": "A Matzner, L Gorodetski, A Korngreen, I Bar-Gad (2020) Dynamic input-dependent encoding of individual basal ganglia neurons Scientific reports 10 (1), 1-13",
       "href": "https://www.nature.com/articles/s41598-020-62750-0"
+    },
+    {
+      "text": "A Korngreen (2026) Toward Reference-Grade neuron models. Communications Biology 9, 860.",
+      "href": "https://www.nature.com/articles/s42003-026-10561-w"
     },
     {
       "text": "https://www.facebook.com/alon.korngreen",
