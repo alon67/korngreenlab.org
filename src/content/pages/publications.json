@@ -72,7 +72,7 @@
     "NG Glasgow, Y Chen, A Korngreen, RE Kass, NN Urban (2023) A biophysical and statistical modeling paradigm for connecting neural physiology and function. Journal of Computational Neuroscience 51 (2), 263-282.",
     "S Kriegeskorte, R Bott, M Hampl, A Korngreen, R Hausmann, A Lampert (2023) Cold and warmth intensify pain-linked sodium channel gating effects and persistent currents. Journal of General Physiology 155 (9), e202213312.",
     "A Korngreen (2025) Sensitivity analysis of voltage-gated ion channel models. bioRxiv, 2025.08.05.668838.",
-    "A Korngreen (2026) Neuronal excitability and parameter variability in the Hodgkin-Huxley model. bioRxiv, 2025.12.30.696982.",
+    "A Korngreen (2026) Neuronal excitability and parameter variability in the Hodgkin-Huxley model. PLOS Computational Biology 22(6): e1014458.",
     "A Korngreen (2026) Toward Reference-Grade neuron models. Communications Biology 9, 860.",
     "BOOKS CHAPTERS",
     "Angelika Lampert, and Alon Korngreen, Markov Modeling of Ion Channels: Implications for Understanding Disease. In Kim T. Blackwell, editor: Progress in Molecular Biology and Translational Science, Vol. 123, Burlington: Academic Press, 2014, pp. 1-21",
@@ -170,6 +170,10 @@
     {
       "text": "A Korngreen (2026) Toward Reference-Grade neuron models. Communications Biology 9, 860.",
       "href": "https://www.nature.com/articles/s42003-026-10561-w"
+    },
+    {
+      "text": "A Korngreen (2026) Neuronal excitability and parameter variability in the Hodgkin-Huxley model. PLOS Computational Biology 22(6): e1014458.",
+      "href": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014458"
     },
     {
       "text": "https://www.facebook.com/alon.korngreen",
