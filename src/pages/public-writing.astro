@@ -1,0 +1,82 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { essays, essaySections } from "../data/essays";
+
+const dateFormatter = new Intl.DateTimeFormat("en-GB", {
+  day: "numeric",
+  month: "long",
+  year: "numeric",
+  timeZone: "UTC",
+});
+
+function formatDate(iso) {
+  return dateFormatter.format(new Date(`${iso}T00:00:00Z`));
+}
+
+// Group essays by category and order each group newest-first.
+const sections = essaySections.map((section) => ({
+  ...section,
+  items: essays
+    .filter((essay) => essay.category === section.key)
+    .sort((a, b) => b.date.localeCompare(a.date)),
+}));
+
+const zmanAuthorUrl = "https://www.zman.co.il/writer/30378/";
+---
+
+<BaseLayout
+  title="Essays and Public Writing | Alon Korngreen"
+  description="Selected essays by Alon Korngreen on science, technology, Israeli society, photography and public life."
+>
+  <div class="page-header">
+    <h1>Essays and Public Writing</h1>
+  </div>
+
+  <div class="essays-intro">
+    <p>
+      Alongside my scientific work, I write essays in Hebrew on science, technology,
+      Israeli society, photography and public life. These articles reflect my personal
+      views and do not represent the Korngreen Lab, its members or Bar-Ilan University.
+    </p>
+  </div>
+
+  <div class="essays-content">
+    {sections.map((section) => (
+      <section class="essay-section" aria-labelledby={`section-${section.key}`}>
+        <h2 id={`section-${section.key}`}>{section.heading}</h2>
+        <p class="essay-section-blurb">{section.blurb}</p>
+        <ul class="essay-list">
+          {section.items.map((essay) => (
+            <li class="essay-item">
+              <a
+                class="essay-title"
+                href={essay.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                lang="he"
+                dir="rtl"
+              >
+                {essay.title}
+              </a>
+              <time class="essay-date" datetime={essay.date} dir="ltr">
+                {formatDate(essay.date)}
+              </time>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </div>
+
+  <div class="essays-outro">
+    <p class="essays-outro-link">
+      <a href={zmanAuthorUrl} target="_blank" rel="noopener noreferrer">
+        View my most recent posts at Zman Israel
+      </a>
+    </p>
+    <p class="essays-note">
+      Zman Israel&rsquo;s author page may display only a limited selection of recent
+      posts. The links above provide a curated archive.
+    </p>
+  </div>
+</BaseLayout>
