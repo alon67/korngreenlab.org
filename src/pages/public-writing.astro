@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { essays, essaySections } from "../data/essays";
+import { essays, essaySections, letters, lettersSection } from "../data/essays";
 
 const dateFormatter = new Intl.DateTimeFormat("en-GB", {
   day: "numeric",
@@ -20,6 +20,8 @@ const sections = essaySections.map((section) => ({
     .filter((essay) => essay.category === section.key)
     .sort((a, b) => b.date.localeCompare(a.date)),
 }));
+
+const pressLetters = [...letters].sort((a, b) => b.date.localeCompare(a.date));
 
 const zmanAuthorUrl = "https://www.zman.co.il/writer/30378/";
 ---
@@ -76,7 +78,38 @@ const zmanAuthorUrl = "https://www.zman.co.il/writer/30378/";
     </p>
     <p class="essays-note">
       Zman Israel&rsquo;s author page may display only a limited selection of recent
-      posts. The links above provide a curated archive.
+      posts. The Zman Israel essays above provide a curated archive.
     </p>
   </div>
+
+  {pressLetters.length > 0 && (
+    <div class="essays-content">
+      <section class="essay-section" aria-labelledby="section-letters">
+        <h2 id="section-letters">{lettersSection.heading}</h2>
+        <p class="essay-section-blurb">{lettersSection.blurb}</p>
+        <ul class="essay-list">
+          {pressLetters.map((letter) => (
+            <li class="essay-item">
+              <a
+                class="essay-title"
+                href={letter.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                lang="he"
+                dir="rtl"
+              >
+                {letter.title}
+              </a>
+              <span class="essay-meta">
+                <span class="essay-source">{letter.publication}</span>
+                <time class="essay-date" datetime={letter.date} dir="ltr">
+                  {formatDate(letter.date)}
+                </time>
+              </span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    </div>
+  )}
 </BaseLayout>

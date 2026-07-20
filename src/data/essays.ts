@@ -4,6 +4,8 @@
 // Titles are the published Hebrew headlines with the recurring byline prefix
 // "פרופ' אלון קורנגרין:" removed. Dates are ISO 8601 (publication day).
 // To maintain: add/edit entries below; keep dates in YYYY-MM-DD form.
+// Letters to the editor published in other outlets live in the separate
+// `letters` array further down.
 
 export type EssayCategory = "science" | "society" | "personal";
 
@@ -22,6 +24,36 @@ export interface EssaySection {
   heading: string;
   blurb: string;
 }
+
+/**
+ * Letters to the editor published in the press. Kept separate from the Zman
+ * Israel blog essays above because they appear in other outlets and are a
+ * different form of writing.
+ */
+export interface PressLetter {
+  /** Published letter title (Hebrew). */
+  title: string;
+  /** Article URL. */
+  url: string;
+  /** Publication date, ISO 8601 (YYYY-MM-DD). */
+  date: string;
+  /** Outlet the letter appeared in, e.g. "Haaretz". */
+  publication: string;
+}
+
+export const lettersSection = {
+  heading: "Letters to the Editor",
+  blurb: "Letters published in the Israeli press, responding to the news and to other writers.",
+};
+
+export const letters: PressLetter[] = [
+  {
+    title: "בן גביר ועידית סילמן רוצים להכשיר תנינים, אבל תנין לא יודע מיהו אסיר",
+    url: "https://www.haaretz.co.il/opinions/letters/2026-07-19/ty-article-opinion/.premium/0000019f-7aa6-d316-a9df-7aefcb710000",
+    date: "2026-07-19",
+    publication: "Haaretz",
+  },
+];
 
 /** Category sections, in display order. */
 export const essaySections: EssaySection[] = [
