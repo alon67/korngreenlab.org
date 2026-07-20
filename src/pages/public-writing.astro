@@ -1,6 +1,13 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { essays, essaySections, letters, lettersSection } from "../data/essays";
+import {
+  essays,
+  essaySections,
+  letters,
+  lettersSection,
+  podcasts,
+  podcastsSection,
+} from "../data/essays";
 
 const dateFormatter = new Intl.DateTimeFormat("en-GB", {
   day: "numeric",
@@ -22,6 +29,7 @@ const sections = essaySections.map((section) => ({
 }));
 
 const pressLetters = [...letters].sort((a, b) => b.date.localeCompare(a.date));
+const podcastEpisodes = [...podcasts].sort((a, b) => b.date.localeCompare(a.date));
 
 const zmanAuthorUrl = "https://www.zman.co.il/writer/30378/";
 ---
@@ -104,6 +112,37 @@ const zmanAuthorUrl = "https://www.zman.co.il/writer/30378/";
                 <span class="essay-source">{letter.publication}</span>
                 <time class="essay-date" datetime={letter.date} dir="ltr">
                   {formatDate(letter.date)}
+                </time>
+              </span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    </div>
+  )}
+
+  {podcastEpisodes.length > 0 && (
+    <div class="essays-content">
+      <section class="essay-section" aria-labelledby="section-podcasts">
+        <h2 id="section-podcasts">{podcastsSection.heading}</h2>
+        <p class="essay-section-blurb">{podcastsSection.blurb}</p>
+        <ul class="essay-list">
+          {podcastEpisodes.map((episode) => (
+            <li class="essay-item">
+              <a
+                class="essay-title"
+                href={episode.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                lang="he"
+                dir="rtl"
+              >
+                {episode.title}
+              </a>
+              <span class="essay-meta">
+                <span class="essay-source" lang="he" dir="rtl">{episode.show}</span>
+                <time class="essay-date" datetime={episode.date} dir="ltr">
+                  {formatDate(episode.date)}
                 </time>
               </span>
             </li>

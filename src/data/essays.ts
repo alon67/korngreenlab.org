@@ -55,6 +55,62 @@ export const letters: PressLetter[] = [
   },
 ];
 
+/** Podcast episodes featuring Alon Korngreen. */
+export interface PodcastEpisode {
+  /** Episode title (Hebrew). */
+  title: string;
+  /** Episode URL. */
+  url: string;
+  /** Publication date, ISO 8601 (YYYY-MM-DD). */
+  date: string;
+  /** Podcast/show name. */
+  show: string;
+}
+
+export const podcastsSection = {
+  heading: "Podcasts",
+  blurb: "Conversations and interviews on neuroscience, the brain and public life.",
+};
+
+export const podcasts: PodcastEpisode[] = [
+  {
+    title: "מדען פוגש ידוען, # 4: איך מנצחים באולימפיאדה, פרופ' אלון קורנגרין",
+    url: "https://open.spotify.com/episode/1sX9OElI9yI4TJSuvbJJkJ",
+    date: "2023-09-21",
+    show: "בר-דעת, הפודקאסט של בר-אילן",
+  },
+  {
+    title: "מסתורי המוח פרק #3: תולדות חקר המוח - פרופ' אלון קורנגרין",
+    url: "https://open.spotify.com/episode/2tVxzifxmOb4YF67tVWB7S",
+    date: "2025-01-08",
+    show: "בר-דעת, הפודקאסט של בר-אילן",
+  },
+  {
+    title: "מסתורי המוח פרק #4: האם המוח הוא מחשב? פרופ' אלון קורנגרין",
+    url: "https://open.spotify.com/episode/1yN4klPVZ03mL5yNNJwXFC",
+    date: "2025-01-09",
+    show: "בר-דעת, הפודקאסט של בר-אילן",
+  },
+  {
+    title: "מסתורי המוח פרק #6: החשמל במוח - פרופ' אלון קורנגרין",
+    url: "https://open.spotify.com/episode/21arE5XgcO5i3aRVVE54w8",
+    date: "2025-01-12",
+    show: "בר-דעת, הפודקאסט של בר-אילן",
+  },
+  {
+    title: "מסתורי המוח פרק #7: איך זורם החשמל במוח? פרופ' אלון קורנגרין",
+    url: "https://open.spotify.com/episode/7ksY3cNqKhwauh0rwm99oV",
+    date: "2025-01-13",
+    show: "בר-דעת, הפודקאסט של בר-אילן",
+  },
+  {
+    title: "הטריק של ינון מגל ולמה לעולם לא תשכנעו ביביסטים שהם טועים | פרק 234",
+    url: "https://open.spotify.com/episode/6EKPa32V7F2Ccr0nMgyPCt",
+    date: "2025-05-22",
+    show: "המרקרים",
+  },
+];
+
 /** Category sections, in display order. */
 export const essaySections: EssaySection[] = [
   {

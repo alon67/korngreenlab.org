@@ -372,11 +372,12 @@ main {
 }
 
 .essay-meta {
-  flex: 0 0 auto;
+  flex: 0 1 auto;
   display: inline-flex;
+  flex-wrap: wrap;
   align-items: baseline;
-  gap: 0.6rem;
-  white-space: nowrap;
+  justify-content: flex-end;
+  gap: 0.15rem 0.6rem;
 }
 
 .essay-source {
