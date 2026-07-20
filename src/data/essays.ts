@@ -42,8 +42,8 @@ export interface PressLetter {
 }
 
 export const lettersSection = {
-  heading: "Letters to the Editor",
-  blurb: "Letters published in the Israeli press, responding to the news and to other writers.",
+  heading: "Letters and Op-Eds",
+  blurb: "Letters and opinion pieces published in the Israeli press, responding to the news and to other writers.",
 };
 
 export const letters: PressLetter[] = [
@@ -51,6 +51,24 @@ export const letters: PressLetter[] = [
     title: "בן גביר ועידית סילמן רוצים להכשיר תנינים, אבל תנין לא יודע מיהו אסיר",
     url: "https://www.haaretz.co.il/opinions/letters/2026-07-19/ty-article-opinion/.premium/0000019f-7aa6-d316-a9df-7aefcb710000",
     date: "2026-07-19",
+    publication: "Haaretz",
+  },
+  {
+    title: "ממש שמחה וששון",
+    url: "https://www.haaretz.co.il/opinions/letters/2024-10-28/ty-article-opinion/.premium/00000192-d285-d628-a9df-fadf49e10000",
+    date: "2024-10-28",
+    publication: "Haaretz",
+  },
+  {
+    title: "מיכאל האוזר טוב, הפגנה נגד הממשלה היא חובתם של ראשי המחאה",
+    url: "https://www.haaretz.co.il/opinions/2024-03-06/ty-article-opinion/.premium/0000018e-1408-d1cc-abfe-d7ad4d400000",
+    date: "2024-03-06",
+    publication: "Haaretz",
+  },
+  {
+    title: "רוטמן, על ביאליק שמעת?",
+    url: "https://www.haaretz.co.il/opinions/letters/2023-07-16/ty-article-opinion/.premium/00000189-5daa-dc94-a78d-fdebf1000000",
+    date: "2023-07-16",
     publication: "Haaretz",
   },
 ];
