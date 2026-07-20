@@ -7,6 +7,8 @@ import {
   lettersSection,
   podcasts,
   podcastsSection,
+  collections,
+  collectionsSection,
 } from "../data/essays";
 
 const dateFormatter = new Intl.DateTimeFormat("en-GB", {
@@ -144,6 +146,34 @@ const zmanAuthorUrl = "https://www.zman.co.il/writer/30378/";
                 <time class="essay-date" datetime={episode.date} dir="ltr">
                   {formatDate(episode.date)}
                 </time>
+              </span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    </div>
+  )}
+
+  {collections.length > 0 && (
+    <div class="essays-content">
+      <section class="essay-section" aria-labelledby="section-collections">
+        <h2 id="section-collections">{collectionsSection.heading}</h2>
+        <p class="essay-section-blurb">{collectionsSection.blurb}</p>
+        <ul class="essay-list">
+          {collections.map((collection) => (
+            <li class="essay-item">
+              <a
+                class="essay-title"
+                href={collection.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                lang="he"
+                dir="rtl"
+              >
+                {collection.title}
+              </a>
+              <span class="essay-meta">
+                <span class="essay-date">{collection.period}</span>
               </span>
             </li>
           ))}

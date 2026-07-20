@@ -90,6 +90,29 @@ export const podcastsSection = {
   blurb: "Conversations and interviews on neuroscience, the brain and public life.",
 };
 
+/** Edited collections / other public projects. */
+export interface EditedCollection {
+  /** Project or collection title. */
+  title: string;
+  /** Project URL. */
+  url: string;
+  /** Timeframe label, e.g. "Since 2023". */
+  period: string;
+}
+
+export const collectionsSection = {
+  heading: "Edited Collections",
+  blurb: "Collections of protest speeches delivered by academics across Israel in defense of democracy, which I edited over the past three years.",
+};
+
+export const collections: EditedCollection[] = [
+  {
+    title: "יצאנו לרחובות — SPEAK OUT",
+    url: "https://www.matehaacademia.org/",
+    period: "Since 2023",
+  },
+];
+
 export const podcasts: PodcastEpisode[] = [
   {
     title: "מדען פוגש ידוען, # 4: איך מנצחים באולימפיאדה, פרופ' אלון קורנגרין",
