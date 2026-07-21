@@ -519,5 +519,11 @@ export const essays: Essay[] = [
     "url": "https://www.zman.co.il/701867/",
     "date": "2026-07-13",
     "category": "science"
+  },
+  {
+    "title": "בחזרה אל השחף",
+    "url": "https://www.zman.co.il/704198/",
+    "date": "2026-07-21",
+    "category": "personal"
   }
 ];
