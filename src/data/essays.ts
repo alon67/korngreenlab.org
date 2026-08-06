@@ -525,5 +525,11 @@ export const essays: Essay[] = [
     "url": "https://www.zman.co.il/704198/",
     "date": "2026-07-21",
     "category": "personal"
+  },
+  {
+    "title": "מדינה בתדר גבוה",
+    "url": "https://www.zman.co.il/709530/",
+    "date": "2026-08-06",
+    "category": "science"
   }
 ];
