@@ -48,6 +48,12 @@ export const lettersSection = {
 
 export const letters: PressLetter[] = [
   {
+    title: "עם ישראל גוף אחד, נזכרו כולם, כולנו איברים זה לזה",
+    url: "https://www.ynet.co.il/news/article/hypbkfvlgx",
+    date: "2026-08-10",
+    publication: "Ynet",
+  },
+  {
     title: "בן גביר ועידית סילמן רוצים להכשיר תנינים, אבל תנין לא יודע מיהו אסיר",
     url: "https://www.haaretz.co.il/opinions/letters/2026-07-19/ty-article-opinion/.premium/0000019f-7aa6-d316-a9df-7aefcb710000",
     date: "2026-07-19",
