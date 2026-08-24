@@ -543,5 +543,11 @@ export const essays: Essay[] = [
     "url": "https://www.zman.co.il/711143/",
     "date": "2026-08-13",
     "category": "society"
+  },
+  {
+    "title": "הכימיה האורגנית של הפוליטיקה הישראלית",
+    "url": "https://www.zman.co.il/716321/",
+    "date": "2026-08-24",
+    "category": "society"
   }
 ];
