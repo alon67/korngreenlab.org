@@ -96,10 +96,14 @@ for (const line of page.textLines) {
 
 <BaseLayout
   title={`${page.title} | The Korngreen Lab`}
-  description="Cellular and Computational Neurophysiology"
+  description={page.description}
   language={page.language}
   direction={page.direction}
 >
+  <div class="page-header">
+    <h1><span dir="auto" class="bidi-isolate">{page.heading || page.title}</span></h1>
+  </div>
+
   {featureImage && (
     <section class={pageVisualClass} aria-label={`${page.title} featured image`}>
       {(() => {

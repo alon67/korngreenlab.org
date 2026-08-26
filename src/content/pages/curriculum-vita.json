@@ -6,7 +6,6 @@
   "language": "en",
   "direction": "ltr",
   "textLines": [
-    "Prof. Alon Korngreen",
     "Academic Background",
     "1993-1997 Ben-Gurion University, Ph.D. Biophysics",
     "1991-1993 Ben-Gurion University, M.Sc. Biophysics",
@@ -30,7 +29,7 @@
     },
     {
       "text": "My Google Scholar Profile",
-      "href": "http://scholar.google.co.il/citations?user=9DUsX7MAAAAJ&hl=en&oi=ao"
+      "href": "https://scholar.google.co.il/citations?user=9DUsX7MAAAAJ&hl=en&oi=ao"
     },
     {
       "text": "Essays and public writing",
@@ -52,8 +51,10 @@
   "images": [
     {
       "src": "curriculum-vita-002-ee27b6_e3a47000899b47ef8b05444bf8adbb26.jpg",
-      "alt": "Curriculum Vita",
+      "alt": "Alon Korngreen running the Los Angeles Marathon in the rain, 2011",
       "caption": "Los Angeles Marathon, 2011"
     }
-  ]
+  ],
+  "heading": "Prof. Alon Korngreen",
+  "description": "Academic background and appointments of Prof. Alon Korngreen, from a PhD in biophysics at Ben-Gurion University to a professorship in neurophysiology at Bar-Ilan."
 }

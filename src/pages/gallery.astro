@@ -7,30 +7,92 @@ const imageModules = import.meta.glob("../assets/gallery/wix-gallery/*.{jpg,jpeg
 });
 const excludedImages = new Set(["AP_background.png"]);
 
-function labelFromPath(path) {
-  const fileName = path.split("/").pop() || "Gallery image";
-  return fileName
-    .replace(/\.[^.]+$/, "")
-    .replace(/[_-]+/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
+// Descriptions of what each photograph actually shows, for screen readers and for the
+// caption under each frame. Keyed by file name; names and events come from the lab's
+// own file naming. Anything not listed here falls back to a generic description.
+const captions = {
+  "22072009336.jpg": "A lab member presenting at a seminar, remote in hand, beside a projection screen",
+  "AK0_2274.JPG": "Two lab members outdoors, one resting an arm on the other's shoulder",
+  "AK0_2349.JPG": "Reut Zeira beside her conference poster on long-term plasticity of glutamatergic transmission in the entopeduncular nucleus",
+  "anna_master.jpg": "Anna Faynveitz receiving her master's certificate at the Bar-Ilan graduation ceremony",
+  "b2009a.JPG": "Three lab members on a park bench in Berlin, 2009",
+  "b2009b.JPG": "Two lab members posing in the lap of a large bronze statue in Berlin, 2009",
+  "bert2002.JPG": "Alon Korngreen with two colleagues in an office lined with books and journals, 2002",
+  "brain.jpg": "An electrophysiology rack: amplifiers and instrument modules stacked on laboratory shelving",
+  "dafna_sukot_2012.JPG": "Dafna Magidov on a picnic blanket at the lab's Sukkot outing, 2012",
+  "Daniel in Jerusalem 1999 small.jpg": "Daniel photographed in Jerusalem, 1999",
+  "eg_2010_a.JPG": "Lab members in matching lab T-shirts on the shore at Ein Gedi, 2010",
+  "ein_gedi_2006c.JPG": "The lab and their families gathered under a large tree at Ein Gedi, 2006",
+  "fens_2010a.JPG": "Lab members in orange carnival dress on a street in Amsterdam during the FENS 2010 meeting",
+  "givatime2011.jpg": "Two runners with race numbers partway through a road race, 2011",
+  "hana_eg_2010.JPG": "Hana Ben-Porat in a wide sun hat and lab T-shirt at Ein Gedi, 2010",
+  "hana_ein_geddi_2010.JPG": "Hana Ben-Porat seated beside a colleague at Ein Gedi, 2010",
+  "happybd.JPG": "A hand-drawn Hebrew birthday poster with balloons and a cartoon dog, made for the lab",
+  "IMG-20150104-WA0000.jpg": "A student presenting her poster on high-frequency stimulation of the subthalamic nucleus, 2015",
+  "IMG_0269 (1).JPG": "A lab member beside her poster on intracellular and extracellular properties of rat globus pallidus neurons, 2009",
+  "IMG_0271 (1)_edited.png": "Two lab members on a hillside above a bay of red-tiled rooftops during a conference trip",
+  "IMG_0276.jpg": "Seven lab members gathered around the computer workstations in the lab office",
+  "IMG_1053.JPG": "Portrait of a lab member in a grey headscarf in front of a bookshelf",
+  "IMG_1246.jpg": "Two lab members in front of the United States Capitol in Washington, D.C.",
+  "IMG_1665.jpg": "The Hairspray theatre marquee lit up on Broadway at night",
+  "IMG_5696.jpg": "A graduate and Alon Korngreen in academic robes beside Israeli flags at a Bar-Ilan degree ceremony",
+  "IMG_6801.jpg": "The lab group photographed outdoors on a bench on the Bar-Ilan campus",
+  "island_lab.jpg": "A montage birthday card from the lab reading “There’s life after 40”, with the group composited onto a palm beach",
+  "jenia_bbq2011.JPG": "Evgenia Bugaysen with a colleague at the lab barbecue, 2011",
+  "lab_bbq_2006.JPG": "Lab members around the grill at the lab barbecue, 2006",
+  "lab_end_2015_tal.jpg": "Five lab members in matching black T-shirts at an end-of-year gathering, 2015",
+  "liat_gubi_bbq2011.JPG": "Liat van Dijk-Gubi at the lab barbecue, 2011",
+  "mara_phd.jpg": "Mara Almog receiving her PhD at the graduation ceremony",
+  "mara_sukot_2012.JPG": "Mara Almog sitting on the grass with her son at the lab's Sukkot outing, 2012",
+  "me_eg2010.JPG": "Alon Korngreen photographing with an SLR camera at Ein Gedi, 2010",
+  "me_fens_2010.JPG": "Alon Korngreen in an orange hat and face paint at the FENS 2010 meeting",
+  "meron_fens_2010.JPG": "Meron Gurkiewicz beside his poster on modelling the Nav1.7 F1449V erythromelalgia mutation at FENS 2010",
+  "meron_phd2.jpg": "Meron Gurkiewicz with Alon Korngreen in academic robes at the PhD ceremony",
+  "Moran_EinGeddi_280212_194.JPG": "Moran Brody in an orange headscarf and sunglasses at Ein Gedi, February 2012",
+  "naomi_b2009a.JPG": "Naomi Keren seated among the concrete stelae of the Memorial to the Murdered Jews of Europe, Berlin, 2009",
+  "naomi_phd1.JPG": "Naomi Keren in blue doctoral robes at her PhD ceremony",
+  "PHOTO-2021-05-11-16-50-15.jpg": "Two lab members beside their poster at a 2021 meeting",
+  "pinky.jpg": "The lab's compute cluster: rack-mounted servers used for large neuronal simulations",
+  "roy_fens_2010.JPG": "Roy Ben-Shalom presenting his poster on accelerating computational neural models using GPUs at FENS 2010",
+  "setup_0001.jpg": "A patch-clamp recording rig: microscope, micromanipulators and headstages on an anti-vibration table",
+  "tamar_fens2010.JPG": "Tamar Pashut beside her poster on mechanisms of magnetic stimulation at FENS 2010",
+  "Z&Z 0538.jpg": "Lab members and family at a colleague's wedding",
+  "Z&Z 0988.jpg": "Three lab members at a celebration dinner",
+};
+
+function fileName(path) {
+  return path.split("/").pop() || "";
+}
+
+function sortKey(path) {
+  return fileName(path).replace(/\.[^.]+$/, "").replace(/[_-]+/g, " ").trim();
 }
 
 const images = Object.entries(imageModules)
-  .filter(([path]) => !excludedImages.has(path.split("/").pop() || ""))
+  .filter(([path]) => !excludedImages.has(fileName(path)))
   .map(([path, module]) => {
     const source = module.default;
+    const name = fileName(path);
     return {
-      alt: labelFromPath(path),
+      alt: captions[name] || "Photograph from the Korngreen Lab archive",
+      caption: captions[name] || null,
       height: source.height,
+      key: sortKey(path),
       source,
       width: source.width,
     };
   })
-  .sort((a, b) => a.alt.localeCompare(b.alt, undefined, { numeric: true }));
+  .sort((a, b) => a.key.localeCompare(b.key, undefined, { numeric: true }));
 ---
 
-<BaseLayout title="Gallery | The Korngreen Lab" description="Gallery images from The Korngreen Lab">
+<BaseLayout
+  title="Gallery | The Korngreen Lab"
+  description="Photographs from the Korngreen Lab: conferences, graduations, field trips, celebrations and the recording rigs, from 1999 to today."
+>
+  <div class="page-header">
+    <h1>Gallery</h1>
+  </div>
+
   <section class="gallery-page" aria-label="Lab gallery">
     <div class="gallery-grid">
       {images.map((image) => (
@@ -43,6 +105,7 @@ const images = Object.entries(imageModules)
             loading="lazy"
             decoding="async"
           />
+          {image.caption && <figcaption>{image.caption}</figcaption>}
         </figure>
       ))}
     </div>

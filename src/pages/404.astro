@@ -2,10 +2,31 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
-<BaseLayout title="Page not found | The Korngreen Lab">
+<BaseLayout
+  title="Page not found | The Korngreen Lab"
+  description="This page does not exist on korngreenlab.org. Links to the main sections of the site."
+>
   <section class="page-header">
     <h1>Page not found</h1>
-    <p>The requested page is not available in the local migration build.</p>
+  </section>
+
+  <article class="extracted-content">
+    <p>
+      That page does not exist, or it has moved since the link was made. Try one of the
+      main sections below, or write to us if something on the site is broken.
+    </p>
+  </article>
+
+  <section class="related-links">
+    <h2>Links</h2>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/publications">Publications</a></li>
+      <li><a href="/lab-members">People</a></li>
+      <li><a href="/gallery">Gallery</a></li>
+      <li><a href="/curriculum-vita">Curriculum Vita</a></li>
+      <li><a href="/public-writing">Essays and public writing</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
   </section>
 </BaseLayout>
-

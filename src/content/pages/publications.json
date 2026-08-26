@@ -52,7 +52,7 @@
     "Bugaysen J, Bar-Gad I, Korngreen A. (2013) Continuous modulation of action potential firing by a unitary GABAergic connection in the globus pallidus in vitro. J Neurosci. 31;33(31):12805-9",
     "M Brody, and Korngreen. A. (2013) Simulating the effects of short-term synaptic plasticity on postsynaptic dynamics in the globus pallidus Front. Syst. Neurosci., 08 August 2013 7:40,1-11 | doi: 10.3389/fnsys.2013.00040",
     "Lavian H, Ben Porat H and Korngreen A (2013) High and low frequency stimulation of the subthalamic nucleus induce prolonged changes in subthalamic and globus pallidus neurons. Front. Syst. Neurosci. 7:73,1-8. doi: 10.3389/fnsys.2013.00073",
-    "Tzachi Sabati; Bat-Sheva Galmidi; Alon Korngreen; Naomi Zurgil; Mordechai Deutsch J.Real-time monitoring of changes in plasma membrane potential via imaging of fluorescence resonance energy transfer at individual cell resolution in suspension Biomed. Opt. 18 (12), 126010 (December 16, 2013); 18. 126010-20",
+    "Sabati, T., Galmidi, B.S., Korngreen, A., Zurgil, N. and Deutsch, M. (2013) Real-time monitoring of changes in plasma membrane potential via imaging of fluorescence resonance energy transfer at individual cell resolution in suspension. J. Biomed. Opt. 18, 126010.",
     "Almog M, Korngreen A. (2014) A quantitative description of dendritic conductances and its application to dendritic excitation in layer 5 pyramidal neurons. J Neurosci. 2014 Jan 1;34(1):182-96.",
     "Pashut T, Magidov D, Ben-Porat H, Wolfus S, Friedman A, Perel E, Lavidor, M, Bar-Gad I, Yeshurun Y and Korngreen A (2014) Patch-clamp recordings of rat neurons from acute brain slices of the somatosensory cortex during magnetic stimulation. Front. Cell. Neurosci. 8:145. 1-12 doi: 10.3389/fncel.2014.0014",
     "Lavian H, Korngreen A. (2015). Inhibitory short-term plasticity modulates neuronal activity in the rat entopeduncular nucleus in vitro. Eur J Neurosci. 2015 May 25. doi: 10.1111/ejn.12965.",
@@ -74,7 +74,7 @@
     "A Korngreen (2025) Sensitivity analysis of voltage-gated ion channel models. bioRxiv, 2025.08.05.668838.",
     "A Korngreen (2026) Neuronal excitability and parameter variability in the Hodgkin-Huxley model. PLOS Computational Biology 22(6): e1014458.",
     "A Korngreen (2026) Toward Reference-Grade neuron models. Communications Biology 9, 860.",
-    "BOOKS CHAPTERS",
+    "BOOK CHAPTERS",
     "Angelika Lampert, and Alon Korngreen, Markov Modeling of Ion Channels: Implications for Understanding Disease. In Kim T. Blackwell, editor: Progress in Molecular Biology and Translational Science, Vol. 123, Burlington: Academic Press, 2014, pp. 1-21",
     "A Korngreen, T Nevian, J Schiller. Patching Dendrites. In The Handbook of Electrophysiology: A Practical Guide for Neurophysiologists.",
     "SCIENTIFIC CORRESPONDENCE",
@@ -93,35 +93,35 @@
   "links": [
     {
       "text": "Korngreen, A. (2016) Advanced Patch-Clamp Analysis for Neuroscientists. Humana Press.",
-      "href": "http://link.springer.com/book/10.1007/978-1-4939-3411-9"
+      "href": "https://link.springer.com/book/10.1007/978-1-4939-3411-9"
     },
     {
       "text": "JOURNAL ARTICLES",
-      "href": "http://scholar.google.co.il/citations?user=9DUsX7MAAAAJ&hl=en&oi=ao"
+      "href": "https://scholar.google.co.il/citations?user=9DUsX7MAAAAJ&hl=en&oi=ao"
     },
     {
       "text": "Bugaysen J, Bar-Gad I, Korngreen A. (2013) Continuous modulation of action potential firing by a unitary GABAergic connection in the globus pallidus in vitro. J Neurosci. 31;33(31):12805-9",
-      "href": "http://www.jneurosci.org/content/33/31/12805.long"
+      "href": "https://www.jneurosci.org/content/33/31/12805.long"
     },
     {
       "text": "M Brody, and Korngreen. A. (2013) Simulating the effects of short-term synaptic plasticity on postsynaptic dynamics in the globus pallidus Front. Syst. Neurosci., 08 August 2013 7:40,1-11 | doi: 10.3389/fnsys.2013.00040",
-      "href": "http://journal.frontiersin.org/Journal/10.3389/fnsys.2013.00040/full"
+      "href": "https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2013.00040/full"
     },
     {
       "text": "Lavian H, Ben Porat H and Korngreen A (2013) High and low frequency stimulation of the subthalamic nucleus induce prolonged changes in subthalamic and globus pallidus neurons. Front. Syst. Neurosci. 7:73,1-8. doi: 10.3389/fnsys.2013.00073",
-      "href": "http://journal.frontiersin.org/Journal/10.3389/fnsys.2013.00073/full"
+      "href": "https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2013.00073/full"
     },
     {
-      "text": "Tzachi Sabati; Bat-Sheva Galmidi; Alon Korngreen; Naomi Zurgil; Mordechai Deutsch J.Real-time monitoring of changes in plasma membrane potential via imaging of fluorescence resonance energy transfer at individual cell resolution in suspension Biomed. Opt. 18 (12), 126010 (December 16, 2013); 18. 126010-20",
-      "href": "http://biomedicaloptics.spiedigitallibrary.org/article.aspx?articleid=1790494"
+      "text": "Sabati, T., Galmidi, B.S., Korngreen, A., Zurgil, N. and Deutsch, M. (2013) Real-time monitoring of changes in plasma membrane potential via imaging of fluorescence resonance energy transfer at individual cell resolution in suspension. J. Biomed. Opt. 18, 126010.",
+      "href": "https://doi.org/10.1117/1.JBO.18.12.126010"
     },
     {
-      "text": "lmog M, Korngreen A. (2014) A quantitative description of dendritic conductances and its application to dendritic excitation in layer 5 pyramidal neurons. J Neurosci. 2014 Jan 1;34(1):182-96.",
-      "href": "http://www.jneurosci.org/content/34/1/182.short"
+      "text": "Almog M, Korngreen A. (2014) A quantitative description of dendritic conductances and its application to dendritic excitation in layer 5 pyramidal neurons. J Neurosci. 2014 Jan 1;34(1):182-96.",
+      "href": "https://www.jneurosci.org/content/34/1/182.short"
     },
     {
       "text": "Pashut T, Magidov D, Ben-Porat H, Wolfus S, Friedman A, Perel E, Lavidor, M, Bar-Gad I, Yeshurun Y and Korngreen A (2014) Patch-clamp recordings of rat neurons from acute brain slices of the somatosensory cortex during magnetic stimulation. Front. Cell. Neurosci. 8:145. 1-12 doi: 10.3389/fncel.2014.0014",
-      "href": "http://journal.frontiersin.org/Journal/10.3389/fncel.2014.00145/abstract"
+      "href": "https://www.frontiersin.org/journals/cellular-neuroscience/articles/10.3389/fncel.2014.00145/full"
     },
     {
       "text": "Lavian H, Korngreen A. (2015). Inhibitory short-term plasticity modulates neuronal activity in the rat entopeduncular nucleus in vitro. Eur J Neurosci. 2015 May 25. doi: 10.1111/ejn.12965.",
@@ -129,15 +129,15 @@
     },
     {
       "text": "Almog M, Korngreen A. (2016) Is realistic neuronal modeling realistic? J Neurophysiol. 116(5):2180-2209",
-      "href": "https://www.physiology.org/doi/abs/10.1152/jn.00360.2016"
+      "href": "https://journals.physiology.org/doi/abs/10.1152/jn.00360.2016"
     },
     {
       "text": "Korngreen A.(2017) Visualizing fundamental neuronal computation for life science students.",
-      "href": "https://www.physiology.org/doi/abs/10.1152/advan.00026.2017"
+      "href": "https://journals.physiology.org/doi/abs/10.1152/advan.00026.2017"
     },
     {
       "text": "Lavian H, Almog M, Madar R, Loewenstern Y, Bar-Gad I, Okun E, Korngreen A. (2017) Dopaminergic Modulation of Synaptic Integration and Firing Patterns in the Rat Entopeduncular Nucleus. J Neurosci.37(30):7177-7187",
-      "href": "http://www.jneurosci.org/content/37/30/7177.long"
+      "href": "https://www.jneurosci.org/content/37/30/7177.long"
     },
     {
       "text": "M Almog, T Barkai, A Lampert, A Korngreen (2018) Voltage-gated sodium channels in neocortical pyramidal neurons display Cole-Moore activation kinetics Frontiers in Cellular Neuroscience 12, 187",
@@ -191,8 +191,10 @@
   "images": [
     {
       "src": "publications-002-ee27b6_e5ae7c0b757f47de9f84ee8f8a8caeb3.jpg",
-      "alt": "Publications",
+      "alt": "Illustration of two heads in profile filled with interlocking gears, ideas passing between them",
       "caption": ""
     }
-  ]
+  ],
+  "heading": "Publications",
+  "description": "Peer-reviewed publications by Alon Korngreen: journal articles, edited books, book chapters and scientific correspondence from 1994 to today."
 }

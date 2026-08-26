@@ -6,23 +6,16 @@
   "language": "en",
   "direction": "ltr",
   "textLines": [
-
     "Prof. Alon Korngreen",
-    "Principle Investigator",
+    "Principal Investigator",
     "E-mail: alon.korngreen@biu.ac.il",
-    "Facebook: https://www.facebook.com/alon.korngreen",
-    "​",
     "CURRENT LAB MEMBERS",
     "Nurit Degani-Katzav",
     "Lab Manager",
     "nurit.degani-katzav@biu.ac.il",
     "03-5317156",
-    "​",
-    "Hadas Savish M.Sc. student",
-   
-
-     "​",
-  
+    "Hadas Savish",
+    "M.Sc. student",
     "FORMER LAB MEMBERS",
     "Afeef Abu Mokh (PhD 2026)",
     "Chirly Dahan (M.Sc. 2022)",
@@ -31,26 +24,26 @@
     "Odelia Zablianov (M.Sc. 2018)",
     "Hagar Lavian (PhD 2018)",
     "Reut Zeira (M.Sc. 2017)",
-    "Anna Faynveitz (M.Sc 2017)",
+    "Anna Faynveitz (M.Sc. 2017)",
     "Hofit Hershko (M.Sc. 2017)",
+    "Roy Ben-Shalom (PhD 2015)",
     "Mara Almog (PhD 2014)",
-    "Roy Ben-Shalom, PhD (2015)",
-    "Evgenia Bugaysen, PhD (2014)",
-    "Tamar Pashut, PhD (2014)",
-    "Dafna Magidov, M.Sc. (2014)",
-    "Daniel Khankin, M.Sc. (2013)",
-    "Moran Brody, M.Sc. (2012)",
-    "Meron Gurkiewicz, PhD (2011)",
-    "Liat van Dijk-Gubi, M.Sc. (2011)",
-    "Dan Bar-Yehuda, PhD (2009)",
-    "Naomi Keren, PhD (2009)",
-    "Ehud Shulman, M.Sc. (2009)",
-    "Keren Davidson, M.Sc. (2007)",
-    "Noam Peled, M.Sc. (2007)",
-    "Sophia Fooks, M.Sc. (2006)",
-    "Dekel Segev, M.Sc. (2005)",
-    "Daniel Dothan, M.Sc. (2005)",
-    "Hana-Ben Porat, Lab Manager (2001-2021)"
+    "Evgenia Bugaysen (PhD 2014)",
+    "Tamar Pashut (PhD 2014)",
+    "Dafna Magidov (M.Sc. 2014)",
+    "Daniel Khankin (M.Sc. 2013)",
+    "Moran Brody (M.Sc. 2012)",
+    "Meron Gurkiewicz (PhD 2011)",
+    "Liat van Dijk-Gubi (M.Sc. 2011)",
+    "Dan Bar-Yehuda (PhD 2009)",
+    "Naomi Keren (PhD 2009)",
+    "Ehud Shulman (M.Sc. 2009)",
+    "Keren Davidson (M.Sc. 2007)",
+    "Noam Peled (M.Sc. 2007)",
+    "Sophia Fooks (M.Sc. 2006)",
+    "Dekel Segev (M.Sc. 2005)",
+    "Daniel Dothan (M.Sc. 2005)",
+    "Hana Ben-Porat (Lab Manager, 2001–2021)"
   ],
   "links": [
     {
@@ -94,5 +87,7 @@
       "href": "https://www.flickr.com/photos/photoloni/"
     }
   ],
-  "images": []
+  "images": [],
+  "heading": "People",
+  "description": "Current and former members of the Korngreen Lab at Bar-Ilan University, from lab managers to the M.Sc. and PhD graduates who trained here since 2001."
 }
