@@ -1,0 +1,801 @@
+[
+  {
+    "@type": "Book",
+    "name": "Advanced Patch-Clamp Analysis for Neuroscientists",
+    "url": "https://link.springer.com/book/10.1007/978-1-4939-3411-9",
+    "@id": "https://doi.org/10.1007/978-1-4939-3411-9",
+    "identifier": [
+      {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.1007/978-1-4939-3411-9"
+      }
+    ],
+    "sameAs": "https://doi.org/10.1007/978-1-4939-3411-9",
+    "datePublished": "2016",
+    "isPartOf": {
+      "@type": "Periodical",
+      "name": "Neuromethods"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Springer New York"
+    }
+  },
+  {
+    "@type": "ScholarlyArticle",
+    "name": "Continuous Modulation of Action Potential Firing by a Unitary GABAergic Connection in the Globus Pallidus In Vitro",
+    "url": "https://www.jneurosci.org/content/33/31/12805.long",
+    "@id": "https://doi.org/10.1523/jneurosci.1970-13.2013",
+    "identifier": [
+      {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.1523/jneurosci.1970-13.2013"
+      }
+    ],
+    "sameAs": "https://doi.org/10.1523/jneurosci.1970-13.2013",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "J. Bugaysen"
+      },
+      {
+        "@type": "Person",
+        "name": "I. Bar-Gad"
+      },
+      {
+        "@type": "Person",
+        "name": "A. Korngreen"
+      }
+    ],
+    "datePublished": "2013-07-31",
+    "isPartOf": {
+      "@type": "Periodical",
+      "name": "Journal of Neuroscience"
+    },
+    "volumeNumber": "33",
+    "pagination": "12805-12809",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Society for Neuroscience"
+    }
+  },
+  {
+    "@type": "ScholarlyArticle",
+    "name": "Simulating the effects of short-term synaptic plasticity on postsynaptic dynamics in the globus pallidus",
+    "url": "https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2013.00040/full",
+    "@id": "https://doi.org/10.3389/fnsys.2013.00040",
+    "identifier": [
+      {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.3389/fnsys.2013.00040"
+      }
+    ],
+    "sameAs": "https://doi.org/10.3389/fnsys.2013.00040",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Moran Brody"
+      },
+      {
+        "@type": "Person",
+        "name": "Alon Korngreen"
+      }
+    ],
+    "datePublished": "2013",
+    "isPartOf": {
+      "@type": "Periodical",
+      "name": "Frontiers in Systems Neuroscience"
+    },
+    "volumeNumber": "7",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Frontiers Media SA"
+    }
+  },
+  {
+    "@type": "ScholarlyArticle",
+    "name": "High and low frequency stimulation of the subthalamic nucleus induce prolonged changes in subthalamic and globus pallidus neurons",
+    "url": "https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2013.00073/full",
+    "@id": "https://doi.org/10.3389/fnsys.2013.00073",
+    "identifier": [
+      {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.3389/fnsys.2013.00073"
+      }
+    ],
+    "sameAs": "https://doi.org/10.3389/fnsys.2013.00073",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Hagar Lavian"
+      },
+      {
+        "@type": "Person",
+        "name": "Hana Ben-Porat"
+      },
+      {
+        "@type": "Person",
+        "name": "Alon Korngreen"
+      }
+    ],
+    "datePublished": "2013",
+    "isPartOf": {
+      "@type": "Periodical",
+      "name": "Frontiers in Systems Neuroscience"
+    },
+    "volumeNumber": "7",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Frontiers Media SA"
+    }
+  },
+  {
+    "@type": "ScholarlyArticle",
+    "name": "Real-time monitoring of changes in plasma membrane potential via imaging of fluorescence resonance energy transfer at individual cell resolution in suspension",
+    "url": "https://doi.org/10.1117/1.JBO.18.12.126010",
+    "@id": "https://doi.org/10.1117/1.JBO.18.12.126010",
+    "identifier": [
+      {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.1117/1.JBO.18.12.126010"
+      }
+    ],
+    "sameAs": "https://doi.org/10.1117/1.JBO.18.12.126010",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Tzachi Sabati"
+      },
+      {
+        "@type": "Person",
+        "name": "Bat-Sheva Galmidi"
+      },
+      {
+        "@type": "Person",
+        "name": "Alon Korngreen"
+      },
+      {
+        "@type": "Person",
+        "name": "Naomi Zurgil"
+      },
+      {
+        "@type": "Person",
+        "name": "Mordechai Deutsch"
+      }
+    ],
+    "datePublished": "2013-12-16",
+    "isPartOf": {
+      "@type": "Periodical",
+      "name": "Journal of Biomedical Optics"
+    },
+    "volumeNumber": "18",
+    "pagination": "126010",
+    "publisher": {
+      "@type": "Organization",
+      "name": "SPIE-Intl Soc Optical Eng"
+    }
+  },
+  {
+    "@type": "ScholarlyArticle",
+    "name": "A Quantitative Description of Dendritic Conductances and Its Application to Dendritic Excitation in Layer 5 Pyramidal Neurons",
+    "url": "https://www.jneurosci.org/content/34/1/182.short",
+    "@id": "https://doi.org/10.1523/jneurosci.2896-13.2014",
+    "identifier": [
+      {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.1523/jneurosci.2896-13.2014"
+      }
+    ],
+    "sameAs": "https://doi.org/10.1523/jneurosci.2896-13.2014",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Mara Almog"
+      },
+      {
+        "@type": "Person",
+        "name": "Alon Korngreen"
+      }
+    ],
+    "datePublished": "2014-01-01",
+    "isPartOf": {
+      "@type": "Periodical",
+      "name": "The Journal of Neuroscience"
+    },
+    "volumeNumber": "34",
+    "pagination": "182-196",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Society for Neuroscience"
+    }
+  },
+  {
+    "@type": "ScholarlyArticle",
+    "name": "Patch-clamp recordings of rat neurons from acute brain slices of the somatosensory cortex during magnetic stimulation",
+    "url": "https://www.frontiersin.org/journals/cellular-neuroscience/articles/10.3389/fncel.2014.00145/full",
+    "@id": "https://doi.org/10.3389/fncel.2014.00145",
+    "identifier": [
+      {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.3389/fncel.2014.00145"
+      }
+    ],
+    "sameAs": "https://doi.org/10.3389/fncel.2014.00145",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Tamar Pashut"
+      },
+      {
+        "@type": "Person",
+        "name": "Dafna Magidov"
+      },
+      {
+        "@type": "Person",
+        "name": "Hana Ben-Porat"
+      },
+      {
+        "@type": "Person",
+        "name": "Shuki Wolfus"
+      },
+      {
+        "@type": "Person",
+        "name": "Alex Friedman"
+      },
+      {
+        "@type": "Person",
+        "name": "Eli Perel"
+      },
+      {
+        "@type": "Person",
+        "name": "Michal Lavidor"
+      },
+      {
+        "@type": "Person",
+        "name": "Izhar Bar-Gad"
+      },
+      {
+        "@type": "Person",
+        "name": "Yosef Yeshurun"
+      },
+      {
+        "@type": "Person",
+        "name": "Alon Korngreen"
+      }
+    ],
+    "datePublished": "2014-06-03",
+    "isPartOf": {
+      "@type": "Periodical",
+      "name": "Frontiers in Cellular Neuroscience"
+    },
+    "volumeNumber": "8",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Frontiers Media SA"
+    }
+  },
+  {
+    "@type": "ScholarlyArticle",
+    "name": "Inhibitory short‐term plasticity modulates neuronal activity in the rat entopeduncular nucleus <i>in vitro</i>",
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ejn.12965",
+    "@id": "https://doi.org/10.1111/ejn.12965",
+    "identifier": [
+      {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.1111/ejn.12965"
+      }
+    ],
+    "sameAs": "https://doi.org/10.1111/ejn.12965",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Hagar Lavian"
+      },
+      {
+        "@type": "Person",
+        "name": "Alon Korngreen"
+      }
+    ],
+    "datePublished": "2016-04",
+    "isPartOf": {
+      "@type": "Periodical",
+      "name": "European Journal of Neuroscience"
+    },
+    "volumeNumber": "43",
+    "pagination": "870-884",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Wiley"
+    }
+  },
+  {
+    "@type": "ScholarlyArticle",
+    "name": "Is realistic neuronal modeling realistic?",
+    "url": "https://journals.physiology.org/doi/abs/10.1152/jn.00360.2016",
+    "@id": "https://doi.org/10.1152/jn.00360.2016",
+    "identifier": [
+      {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.1152/jn.00360.2016"
+      }
+    ],
+    "sameAs": "https://doi.org/10.1152/jn.00360.2016",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Mara Almog"
+      },
+      {
+        "@type": "Person",
+        "name": "Alon Korngreen",
+        "identifier": "0000-0002-2036-6160"
+      }
+    ],
+    "datePublished": "2016-11-01",
+    "isPartOf": {
+      "@type": "Periodical",
+      "name": "Journal of Neurophysiology"
+    },
+    "volumeNumber": "116",
+    "pagination": "2180-2209",
+    "publisher": {
+      "@type": "Organization",
+      "name": "American Physiological Society"
+    }
+  },
+  {
+    "@type": "ScholarlyArticle",
+    "name": "Dopaminergic Modulation of Synaptic Integration and Firing Patterns in the Rat Entopeduncular Nucleus",
+    "url": "https://www.jneurosci.org/content/37/30/7177.long",
+    "@id": "https://doi.org/10.1523/jneurosci.0639-17.2017",
+    "identifier": [
+      {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.1523/jneurosci.0639-17.2017"
+      }
+    ],
+    "sameAs": "https://doi.org/10.1523/jneurosci.0639-17.2017",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Hagar Lavian",
+        "identifier": "0000-0001-5201-2976"
+      },
+      {
+        "@type": "Person",
+        "name": "Mara Almog",
+        "identifier": "0000-0002-6600-4966"
+      },
+      {
+        "@type": "Person",
+        "name": "Ravit Madar",
+        "identifier": "0000-0002-2025-8178"
+      },
+      {
+        "@type": "Person",
+        "name": "Yocheved Loewenstern",
+        "identifier": "0000-0002-9422-689X"
+      },
+      {
+        "@type": "Person",
+        "name": "Izhar Bar-Gad",
+        "identifier": "0000-0002-2999-4083"
+      },
+      {
+        "@type": "Person",
+        "name": "Eitan Okun",
+        "identifier": "0000-0001-8474-1487"
+      },
+      {
+        "@type": "Person",
+        "name": "Alon Korngreen",
+        "identifier": "0000-0002-2036-6160"
+      }
+    ],
+    "datePublished": "2017-07-26",
+    "isPartOf": {
+      "@type": "Periodical",
+      "name": "The Journal of Neuroscience"
+    },
+    "volumeNumber": "37",
+    "pagination": "7177-7187",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Society for Neuroscience"
+    }
+  },
+  {
+    "@type": "ScholarlyArticle",
+    "name": "Voltage-Gated Sodium Channels in Neocortical Pyramidal Neurons Display Cole-Moore Activation Kinetics",
+    "url": "https://www.frontiersin.org/articles/10.3389/fncel.2018.00187/full",
+    "@id": "https://doi.org/10.3389/fncel.2018.00187",
+    "identifier": [
+      {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.3389/fncel.2018.00187"
+      }
+    ],
+    "sameAs": "https://doi.org/10.3389/fncel.2018.00187",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Mara Almog"
+      },
+      {
+        "@type": "Person",
+        "name": "Tal Barkai"
+      },
+      {
+        "@type": "Person",
+        "name": "Angelika Lampert"
+      },
+      {
+        "@type": "Person",
+        "name": "Alon Korngreen"
+      }
+    ],
+    "datePublished": "2018-06-26",
+    "isPartOf": {
+      "@type": "Periodical",
+      "name": "Frontiers in Cellular Neuroscience"
+    },
+    "volumeNumber": "12",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Frontiers Media SA"
+    }
+  },
+  {
+    "@type": "ScholarlyArticle",
+    "name": "Dopamine receptors in the rat entopeduncular nucleus",
+    "url": "https://link.springer.com/article/10.1007/s00429-018-1657-6",
+    "@id": "https://doi.org/10.1007/s00429-018-1657-6",
+    "identifier": [
+      {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.1007/s00429-018-1657-6"
+      }
+    ],
+    "sameAs": "https://doi.org/10.1007/s00429-018-1657-6",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Hagar Lavian"
+      },
+      {
+        "@type": "Person",
+        "name": "Yocheved Loewenstern"
+      },
+      {
+        "@type": "Person",
+        "name": "Ravit Madar"
+      },
+      {
+        "@type": "Person",
+        "name": "Mara Almog"
+      },
+      {
+        "@type": "Person",
+        "name": "Izhar Bar-Gad"
+      },
+      {
+        "@type": "Person",
+        "name": "Eitan Okun"
+      },
+      {
+        "@type": "Person",
+        "name": "Alon Korngreen",
+        "identifier": "0000-0002-2036-6160"
+      }
+    ],
+    "datePublished": "2018-07",
+    "isPartOf": {
+      "@type": "Periodical",
+      "name": "Brain Structure and Function"
+    },
+    "volumeNumber": "223",
+    "pagination": "2673-2684",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Springer Science and Business Media LLC"
+    }
+  },
+  {
+    "@type": "ScholarlyArticle",
+    "name": "A Mirror-Symmetric Excitatory Link Coordinates Odor Maps across Olfactory Bulbs and Enables Odor Perceptual Unity",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0896627318305865",
+    "@id": "https://doi.org/10.1016/j.neuron.2018.07.012",
+    "identifier": [
+      {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.1016/j.neuron.2018.07.012"
+      }
+    ],
+    "sameAs": "https://doi.org/10.1016/j.neuron.2018.07.012",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Mark Grobman"
+      },
+      {
+        "@type": "Person",
+        "name": "Tal Dalal"
+      },
+      {
+        "@type": "Person",
+        "name": "Hagar Lavian"
+      },
+      {
+        "@type": "Person",
+        "name": "Ronit Shmuel"
+      },
+      {
+        "@type": "Person",
+        "name": "Katya Belelovsky"
+      },
+      {
+        "@type": "Person",
+        "name": "Fuqiang Xu"
+      },
+      {
+        "@type": "Person",
+        "name": "Alon Korngreen"
+      },
+      {
+        "@type": "Person",
+        "name": "Rafi Haddad"
+      }
+    ],
+    "datePublished": "2018-08",
+    "isPartOf": {
+      "@type": "Periodical",
+      "name": "Neuron"
+    },
+    "volumeNumber": "99",
+    "pagination": "800-813.e6",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Elsevier BV"
+    }
+  },
+  {
+    "@type": "ScholarlyArticle",
+    "name": "Long‐term plasticity of glutamatergic input from the subthalamic nucleus to the entopeduncular nucleus",
+    "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/ejn.14105",
+    "@id": "https://doi.org/10.1111/ejn.14105",
+    "identifier": [
+      {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.1111/ejn.14105"
+      }
+    ],
+    "sameAs": "https://doi.org/10.1111/ejn.14105",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Lilach Gorodetski"
+      },
+      {
+        "@type": "Person",
+        "name": "Reut Zeira"
+      },
+      {
+        "@type": "Person",
+        "name": "Hagar Lavian"
+      },
+      {
+        "@type": "Person",
+        "name": "Alon Korngreen",
+        "identifier": "0000-0002-2036-6160"
+      }
+    ],
+    "datePublished": "2018-09",
+    "isPartOf": {
+      "@type": "Periodical",
+      "name": "European Journal of Neuroscience"
+    },
+    "volumeNumber": "48",
+    "pagination": "2139-2151",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Wiley"
+    }
+  },
+  {
+    "@type": "ScholarlyArticle",
+    "name": "Proliferation of Inhibitory Input to the Substantia Nigra in Experimental Parkinsonism",
+    "url": "https://www.frontiersin.org/articles/10.3389/fncel.2019.00417/full",
+    "@id": "https://doi.org/10.3389/fncel.2019.00417",
+    "identifier": [
+      {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.3389/fncel.2019.00417"
+      }
+    ],
+    "sameAs": "https://doi.org/10.3389/fncel.2019.00417",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Anna Faynveitz"
+      },
+      {
+        "@type": "Person",
+        "name": "Hagar Lavian"
+      },
+      {
+        "@type": "Person",
+        "name": "Avi Jacob"
+      },
+      {
+        "@type": "Person",
+        "name": "Alon Korngreen"
+      }
+    ],
+    "datePublished": "2019-09-13",
+    "isPartOf": {
+      "@type": "Periodical",
+      "name": "Frontiers in Cellular Neuroscience"
+    },
+    "volumeNumber": "13",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Frontiers Media SA"
+    }
+  },
+  {
+    "@type": "ScholarlyArticle",
+    "name": "Short-term depression shapes information transmission in a constitutively active GABAergic synapse",
+    "url": "https://www.nature.com/articles/s41598-019-54607-y",
+    "@id": "https://doi.org/10.1038/s41598-019-54607-y",
+    "identifier": [
+      {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.1038/s41598-019-54607-y"
+      }
+    ],
+    "sameAs": "https://doi.org/10.1038/s41598-019-54607-y",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Hagar Lavian",
+        "identifier": "0000-0001-5201-2976"
+      },
+      {
+        "@type": "Person",
+        "name": "Alon Korngreen",
+        "identifier": "0000-0002-2036-6160"
+      }
+    ],
+    "datePublished": "2019-12-02",
+    "isPartOf": {
+      "@type": "Periodical",
+      "name": "Scientific Reports"
+    },
+    "volumeNumber": "9",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Springer Science and Business Media LLC"
+    }
+  },
+  {
+    "@type": "ScholarlyArticle",
+    "name": "Dynamic input-dependent encoding of individual basal ganglia neurons",
+    "url": "https://www.nature.com/articles/s41598-020-62750-0",
+    "@id": "https://doi.org/10.1038/s41598-020-62750-0",
+    "identifier": [
+      {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.1038/s41598-020-62750-0"
+      }
+    ],
+    "sameAs": "https://doi.org/10.1038/s41598-020-62750-0",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Ayala Matzner"
+      },
+      {
+        "@type": "Person",
+        "name": "Lilach Gorodetski"
+      },
+      {
+        "@type": "Person",
+        "name": "Alon Korngreen"
+      },
+      {
+        "@type": "Person",
+        "name": "Izhar Bar-Gad"
+      }
+    ],
+    "datePublished": "2020-04-02",
+    "isPartOf": {
+      "@type": "Periodical",
+      "name": "Scientific Reports"
+    },
+    "volumeNumber": "10",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Springer Science and Business Media LLC"
+    }
+  },
+  {
+    "@type": "ScholarlyArticle",
+    "name": "Toward Reference-Grade neuron models",
+    "url": "https://www.nature.com/articles/s42003-026-10561-w",
+    "@id": "https://doi.org/10.1038/s42003-026-10561-w",
+    "identifier": [
+      {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.1038/s42003-026-10561-w"
+      }
+    ],
+    "sameAs": "https://doi.org/10.1038/s42003-026-10561-w",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Alon Korngreen",
+        "identifier": "0000-0002-2036-6160"
+      }
+    ],
+    "datePublished": "2026-06-24",
+    "isPartOf": {
+      "@type": "Periodical",
+      "name": "Communications Biology"
+    },
+    "volumeNumber": "9",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Springer Science and Business Media LLC"
+    }
+  },
+  {
+    "@type": "ScholarlyArticle",
+    "name": "Neuronal excitability and parameter variability in the Hodgkin-Huxley model",
+    "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014458",
+    "@id": "https://doi.org/10.1371/journal.pcbi.1014458",
+    "identifier": [
+      {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.1371/journal.pcbi.1014458"
+      }
+    ],
+    "sameAs": "https://doi.org/10.1371/journal.pcbi.1014458",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Alon Korngreen",
+        "identifier": "0000-0002-2036-6160"
+      }
+    ],
+    "datePublished": "2026-06-29",
+    "isPartOf": {
+      "@type": "Periodical",
+      "name": "PLOS Computational Biology"
+    },
+    "volumeNumber": "22",
+    "pagination": "e1014458",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Public Library of Science (PLoS)"
+    }
+  }
+]

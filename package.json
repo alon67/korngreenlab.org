@@ -10,7 +10,8 @@
     "extract": "node scripts/extract-wix-content.mjs",
     "populate": "node scripts/populate-site-content.mjs",
     "validate:extraction": "node scripts/validate-extraction.mjs",
-    "validate:links": "node scripts/validate-links.mjs"
+    "validate:links": "node scripts/validate-links.mjs",
+    "schema:publications": "node scripts/build-publication-schema.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.6.0",

@@ -1,5 +1,68 @@
+# The Korngreen Lab — korngreenlab.org
+# Public academic content. Crawling and indexing are welcome, including by
+# AI search and retrieval systems, so that the lab's research and publications
+# can be found, cited and attributed correctly.
+
 User-agent: *
 Allow: /
 
-Sitemap: https://www.korngreenlab.org/sitemap-index.xml
+# ---- Search engines ----
+User-agent: Googlebot
+Allow: /
 
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# ---- AI assistants, answer engines and research crawlers ----
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://www.korngreenlab.org/sitemap-index.xml

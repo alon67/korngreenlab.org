@@ -7,15 +7,36 @@ import twitterIcon from "../assets/extracted/home-005-9c4b521dd2404cd5a05ed6115f
 import youtubeIcon from "../assets/extracted/home-006-a1b09fe8b7f04378a9fe076748ad4a6a.png";
 import "../styles/global.css";
 
+import { baseGraph, pageNode } from "../data/schema";
+
 const {
   title = "The Korngreen Lab",
   description = "Cellular and Computational Neurophysiology",
   language = "en",
   direction = "ltr",
+  schema = [],
+  primaryEntity,
 } = Astro.props;
 
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const socialImage = new URL("/og-image.jpg", Astro.site);
+
+// One @graph per page: the shared entity nodes, this page, and anything the
+// page adds (a publication list, for example).
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    ...baseGraph,
+    pageNode({
+      url: canonical.href,
+      name: title,
+      description,
+      language,
+      primaryEntity,
+    }),
+    ...schema,
+  ],
+};
 const navItems = [
   { href: "/", label: "Home" },
   { href: "/publications", label: "Publications" },
@@ -55,6 +76,7 @@ const socialLinks = [
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={socialImage} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} is:inline />
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>

@@ -6,9 +6,13 @@
   "language": "en",
   "direction": "ltr",
   "textLines": [
+    "THE QUESTION: SINGLE-NEURON COMPUTATION",
     "We study some of the basic yet still unresolved questions in neuroscience: How do neurons process information? What is the neuronal code at the cellular level? How does synaptic integration affect neuronal computation? How do neurons turn the activity of their molecular parts into computation? Understanding this—single-neuron computation—is the overarching goal of our lab. Answering it demands models we can trust, yet most neural models are built by compressing rich, variable measurements into a single best fit, hiding the very uncertainty that ought to be part of the scientific claim.",
+    "REFERENCE-GRADE MODELS OF NEURONAL EXCITABILITY",
     "The pathway we are currently pursuing is to generate reference-grade models of neuronal excitability: descriptions of ion channels and neurons that explicitly propagate their measurement uncertainty. Instead of one representative model, we treat the data as defining a constrained family of possibilities and ask which mechanistic claims that family genuinely supports.",
+    "METHODS: PATCH-CLAMP ELECTROPHYSIOLOGY AND COMPUTATIONAL ANALYSIS",
     "To do this, we combine patch-clamp electrophysiology, in heterologous expression systems and in brain slices, with computational tools: sensitivity analysis to map where uncertainty lives, model-form and protocol design driven by identifiability, and covariance-aware parameter ensembles. We have demonstrated this framework across the field's foundational models, from single channels to action-potential generation.",
+    "TOWARD CERTIFIED ION CHANNEL STANDARDS",
     "Our immediate goal is a set of certified, openly documented channel standards and a theory for composing them, since channels reshape one another when they share a membrane, charting a credible path toward trustworthy models of cortical neurons."
   ],
   "links": [
@@ -51,6 +55,8 @@
       "caption": ""
     }
   ],
-  "heading": "Research Interests",
-  "description": "The Korngreen Lab at Bar-Ilan University studies single-neuron computation, combining patch-clamp electrophysiology with reference-grade computational models of neuronal excitability."
+  "heading": "Research in Cellular and Computational Neurophysiology",
+  "description": "The Korngreen Lab at Bar-Ilan University studies single-neuron computation, combining patch-clamp electrophysiology with reference-grade computational models of neuronal excitability.",
+  "seoTitle": "The Korngreen Lab | Cellular & Computational Neurophysiology at Bar-Ilan University",
+  "primaryEntity": "https://www.korngreenlab.org/#lab"
 }

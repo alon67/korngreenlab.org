@@ -2,8 +2,32 @@
 import { Image } from "astro:assets";
 import BaseLayout from "../layouts/BaseLayout.astro";
 
+import publicationSchema from "../data/publications-schema.json";
+import { IDS, SITE } from "../data/schema";
+
 const { page } = Astro.props;
 const images = import.meta.glob("../assets/extracted/*", { eager: true });
+
+// The publications page carries its papers as ScholarlyArticle nodes so citation
+// engines can associate each listing with its DOI and journal of record.
+const extraSchema =
+  page.path === "/publications"
+    ? [
+        {
+          "@type": "ItemList",
+          "@id": `${SITE}/publications/#publications`,
+          name: "Publications by Alon Korngreen",
+          numberOfItems: publicationSchema.length,
+          itemListOrder: "https://schema.org/ItemListOrderAscending",
+          itemListElement: publicationSchema.map((work, index) => ({
+            "@type": "ListItem",
+            position: index + 1,
+            item: work,
+          })),
+        },
+        { "@id": IDS.person, mainEntityOfPage: `${SITE}/publications/` },
+      ]
+    : [];
 
 function imageModule(fileName) {
   return images[`../assets/extracted/${fileName}`]?.default;
@@ -95,10 +119,12 @@ for (const line of page.textLines) {
 ---
 
 <BaseLayout
-  title={`${page.title} | The Korngreen Lab`}
+  title={page.seoTitle || `${page.title} | The Korngreen Lab`}
   description={page.description}
   language={page.language}
   direction={page.direction}
+  schema={extraSchema}
+  primaryEntity={page.primaryEntity}
 >
   <div class="page-header">
     <h1><span dir="auto" class="bidi-isolate">{page.heading || page.title}</span></h1>
