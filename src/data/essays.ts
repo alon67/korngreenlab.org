@@ -1,9 +1,12 @@
-// Auto-generated curated list of Alon Korngreen's public essays on Zman Israel.
+// Curated list of Alon Korngreen's public essays, grouped by subject.
 // Source list: blog_links.md (58 URLs). Metadata (title, publication date, canonical
 // URL) extracted from each article's schema.org / Open Graph metadata.
 // Titles are the published Hebrew headlines with the recurring byline prefix
 // "פרופ' אלון קורנגרין:" removed. Dates are ISO 8601 (publication day).
 // To maintain: add/edit entries below; keep dates in YYYY-MM-DD form.
+// Most entries are Zman Israel blog posts and carry no `source`. Essays
+// published elsewhere — long-form articles on X, for example — set `source` so
+// the listing shows where they appeared.
 // Letters to the editor published in other outlets live in the separate
 // `letters` array further down.
 
@@ -17,6 +20,8 @@ export interface Essay {
   /** Publication date, ISO 8601 (YYYY-MM-DD). */
   date: string;
   category: EssayCategory;
+  /** Outlet label, for essays published somewhere other than Zman Israel. */
+  source?: string;
 }
 
 export interface EssaySection {
@@ -555,5 +560,19 @@ export const essays: Essay[] = [
     "url": "https://www.zman.co.il/718881/",
     "date": "2026-09-06",
     "category": "science"
+  },
+  {
+    "title": "אורניום העתק-הדבק",
+    "url": "https://x.com/AlonKorngreen/status/2099430174252994853",
+    "date": "2026-09-14",
+    "category": "science",
+    "source": "X"
+  },
+  {
+    "title": "קונספציה היא לא מילת קסם",
+    "url": "https://x.com/AlonKorngreen/status/2101387218770071718",
+    "date": "2026-09-19",
+    "category": "society",
+    "source": "X"
   }
 ];

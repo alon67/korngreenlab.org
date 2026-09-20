@@ -75,9 +75,12 @@ const zmanAuthorUrl = "https://www.zman.co.il/writer/30378/";
               >
                 {essay.title}
               </a>
-              <time class="essay-date" datetime={essay.date} dir="ltr">
-                {formatDate(essay.date)}
-              </time>
+              <span class="essay-meta">
+                {essay.source && <span class="essay-source">{essay.source}</span>}
+                <time class="essay-date" datetime={essay.date} dir="ltr">
+                  {formatDate(essay.date)}
+                </time>
+              </span>
             </li>
           ))}
         </ul>
@@ -93,7 +96,8 @@ const zmanAuthorUrl = "https://www.zman.co.il/writer/30378/";
     </p>
     <p class="essays-note">
       Zman Israel&rsquo;s author page may display only a limited selection of recent
-      posts. The Zman Israel essays above provide a curated archive.
+      posts. The essays above provide a curated archive; those published elsewhere
+      are labelled with their outlet.
     </p>
   </div>
 
