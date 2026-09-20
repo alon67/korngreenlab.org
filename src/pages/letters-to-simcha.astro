@@ -1,0 +1,113 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { simchaLetters, simchaLettersPage } from "../data/simcha-letters";
+import { IDS, SITE } from "../data/schema";
+
+const dateFormatter = new Intl.DateTimeFormat("en-GB", {
+  day: "numeric",
+  month: "long",
+  year: "numeric",
+  timeZone: "UTC",
+});
+
+function formatDate(iso) {
+  return dateFormatter.format(new Date(`${iso}T00:00:00Z`));
+}
+
+// Oldest first — the order the letters were written — and grouped by year so the
+// run reads as a sequence rather than one long list.
+const ordered = [...simchaLetters].sort((a, b) => a.date.localeCompare(b.date));
+const years = [...new Set(ordered.map((letter) => letter.date.slice(0, 4)))].map((year) => ({
+  year,
+  items: ordered.filter((letter) => letter.date.startsWith(year)),
+}));
+
+const first = ordered[0];
+const last = ordered[ordered.length - 1];
+
+const schema = [
+  {
+    "@type": "ItemList",
+    "@id": `${SITE}${simchaLettersPage.path}/#letters`,
+    name: `${simchaLettersPage.headingLatin} (${simchaLettersPage.heading})`,
+    description: simchaLettersPage.blurb,
+    numberOfItems: ordered.length,
+    itemListOrder: "https://schema.org/ItemListOrderAscending",
+    itemListElement: ordered.map((letter, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      item: {
+        "@type": "SocialMediaPosting",
+        headline: letter.title,
+        url: letter.url,
+        datePublished: letter.date,
+        inLanguage: "he",
+        author: { "@id": IDS.person },
+        sharedContent: { "@type": "WebPage", url: letter.url },
+      },
+    })),
+  },
+];
+---
+
+<BaseLayout
+  title="מכתבים לשמחה | Letters to Simcha — Alon Korngreen"
+  description={`${ordered.length} satirical open letters by Alon Korngreen addressed to MK Simcha Rothman, published on Facebook between June 2023 and December 2024.`}
+  schema={schema}
+  primaryEntity={IDS.person}
+>
+  <div class="page-header">
+    <h1><span lang="he" dir="rtl" class="bidi-isolate">{simchaLettersPage.heading}</span></h1>
+    <p class="page-header-latin">{simchaLettersPage.headingLatin}</p>
+  </div>
+
+  <div class="essays-intro">
+    <p>{simchaLettersPage.blurb}</p>
+    <p class="essays-note">
+      {ordered.length} letters, from {formatDate(first.date)} to {formatDate(last.date)}, listed
+      oldest first. They are satire, they reflect my personal views, and they do not represent
+      the Korngreen Lab, its members or Bar-Ilan University. Each title links to the original
+      Facebook post.
+    </p>
+  </div>
+
+  <div class="essays-content">
+    {years.map((group) => (
+      <section class="essay-section" aria-labelledby={`year-${group.year}`}>
+        <h2 id={`year-${group.year}`}>{group.year}</h2>
+        <ul class="essay-list">
+          {group.items.map((letter) => (
+            <li class="essay-item letter-item">
+              <span class="letter-number" aria-hidden={letter.number === null}>
+                {letter.number === null ? "—" : letter.number}
+              </span>
+              <a
+                class="essay-title"
+                href={letter.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                lang="he"
+                dir="rtl"
+              >
+                {letter.title}
+              </a>
+              <time class="essay-date" datetime={letter.date} dir="ltr">
+                {formatDate(letter.date)}
+              </time>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </div>
+
+  <div class="essays-outro">
+    <p class="essays-outro-link">
+      <a href="/public-writing">Back to Essays and Public Writing</a>
+    </p>
+    <p class="essays-note">
+      The letter numbers are my own. One letter, from 4 November 2023, sits outside that
+      sequence and is shown without a number.
+    </p>
+  </div>
+</BaseLayout>

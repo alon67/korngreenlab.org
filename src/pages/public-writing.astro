@@ -10,6 +10,7 @@ import {
   collections,
   collectionsSection,
 } from "../data/essays";
+import { simchaLetters, simchaLettersPage } from "../data/simcha-letters";
 
 const dateFormatter = new Intl.DateTimeFormat("en-GB", {
   day: "numeric",
@@ -32,6 +33,10 @@ const sections = essaySections.map((section) => ({
 
 const pressLetters = [...letters].sort((a, b) => b.date.localeCompare(a.date));
 const podcastEpisodes = [...podcasts].sort((a, b) => b.date.localeCompare(a.date));
+
+const simchaOrdered = [...simchaLetters].sort((a, b) => a.date.localeCompare(b.date));
+const simchaFirst = simchaOrdered[0];
+const simchaLast = simchaOrdered[simchaOrdered.length - 1];
 
 const zmanAuthorUrl = "https://www.zman.co.il/writer/30378/";
 ---
@@ -118,6 +123,31 @@ const zmanAuthorUrl = "https://www.zman.co.il/writer/30378/";
               </span>
             </li>
           ))}
+        </ul>
+      </section>
+    </div>
+  )}
+
+  {simchaLetters.length > 0 && (
+    <div class="essays-content">
+      <section class="essay-section" aria-labelledby="section-simcha">
+        <h2 id="section-simcha">
+          <span lang="he" dir="rtl" class="bidi-isolate">{simchaLettersPage.heading}</span>
+          {" — "}{simchaLettersPage.headingLatin}
+        </h2>
+        <p class="essay-section-blurb">{simchaLettersPage.blurb}</p>
+        <ul class="essay-list">
+          <li class="essay-item">
+            <a class="essay-title" href={simchaLettersPage.path}>
+              Read all {simchaLetters.length} letters
+            </a>
+            <span class="essay-meta">
+              <span class="essay-source">Facebook</span>
+              <span class="essay-date" dir="ltr">
+                {formatDate(simchaFirst.date)} &ndash; {formatDate(simchaLast.date)}
+              </span>
+            </span>
+          </li>
         </ul>
       </section>
     </div>
