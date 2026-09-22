@@ -574,5 +574,11 @@ export const essays: Essay[] = [
     "date": "2026-09-19",
     "category": "society",
     "source": "X"
+  },
+  {
+    "title": "הצורך במסוגלות",
+    "url": "https://www.zman.co.il/723361/",
+    "date": "2026-09-22",
+    "category": "science"
   }
 ];
