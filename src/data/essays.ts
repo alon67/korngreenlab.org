@@ -580,5 +580,47 @@ export const essays: Essay[] = [
     "url": "https://www.zman.co.il/723361/",
     "date": "2026-09-22",
     "category": "science"
+  },
+  {
+    "title": "גם ליבסקינד קוטף דובדבנים",
+    "url": "https://www.zman.co.il/663634/",
+    "date": "2026-02-21",
+    "category": "society"
+  },
+  {
+    "title": "פלדשטיין פה ופלדשטיין שם",
+    "url": "https://www.zman.co.il/651965/",
+    "date": "2025-12-31",
+    "category": "society"
+  },
+  {
+    "title": "ארגון חמאס הוכרע",
+    "url": "https://www.zman.co.il/559647/",
+    "date": "2025-02-04",
+    "category": "personal"
+  },
+  {
+    "title": "קנטטה לפרוסטטה",
+    "url": "https://www.zman.co.il/552787/",
+    "date": "2025-01-11",
+    "category": "personal"
+  },
+  {
+    "title": "האמת המדומה",
+    "url": "https://www.zman.co.il/550339/",
+    "date": "2025-01-05",
+    "category": "science"
+  },
+  {
+    "title": "לנרמל או לא לנרמל, זו השאלה",
+    "url": "https://www.zman.co.il/548829/",
+    "date": "2024-12-28",
+    "category": "science"
+  },
+  {
+    "title": "דמוקרטיה בנסיגה",
+    "url": "https://www.zman.co.il/548070/",
+    "date": "2024-12-25",
+    "category": "society"
   }
 ];
