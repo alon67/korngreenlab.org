@@ -622,5 +622,11 @@ export const essays: Essay[] = [
     "url": "https://www.zman.co.il/548070/",
     "date": "2024-12-25",
     "category": "society"
+  },
+  {
+    "title": "זריחת ירח, הרננדז, ניו מקסיקו",
+    "url": "https://www.zman.co.il/727270/",
+    "date": "2026-10-02",
+    "category": "science"
   }
 ];
