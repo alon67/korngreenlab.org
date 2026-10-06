@@ -101,26 +101,35 @@ export const podcastsSection = {
   blurb: "Conversations and interviews on neuroscience, the brain and public life.",
 };
 
-/** Edited collections / other public projects. */
-export interface EditedCollection {
+/** Collective public projects, whether edited or taken part in. */
+export interface CollectionProject {
   /** Project or collection title. */
   title: string;
   /** Project URL. */
   url: string;
   /** Timeframe label, e.g. "Since 2023". */
   period: string;
+  /** My part in it, e.g. "Editor" or "Photographer". */
+  role?: string;
 }
 
 export const collectionsSection = {
-  heading: "Edited Collections",
-  blurb: "Collections of protest speeches delivered by academics across Israel in defense of democracy, which I edited over the past three years.",
+  heading: "Collections and Projects",
+  blurb: "Collective projects documenting the protest movement in Israel \u2014 one I edit, one I photograph for.",
 };
 
-export const collections: EditedCollection[] = [
+export const collections: CollectionProject[] = [
+  {
+    title: "פני המאבק — Faces of the Struggle",
+    url: "https://capturedinfocus.org/",
+    period: "Since October 2023",
+    role: "Photographer",
+  },
   {
     title: "יצאנו לרחובות — SPEAK OUT",
     url: "https://www.matehaacademia.org/",
     period: "Since 2023",
+    role: "Editor",
   },
 ];
 

@@ -207,6 +207,7 @@ const zmanAuthorUrl = "https://www.zman.co.il/writer/30378/";
                 {collection.title}
               </a>
               <span class="essay-meta">
+                {collection.role && <span class="essay-source">{collection.role}</span>}
                 <span class="essay-date">{collection.period}</span>
               </span>
             </li>
