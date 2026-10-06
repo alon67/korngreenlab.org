@@ -111,19 +111,25 @@ export interface CollectionProject {
   period: string;
   /** My part in it, e.g. "Editor" or "Photographer". */
   role?: string;
+  /** Optional one-line context shown under the entry. */
+  note?: string;
 }
 
 export const collectionsSection = {
   heading: "Collections and Projects",
-  blurb: "Collective projects documenting the protest movement in Israel \u2014 one I edit, one I photograph for.",
+  blurb: "Collective projects documenting protest in Israel \u2014 one I edit, one I photograph for.",
 };
 
 export const collections: CollectionProject[] = [
   {
     title: "פני המאבק — Faces of the Struggle",
     url: "https://capturedinfocus.org/",
-    period: "Since October 2023",
+    period: "2023\u20132026",
     role: "Photographer",
+    note:
+      "The photography and drone patrol's record of the campaign for the hostages' return, " +
+      "from 7 October 2023 until the last of them came home in 2026. The patrol itself has been " +
+      "documenting the protest movement for years and is still at work; this archive is one chapter of it.",
   },
   {
     title: "יצאנו לרחובות — SPEAK OUT",
