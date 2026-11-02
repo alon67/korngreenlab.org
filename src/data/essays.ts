@@ -655,5 +655,12 @@ export const essays: Essay[] = [
     "url": "https://www.zman.co.il/734188/",
     "date": "2026-10-21",
     "category": "society"
+  },
+  {
+    "title": "מדינה היא סכום כל חלקיה",
+    "url": "https://www.facebook.com/alon.korngreen/posts/pfbid02ZnzXB2bJVRycgc6zJngaSLGFhR561oy2oS9KfcoapxzAaut7BiQMZSY4Tm3m5vWol",
+    "date": "2026-11-02",
+    "category": "society",
+    "source": "Facebook"
   }
 ];
