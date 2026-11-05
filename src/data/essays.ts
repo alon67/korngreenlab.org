@@ -662,5 +662,11 @@ export const essays: Essay[] = [
     "date": "2026-11-02",
     "category": "society",
     "source": "Facebook"
+  },
+  {
+    "title": "תם הטקס",
+    "url": "https://www.zman.co.il/737835/",
+    "date": "2026-11-04",
+    "category": "personal"
   }
 ];
