@@ -22,6 +22,8 @@ export interface Essay {
   category: EssayCategory;
   /** Outlet label, for essays published somewhere other than Zman Israel. */
   source?: string;
+  /** Language of the title, for direction and screen readers. Defaults to Hebrew. */
+  lang?: "he" | "en";
 }
 
 export interface EssaySection {
@@ -668,5 +670,13 @@ export const essays: Essay[] = [
     "url": "https://www.zman.co.il/737835/",
     "date": "2026-11-04",
     "category": "personal"
+  },
+  {
+    "title": "Sing me a manuscript",
+    "url": "https://medium.com/@alonkorngreen/sing-me-a-manuscript-ec8d20fa3d22",
+    "date": "2026-11-19",
+    "category": "science",
+    "source": "Medium",
+    "lang": "en"
   }
 ];

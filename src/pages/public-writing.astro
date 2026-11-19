@@ -51,9 +51,9 @@ const zmanAuthorUrl = "https://www.zman.co.il/writer/30378/";
 
   <div class="essays-intro">
     <p>
-      Alongside my scientific work, I write essays in Hebrew on science, technology,
-      Israeli society, photography and public life. These articles reflect my personal
-      views and do not represent the Korngreen Lab, its members or Bar-Ilan University.
+      Alongside my scientific work, I write essays &mdash; mostly in Hebrew &mdash; on science,
+      technology, Israeli society, photography and public life. These articles reflect my
+      personal views and do not represent the Korngreen Lab, its members or Bar-Ilan University.
     </p>
   </div>
 
@@ -70,8 +70,8 @@ const zmanAuthorUrl = "https://www.zman.co.il/writer/30378/";
                 href={essay.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                lang="he"
-                dir="rtl"
+                lang={essay.lang ?? "he"}
+                dir={(essay.lang ?? "he") === "en" ? "ltr" : "rtl"}
               >
                 {essay.title}
               </a>
