@@ -678,5 +678,11 @@ export const essays: Essay[] = [
     "category": "science",
     "source": "Medium",
     "lang": "en"
+  },
+  {
+    "title": "המדע כשיר ראפ",
+    "url": "https://www.zman.co.il/744419/",
+    "date": "2026-11-25",
+    "category": "science"
   }
 ];
